@@ -1,0 +1,20 @@
+---
+permalink: /_redirects
+eleventyExcludeFromCollections: true
+---
+{#- The following snippet will generate a netlify redirect rule if 
+    the post has a `redirectFrom` property -#}
+
+{#- {%- for page in collections.posts -%}
+    {%- if page.url and page.data.redirectFrom and not page.data.draft %}
+{{ page.data.redirectFrom }}    {{ page.url }}
+    {%- endif -%}
+{%- endfor -%} -#}
+{#- Manually set redirects, only for these pages because these were the only affected before reorganizing posts by year -#}
+/posts/books-of-2024/    /posts/2024/books-of-2024/
+/posts/media-reflection-of-2023/    /posts/2023/media-reflection-of-2023/
+/posts/app-defaults-2023/    /posts/2023/app-defaults-in-2023/
+/posts/hide-ubuntu-pro-messages/    /posts/2023/hide-ubuntu-pro-messages-in-ubuntu/
+/posts/books-of-2023/    /posts/2023/books-of-2023/
+/posts/updating-python-on-ubuntu-20-04-on-wsl2/    /posts/2022/updating-python-on-ubuntu-20-04-on-wsl2/
+/posts/a-drop-in-the-ocean/    /posts/2022/a-drop-in-the-ocean/

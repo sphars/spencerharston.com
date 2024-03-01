@@ -1,0 +1,14 @@
+---
+pagination:
+    data: collections.yearList
+    alias: year
+    size: 1
+layout: layouts/default
+permalink: /posts/{{ year }}/
+eleventyComputed:
+    title: Posts in {{ year }}
+---
+
+{% from "macros/posts-list.njk" import postsList %}
+
+{{ postsList(collections.posts | postsByYear(year)) }}

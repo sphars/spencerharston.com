@@ -9,6 +9,7 @@ title: Posts
 ---
 {%- from "macros/posts-list.njk" import postsList %}
 {%- from "macros/tags-list.njk" import tagsList %}
+{%- from "macros/years-list.njk" import yearsList %}
 
 <p>The occasional thought/tip/hot take/neat thing I feel like sharing. <em>Occasional is the keyword here...</em></p>
 
@@ -37,8 +38,12 @@ title: Posts
 </nav>
 
 <div class="text-center my-4">
-    <div>Filter posts:</div>
+    <div>Filter posts by tag:</div>
     {{ tagsList(collections.tagList) }}
+</div>
+<div class="text-center my-4">
+    <div>Filter posts by year:</div>
+    {{ yearsList(collections.yearList) }}
 </div>
 
 <p class="text-center text-sm">Want to know when a draft becomes a post? <a href="/feed.xml">Add the feed to your RSS reader</a>.</p>

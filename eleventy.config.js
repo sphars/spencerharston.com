@@ -1,32 +1,33 @@
-// External packages/plugins
-const readingTime = require("eleventy-plugin-reading-time");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const safeLinks = require("@sardine/eleventy-plugin-external-links");
+// External plugins
+import readingTime from "eleventy-plugin-reading-time";
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import safeLinks from "@sardine/eleventy-plugin-external-links";
 
-// Custom configs
-const config = require("./config/config.js");
-const filters = require("./config/filters.js");
-const shortcodes = require("./config/shortcodes.js");
-const collections = require("./config/collections.js");
-const { htmlMinify } = require("./config/transforms.js");
-const { markdownLib } = require("./config/markdown.js");
+// Custom config "plugins"
+import filters from "./config/filters/index.js";
+import collections from "./config/collections.js";
+import shortcodes from "./config/shortcodes.js";
+import transforms from "./config/transforms.js";
+import global from "./config/global.js";
+import feed from "./config/feed.js";
+import markdown from "./config/markdown.js";
 
 /**
  * @param {import("@11ty/eleventy").UserConfig} eleventyConfig 
  * @returns {ReturnType<import("@11ty/eleventy/src/defaultConfig")>}
  */
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
 
   // building for production
   if (process.env.ELEVENTY_ENV === "production") {
     console.log("BUILDING FOR PRODUCTION");
     eleventyConfig.ignores.add("src/posts/drafts");
-    eleventyConfig.addTransform("htmlmin", htmlMinify);
+    eleventyConfig.addPlugin(transforms);
     eleventyConfig.quietMode = true;
   }
 
   // passthrough copying of assets files
-  // images, except those in /content subdir as they're handled by the markdown-it-eleventy-img plugin
+  // images except those in /content subdir as they're handled by the markdown-it-eleventy-img plugin
   // all files of specific fonts are copied over for now
   eleventyConfig.addPassthroughCopy({ 
     "src/assets/scripts/": "assets/scripts/",
@@ -41,27 +42,16 @@ module.exports = function (eleventyConfig) {
   // add watch target for css and tailwind
   eleventyConfig.addWatchTarget("./src/assets/css/");
 
-  // add global data
-  Object.entries(config).forEach(([name, data]) => eleventyConfig.addGlobalData(name, data));
-
-  // add shortcodes
-  Object.entries(shortcodes.shortcodes).forEach(([name, func]) => eleventyConfig.addShortcode(name, func));
-  Object.entries(shortcodes.asyncShortcodes).forEach(([name, func]) => eleventyConfig.addNunjucksAsyncShortcode(name, func));
-  
-  // add filters
-  Object.entries(filters).forEach(([name, func]) => eleventyConfig.addNunjucksFilter(name, func));
-  
-  // add collections
-  Object.entries(collections).forEach(([name, func]) => eleventyConfig.addCollection(name, func));
-  
-  // configure markdown library
-  eleventyConfig.setLibrary("md", markdownLib);
-
-  // add other plugins
+  // add plugins
+  eleventyConfig.addPlugin(global);
+  eleventyConfig.addPlugin(shortcodes);
+  eleventyConfig.addPlugin(filters);
+  eleventyConfig.addPlugin(collections);
+  eleventyConfig.addPlugin(markdown);
   eleventyConfig.addPlugin(readingTime);
-  eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(safeLinks);
-
+  eleventyConfig.addPlugin(feedPlugin, feed);
+  
   return {
     dir: {
       input: "src",

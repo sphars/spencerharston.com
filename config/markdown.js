@@ -1,24 +1,24 @@
-const path = require("node:path");
+import { parse, join, dirname } from "node:path";
 
 // markdown plugins
-const markdownIt = require("markdown-it");
-const markdownItFootnote = require("markdown-it-footnote");
-const markdownItImageFigures = require("markdown-it-image-figures");
-const markdownItAnchor = require("markdown-it-anchor");
-const markdownItAttrs = require("markdown-it-attrs");
-const markdownItEleventyImg = require("markdown-it-eleventy-img");
+import markdownIt from "markdown-it";
+import markdownItFootnote from "markdown-it-footnote";
+import markdownItImageFigures from "markdown-it-image-figures";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItAttrs from "markdown-it-attrs";
+import markdownItEleventyImg from "markdown-it-eleventy-img";
 
 // markdown plugin options
 const markdownItOptions = {
-  html: true
+  html: true,
 };
 
 const markdownItAnchorOptions = {
-  level: [2, 3]
+  level: [2, 3],
 };
 
 const markdownItImageFiguresOptions = {
-  figcaption: true
+  figcaption: true,
 };
 
 const markdownItEleventyImgOptions = {
@@ -28,16 +28,16 @@ const markdownItEleventyImgOptions = {
     urlPath: "/assets/img/content",
     outputDir: "./dist/assets/img/content",
     filenameFormat: (id, src, width, format) => {
-      const { name } = path.parse(src);
+      const { name } = parse(src);
       return `${name}-${width}w.${format}`;
-    }
+    },
   },
   globalAttributes: {
     decoding: "async",
     loading: "lazy",
-    sizes: "100vw"
+    sizes: "100vw",
   },
-  resolvePath: (filepath, env) => path.join(path.dirname(env.page.inputPath), filepath)
+  resolvePath: (filepath, env) => join(dirname(env.page.inputPath), filepath),
 };
 
 const markdownLib = markdownIt(markdownItOptions)
@@ -47,4 +47,6 @@ const markdownLib = markdownIt(markdownItOptions)
   .use(markdownItImageFigures, markdownItImageFiguresOptions)
   .use(markdownItEleventyImg, markdownItEleventyImgOptions);
 
-module.exports = { markdownLib };
+export default (eleventyConfig) => {
+  eleventyConfig.setLibrary("md", markdownLib);
+};

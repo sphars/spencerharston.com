@@ -7,8 +7,8 @@ metaTagline: The personal website of Spencer Harston
     <h1 class="text-3xl text-center font-bold">Spencer Harston</h1>
     <p class="text-center lg:text-left">A corner of the Internet</p>
     <div class="flex flex-row items-center gap-x-2">
-        <a class="text-zinc-800 dark:text-zinc-200" href="https://mastodon.social/{{ metadata.mastodon_handle }}" title="Mastodon profile" rel="me">{% iconify "brand-mastodon" %}</a>
-        <a class="text-zinc-800 dark:text-zinc-200" href="https://github.com/{{ metadata.github_handle }}" title="GitHub profile">{% iconify "brand-github" %}</a>
+        <a class="text-zinc-800 dark:text-zinc-200" href="{{ meta.social.mastodon }}" title="Mastodon profile" rel="me">{% iconify "brand-mastodon" %}</a>
+        <a class="text-zinc-800 dark:text-zinc-200" href="{{ meta.social.github }}" title="GitHub profile">{% iconify "brand-github" %}</a>
     </div>
 </div>
 

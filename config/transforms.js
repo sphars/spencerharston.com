@@ -1,8 +1,8 @@
-const htmlMinifier = require("html-minifier-terser");
+import { minify } from "html-minifier-terser";
 
-function htmlMinify(content, outputPath) {
+const htmlMinify = (content, outputPath) => {
   if (outputPath.endsWith(".html")) {
-    let minified = htmlMinifier.minify(content, {
+    let minified = minify(content, {
       useShortDoctype: true,
       removeComments: true,
       collapseWhitespace: true,
@@ -13,6 +13,12 @@ function htmlMinify(content, outputPath) {
     return minified;
   }
   return content;
-}
+};
 
-module.exports = { htmlMinify };
+const transforms = {
+  htmlMinify
+};
+
+export default (eleventyConfig) => {
+  return Object.entries(transforms).forEach(([name, func]) => eleventyConfig.addTransform(name, func));
+};

@@ -2,6 +2,7 @@
 title: Building a New PC in 2024
 description: It's been eight years since I put built my current desktop. It's time to build a new PC.
 date: 2024-05-06 08:05:00
+updated: 2024-10-09 10:35:00
 tags:
     - personal
     - reviews
@@ -89,22 +90,26 @@ I haven't fully benchmarked the CPU but it has taken everything I've thrown at i
 #### GPU: AMD Radeon 7800 XT
 As strong Linux compatibility would be a requirement on this build, I knew right away I was sticking with AMD. The QLC PC was also an AMD card (Radeon 380) and I never had any issues with it in the eight years of use. Not only that, the price-to-performance ratio at 1440p was better than comparable Nvidia cards, so AMD is the obvious choice. Decided to go with the Sapphire model, which is essentially the AMD reference model. No flashiness here, but it fits in well with my minimalistic aesthetic I was going for in this build.
 
-This card has been a great choice for me. Every game I've played so far has been able to run on max or near-max settings. Here's some quick stats on a few games I've tried so far:
+This card has been a great choice for me. Every game I've played so far has been able to run on max or near-max settings. Here's some quick stats on a few games I've tried so far (all at 1440p):
 
-- Doom (2016): max settings, 200 FPS (capped) @ 1440p
-- Firewatch: max settings, 230-240 FPS @ 1440p
-- Tony Hawk's Pro Skater 1+2: max settings, 180-200 FPS @ 1440p
-- Helldivers 2: high-max settings, 120-140 FPS @ 1440p 
+- Doom (2016): max settings, 200 FPS (capped)
+- Firewatch: max settings, 230-240 FPS
+- Tony Hawk's Pro Skater 1+2: max settings, 180-200 FPS
+- Helldivers 2: high-max settings, 120-140 FPS
   - My settings could use some tweaking, since I'm running it on Linux. Plus it's still being optimized by the developers
+- Descenders: max settings, 230-240 FPS
+- Horizon Zero Dawn: max settings, 110-130 FPS
 
 Temps are good too, upper 30s/low 40s at idle, and upper 70s/low 80s at full usage. Haven't considered tweaking it yet, perhaps down the road once I'm needing a bit more juice.
 
-My only minor issue with the specific model of card I received is that there's a bit of coil whine when under 100% usage. Not a big deal to me, but other models may fare better. I do wish I had waited a month for a better card (more below). Overall though, I think this card will suit me just fine for the next 4+ years.
+My only minor issue with the specific model of card I received is that there's a bit of coil whine when under 100% usage. Not a big deal to me, but other models may fare better. I do wish I had waited a month for a better card (more below). Overall though, I think this card will suit me just fine for the next 4+ years. 
+
+Update (10/9/2024): I haven't noticed the coil whine as much lately, if at all. It really only seemed to be the most noticeable when running THPS 1+2, for some reason.
 
 #### Motherboard: ASRock B650M PG RIPTIDE WIFI Micro ATX
 The motherboard was the component that I had a tough time deciding on. There were three motherboards I was looking into, one from MSI, Gigabyte and ASRock. All three had features that I was interested in and were priced about the same. The reviews were very similar to one another, but of course each had their pros and cons. In the end, I felt like the ASRock edged out just *slightly* above the others and so that's the one I picked.
 
-The ASRock motherboard has been a good choice. Honestly, there's not much to say about it. It works well, has plenty of features, like the ability to use PCI Gen 5 for an m.2 drive and Wi-Fi 6E. It has one RGB feature under the south bridge heatsink (kept at a static white), and four SATA connectors. Thankfully I'm not going to be using that many SATA devices anyways. But yeah, so far so good.
+The ASRock motherboard has been a good choice. Honestly, there's not much to say about it. It works well, has plenty of features, like the ability to use PCI Gen 5 for an m.2 drive and Wi-Fi 6E. It has one RGB feature under the south bridge heatsink (I keep it at a static white), and four SATA connectors. Thankfully I'm not going to be using that many SATA devices anyways. But yeah, so far so good.
 
 #### Monitor: LG UltraGear 27GR83Q-B
 I was not planning on buying a new monitor to go with this build. It would've put me way over budget for anything decent. So when I saw this LG monitor go on sale at Best Buy, I looked to see if I could squeeze it in. Two things made that happen. First, Best Buy had a promotion going on that gave 10% off any new LG monitor by recycling *any* monitor. My original Asus monitor from the QLC build was finally ready to retire. Second, I was able to use my work rewards and turn them into Best Buy gift cards, which would cover nearly the remainder of the cost. In the end, I spent less than $10 out of pocket to get this. Not bad at all.

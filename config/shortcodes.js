@@ -1,8 +1,9 @@
-const { generateMetaImage } = require("./meta/metaImage.js");
-const { readFile } = require("fs");
-const { promisify } = require("util");
-const { metadata } = require("./config.js");
-const { getCurrentGitBranch, getLatestGitCommitHash, getCurrentGitStatus } = require("./utils.js");
+import utils from "./utils.js";
+import meta from "../src/_data/meta.js";
+import generateMetaImage from "./ogImage/metaImage.js";
+
+import { readFile } from "fs";
+import { promisify } from "util";
 const asyncReadFile = promisify(readFile);
 
 /**
@@ -10,16 +11,24 @@ const asyncReadFile = promisify(readFile);
  * @param string iconName The tabler icon name to use
  * @returns An SVG element for the icon
  */
-async function iconify(iconName) {
+const iconify = async (iconName) => {
   const path = `./node_modules/@tabler/icons/icons/outline/${iconName}.svg`;
   const icon = await asyncReadFile(path);
   return icon.toString();
-}
+};
 
 function pageSourceUrl() {
-  const hash = getLatestGitCommitHash("short");
-  return `${metadata.repo}/blob/${hash}/${this.page.inputPath.slice(2)}`;
+  const hash = utils.getLatestGitCommitHash("short");
+  const path = this.page.inputPath.slice(2);
+  return `${meta.repo}/blob/${hash}/${path}`;
 }
 
-module.exports.shortcodes = { pageSourceUrl }; 
-module.exports.asyncShortcodes = { iconify, generateMetaImage };
+const shortcodes = {
+  pageSourceUrl,
+  iconify,
+  generateMetaImage
+};
+
+export default (eleventyConfig) => {
+  return Object.entries(shortcodes).forEach(([name, func]) => eleventyConfig.addShortcode(name, func));
+};

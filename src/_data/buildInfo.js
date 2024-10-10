@@ -1,7 +1,6 @@
-const { getLatestGitCommitHash, getCurrentGitBranch, getCurrentGitCommitDate } = require("../../config/utils.js");
-const { metadata } = require("../../config/config.js");
-const { DateTime } = require("luxon");
-
+import utils from "../../config/utils.js";
+import meta from "./meta.js";
+import { DateTime } from "luxon";
 
 /**
  * Get the information about the current build
@@ -9,34 +8,38 @@ const { DateTime } = require("luxon");
  */
 const getBuildInfo = () => {
   const dateFormatString = "EEE, MMM dd, y 'at' h:mm:ss a ZZZZ";
-  
-  const gitDateRaw = DateTime.fromISO(getCurrentGitCommitDate());
-  const gitDateFormatted = gitDateRaw.setZone(metadata.timezone).toFormat(dateFormatString);
-  
+
+  const gitDateRaw = DateTime.fromISO(utils.getCurrentGitCommitDate());
+  const gitDateFormatted = gitDateRaw
+    .setZone(meta.timezone)
+    .toFormat(dateFormatString);
+
   const buildTime = DateTime.now();
   const buildTimeRaw = buildTime.toISO();
-  const buildTimeFormatted = buildTime.setZone(metadata.timezone).toFormat(dateFormatString);
-  
+  const buildTimeFormatted = buildTime
+    .setZone(meta.timezone)
+    .toFormat(dateFormatString);
+
   console.log(`Commit time: ${gitDateRaw}`);
   console.log(`Build time: ${buildTimeRaw}`);
 
   return {
     git: {
       hash: {
-        short: getLatestGitCommitHash("short"),
-        long: getLatestGitCommitHash("long")
+        short: utils.getLatestGitCommitHash("short"),
+        long: utils.getLatestGitCommitHash("long"),
       },
       time: {
         raw: gitDateRaw,
-        formatted: gitDateFormatted
+        formatted: gitDateFormatted,
       },
-      branch: getCurrentGitBranch()
+      branch: utils.getCurrentGitBranch(),
     },
     time: {
       raw: buildTimeRaw,
       formatted: buildTimeFormatted,
-    }
+    },
   };
 };
 
-module.exports = getBuildInfo;
+export default getBuildInfo;

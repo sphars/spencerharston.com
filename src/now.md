@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2024-09-23
+updated: 2024-10-09
 ---
 
 {{ description }}
@@ -29,12 +29,18 @@ Going to go a little more light-hearted as I just finished another King novel. *
 
 ## Watching
 
-*Young Sheldon* is my current background show when I need something on. It's meh but good enough. I'll also watch random movies on Netflix when I'm doing some exercising.
+It's October, and that means a new season of *The Great British Baking Show*.
 
-I'm also on the hunt for the adaptations of some of the book I read (namely *Under the Dome*) but I may just have to get a temporary subscription to some random streaming site.
+My wife and I are watching the new Kristen Bell show on Netflix, *Nobody Wants This*. Two episodes in, and honestly, I find it pretty great.
+
+Final season of *The Umbrella Academy* dropped a few weeks ago, so I'm finishing that up.
+
+I'm also on the hunt for the adaptations of some of the book I read (namely *Under the Dome*) but I may just have to shell out for a temporary subscription to some random streaming site.
 
 ## Playing
 
-Started playing some *Descenders* for scratching that "just have some fun" itch. Still want to try out *Horizon: Zero Dawn* at some point. I'll try and pick up *Risk of Rain 2* again, since it was just updated, possibly for the last time.
+I'm playing *Descenders* for scratching that "just have some fun" itch. 
+
+I started *Horizon: Zero Dawn* a couple days ago (and yes, I'm playing on easy difficulty). It runs beautifully on my [Linux PC](/posts/2024/building-a-new-pc-in-2024/).
 
 *Slay the Spire* is my current fallback whenever I want to play something but don't want to start anything new.

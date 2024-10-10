@@ -13,12 +13,12 @@ I'm working as a software engineer for $BIG_COMPANY.
 ## Contact Me
 
 If you feel like reaching out, you can find me at
- * Mastodon: [mastodon.social/@sphars](https://mastodon.social/@sphars)
- * GitHub: [sphars](https://github.com/sphars)
+ * Mastodon: [mastodon.social/@sphars]({{meta.social.mastodon}})
+ * GitHub: [sphars]({{meta.social.github}})
 
 ## About This Website
 
-The source code of this website is licensed under the [MIT license]({{ metadata.repo }}/blob/main/LICENSE). The content of this site is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). My thoughts and hot takes on this website are (unfortunately) my own.
+The source code of this website is licensed under the [MIT license]({{ meta.repo }}/blob/main/LICENSE). The content of this site is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). My thoughts and hot takes on this website are (unfortunately) my own.
 
 More info about the creation of this site on the [Colophon](/colophon) page.
 
@@ -26,4 +26,4 @@ More info about the creation of this site on the [Colophon](/colophon) page.
 
 This site's last commit was on {{ buildInfo.git.time.formatted }} and was built on {{ buildInfo.time.formatted }}. 
 
-Commit: [`{{ buildInfo.git.hash.short }}`]({{ metadata.repo }}/tree/{{ buildInfo.git.hash.long }})
+Commit: [`{{ buildInfo.git.hash.short }}`]({{ meta.repo }}/tree/{{ buildInfo.git.hash.long }})

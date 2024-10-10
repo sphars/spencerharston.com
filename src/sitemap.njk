@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
 {%- for page in collections.all %}
     {%- set pageDate = page.data.updated or page.data.date or page.date %}
     <url>
-        <loc>{{ metadata.base_url }}{{ page.url | url }}</loc>
+        <loc>{{ meta.base_url }}{{ page.url | url }}</loc>
         <lastmod>{{ pageDate | dateISOAlt }}</lastmod>
     </url>
 {%- endfor %}

@@ -13,7 +13,8 @@ metaTagline: A list of books that I'm reading or have finished.
 
 <div class="mt-8">
   <h2 class="my-4 flex items-baseline justify-between gap-x-4 text-lg font-bold" id="current">
-    Currently Reading <span class="text-sm">{{ books.current.length }} books</span>
+    Currently Reading
+    <span class="text-sm">{{ books.current.length }} book{%- if books.current.length > 1 -%}s{%- endif -%}</span>
   </h2>
   <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,120px)]">
     {%- for book in books.current %}
@@ -37,7 +38,8 @@ metaTagline: A list of books that I'm reading or have finished.
     {%- set subBooks = books.read | booksByYear(year) | sortDateByKey("dateRead", "desc") -%}
     <div>
       <h3 class="my-3 flex items-baseline justify-between gap-x-4 font-bold" id="{{ year }}">
-        {{ year }} <span class="text-sm">{{ subBooks.length }} books</span>
+        {{ year }}
+        <span class="text-sm">{{ subBooks.length }} book{%- if subBooks.length > 1 -%}s{%- endif -%}</span>
       </h3>
 
       <div class="mb-6 grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,120px)]">

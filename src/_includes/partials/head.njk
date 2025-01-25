@@ -37,14 +37,9 @@
 
   {%- endif %}
 {%- endsetAsync %}
-<meta property="og:image" content="{{ metaImageUrl }}" />
+<meta property="og:image" content="{{ meta.base_url }}{{ metaImageUrl }}" />
 <meta property="og:site_name" content="{{ meta.title }}" />
 <meta property="og:description" content="{{ description or meta.description }}" />
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="{{ metaImageUrl }}" />
-<meta name="twitter:image:alt" content="{{ title }}" />
 
 <link href="{{ meta.social.mastodon }}" rel="me" />
 

@@ -2,6 +2,7 @@
 title: Creating a Books Page
 description: How and why I decided to create a Books page to keep track of my reading.
 date: 2025-01-16 23:56:00
+updated: 2025-01-25 14:27:00
 tags:
   - personal
   - reading
@@ -33,15 +34,17 @@ To aid in both these issues, I created another script to do two things. First, I
 
 This script got me 95%-ish completed data. Unfortunately, OpenLibrary couldn't find a couple books, or they didn't have any good quality covers. For these items, I manually added a link to the Goodreads cover image URL.
 
-With that, I finally had all the data I needed to display my books.
+With that, I had all the data I needed to display my books.
 
 ## Display the data
 
-Inspired by a few others' pages I've seen recently, I wanted to show my books in a grid. Each entry would show the cover, date read, whether it was the audiobook version, and a star for 4+ ratings. Initially I wanted to group by year, but decided to lump all in one list.
+Inspired by a few others' pages I've seen recently, I wanted to show my books in a grid. Each entry would show the cover, date read, whether it was the audiobook version, and a star for 4+ ratings. ~~Initially I wanted to group by year, but decided to lump all in one list.~~
+
+_Update 1/25/2024: I changed my mind, I did want to group the books by year. I created a couple of nunjucks filters: one to get the set of years for `dateRead`, and one to filter books by year. The data is still one big list but the filters handle the grouping for me._
 
 I added the `books.json` file to my 11ty `_data` directory. The books were already in the right order but for fool-proofing, I have some 11ty filters to handle sorting by `dateRead` or `title`. I displayed the books using a CSS grid layout, each book entry containing the cover image, month and year read, a 🎧 for audiobooks, and a ⭐ for ratings 4 and up.
 
-The images are processed using the 11ty image package, which takes the image source URL, resizes and renames to some set parameters, and saved in a cache. The initial images I chose are fairly low resolution, thanks to OpenLibrary offering S, M, and L image variations. This step does add some time to the build, from about 2 seconds to 30-ish seconds for 100 images, but I'm okay with that. It only slows down the first build, thanks to caching.
+The images are processed using the 11ty image package, which takes the image source URL, resizes and renames the image to some set parameters, and caches it. The initial images I chose are fairly low resolution, thanks to OpenLibrary offering S, M, and L image variations. This step does add some time to the build, from about 2 seconds to 30-ish seconds for 100 images, but I'm okay with that. It only slows down the first build, thanks to that cache.
 
 Altogether, it looks kinda basic, but I like it.
 
@@ -73,4 +76,4 @@ This exercise in creating this page was fun, and I'm glad I finally did it. I do
 
 Working through and collecting this data has made me realize I read a lot of fiction compared to non-fiction. It's not a bad thing! But I do wish to read more non-fiction books. I typically read right bed, and it's hard to really get into anything at that time of day.
 
-My wife has started keeping a book journal for all the books she reads, and lately she's reading triple the amount I do. But I'm considering doing my own book journal of sorts, and integrating it in my website, or as an external app or something. I'll get around to doing it, one day. Maybe.
+My wife has started keeping a book journal for all the books she reads, and lately she's reading, like, triple the amount of books I read. I'm considering doing my own book journal of sorts, and integrating it in my website, or as an external app or something. I'll get around to doing it, one day. Maybe.

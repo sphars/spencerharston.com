@@ -394,7 +394,7 @@
       "author": "Walter Tevis",
       "goodreadsLink": "https://www.goodreads.com/book/show/62022",
       "rating": 4,
-      "dateRead": "2022-01-01",
+      "dateRead": "2022-01-01T12:00:00.000Z",
       "binding": "ebook",
       "isbn13": "9780795343063",
       "coverUrl": "https://covers.openlibrary.org/b/id/12625477-M.jpg"
@@ -912,7 +912,7 @@
       "isbn13": "9780375726262",
       "rating": 4,
       "binding": "ebook",
-      "dateRead": "2018-01-01",
+      "dateRead": "2018-01-01T12:00:00.000Z",
       "goodreadsLink": "https://www.goodreads.com/book/show/80571",
       "coverUrl": "https://covers.openlibrary.org/b/id/229635-M.jpg"
     },

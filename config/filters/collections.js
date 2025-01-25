@@ -19,10 +19,21 @@ const postsByTag = (collection, tag) => collection.filter((entry) => entry.data.
 const postsByYear = (collection, year) =>
   collection.filter((entry) => DateTime.fromJSDate(entry.date).year.toString() === year);
 
+const booksByYear = (books, year) => {
+  return books.filter((book) => {
+    const date = new Date(book.dateRead);
+    return date.getFullYear() === year;
+  });
+};
+
+const getBookDateReadYears = (books) => [...new Set(books.map((book) => new Date(book.dateRead).getFullYear()))];
+
 export default {
   sortByKey,
   sortDateByKey,
   limit,
   postsByTag,
-  postsByYear
+  postsByYear,
+  booksByYear,
+  getBookDateReadYears
 };

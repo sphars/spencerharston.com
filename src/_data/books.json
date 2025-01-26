@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-01-13",
+  "lastUpdated": "2025-01-25",
   "current": [
     {
       "goodreadsId": "7235533",
@@ -11,6 +11,17 @@
       "binding": "ebook",
       "isbn13": "9780765326355",
       "coverUrl": "https://covers.openlibrary.org/b/id/7429768-M.jpg"
+    },
+    {
+      "goodreadsId": "197655262",
+      "title": "Extra Focus: The Quick Start Guide to Adult ADHD",
+      "author": "Jesse J. Anderson",
+      "goodreadsLink": "https://www.goodreads.com/book/show/197655262",
+      "rating": 0,
+      "dateRead": "",
+      "binding": "audiobook",
+      "isbn13": "9798988644217",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14546413-M.jpg"
     }
   ],
   "read": [

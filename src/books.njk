@@ -11,23 +11,25 @@ metaTagline: A list of books that I'm reading or have finished.
 
 <p class="mb-4 italic">Last updated: {{ books.lastUpdated | dateByFormat("MMMM d, y") }}</p>
 
-<div class="mt-8">
+<div class="my-8">
   <h2 class="my-4 flex items-baseline justify-between gap-x-4 text-lg font-bold" id="current">
     Currently Reading
     <span class="text-sm">{{ books.current.length }} book{%- if books.current.length > 1 -%}s{%- endif -%}</span>
   </h2>
   <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,120px)]">
     {%- for book in books.current %}
-      <a href="{{ book.goodreadsLink }}">
-        {% set alt -%}Cover of {{ book.title }} by {{ book.author }}{%- endset %}
-        {% set title -%}{{ book.title }} by {{ book.author }}{%- endset %}
-        {% image book.coverUrl, alt, title, ["120"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", book.goodreadsId %}
-      </a>
+      <div class="flex flex-col justify-end gap-y-1">
+        <a href="{{ book.goodreadsLink }}">
+          {% set alt -%}Cover of {{ book.title }} by {{ book.author }}{%- endset %}
+          {% set title -%}{{ book.title }} by {{ book.author }}{%- endset %}
+          {% image book.coverUrl, alt, title, ["120"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", book.goodreadsId %}
+        </a>
+      </div>
     {%- endfor -%}
   </div>
 </div>
 
-<div class="mt-8">
+<div class="my-8">
   <div class="my-4 flex flex-wrap items-baseline justify-between">
     <h2 class="text-lg font-bold" id="finished">Finished Reading</h2>
     <span class="text-sm">🎧 = audiobook ⭐ = really liked it</span>
@@ -36,13 +38,13 @@ metaTagline: A list of books that I'm reading or have finished.
   {%- set years = books.read | getBookDateReadYears %}
   {%- for year in years %}
     {%- set subBooks = books.read | booksByYear(year) | sortDateByKey("dateRead", "desc") -%}
-    <div>
+    <div class="mb-8">
       <h3 class="my-3 flex items-baseline justify-between gap-x-4 font-bold" id="{{ year }}">
         {{ year }}
         <span class="text-sm">{{ subBooks.length }} book{%- if subBooks.length > 1 -%}s{%- endif -%}</span>
       </h3>
 
-      <div class="mb-6 grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,120px)]">
+      <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,120px)]">
         {%- for book in subBooks %}
           <div class="flex flex-col justify-end gap-y-1">
             <a href="{{ book.goodreadsLink }}">
@@ -68,7 +70,7 @@ metaTagline: A list of books that I'm reading or have finished.
   {%- endfor %}
 </div>
 
-<div class="mt-8">
+<div class="my-8">
   <h2 class="my-4 text-lg font-bold" id="tbr">To Be Read</h2>
   <p class="mb-4">I'll definitely get around to reading those ADHD books one day...</p>
   <details>
@@ -84,7 +86,7 @@ metaTagline: A list of books that I'm reading or have finished.
   </details>
 </div>
 
-<div class="mt-8">
+<div class="my-8">
   <h2 class="my-4 text-lg font-bold" id="dnf">Did Not Finish</h2>
   <p class="mb-4">
     While there's usually no specific reason why I choose not to finish a book, generally it comes down to "just

@@ -37,7 +37,7 @@ export default {
           css: {
             color: theme("colors.zinc.200"),
             a: {
-              color: theme("colors.sky.500")
+              color: theme("colors.yellow.500")
             }
           }
         }

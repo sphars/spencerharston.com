@@ -11,7 +11,7 @@ tags:
 
 I've been PC user for most of my life. My first experience with computers was in the late 1990s, using MS-DOS and Windows 3.1. It wasn't until I was in college that I was able to build my own PC for the first time. It was a very fun and educational experience for me. Eight years have passed since then, and now it's time to build another PC in 2024. I completed this new build in February this year and have used it for a few months. Here's my experience of picking the parts, building the PC, and thoughts about the process in general.
 
-TL;DR: [New PC Specs](#2024-pc-components) | [Images](#images)
+tl;dr: [New PC Specs](#2024-pc-components) | [Images](#images)
 
 ## The Quarter-Life Crisis PC
 

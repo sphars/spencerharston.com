@@ -67,7 +67,7 @@ I'll update this as often as I remember.
 - Vesktop
 - ...and many more
 
-See also my Default Applications of [2023](/posts/2023/app-defaults-in-2023)
+See also my Default Applications of [2023](/posts/2023/app-defaults-in-2023), [2024](/posts/2025/app-defaults-in-2024)
 
 ### Self-hosted Apps
 

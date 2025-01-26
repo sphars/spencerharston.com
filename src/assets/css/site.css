@@ -8,11 +8,11 @@
     font-size: 18px;
   }
   a {
-    @apply hover:text-blue-600 hover:underline dark:hover:text-sky-500;
+    @apply hover:text-blue-600 hover:underline dark:hover:text-yellow-500;
   }
 
   main a {
-    @apply text-blue-600 hover:text-blue-600 dark:text-sky-500 dark:hover:text-sky-500;
+    @apply text-blue-600 hover:text-blue-600 dark:text-yellow-500 dark:hover:text-yellow-500;
   }
 }
 

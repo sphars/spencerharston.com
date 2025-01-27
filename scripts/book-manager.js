@@ -10,6 +10,25 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = path.join(__dirname, "../src/_data/books.json");
 const program = new Command();
 
+const listChoices = [
+  {
+    value: "current",
+    description: "current books"
+  },
+  {
+    value: "read",
+    description: "finished books"
+  },
+  {
+    value: "tbr",
+    description: "to be read books"
+  },
+  {
+    value: "dnf",
+    description: "did not finish books"
+  }
+];
+
 function getLocalDate() {
   const date = new Date();
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
@@ -47,6 +66,19 @@ async function addBook(list) {
       goodreadsId: await input({ message: "Enter Goodreads ID:", required: true })
     };
 
+    if (list === "current") {
+      const additionalBookInfo = {
+        binding: await select({
+          message: "Enter binding:",
+          default: "ebook",
+          choices: ["ebook", "physical", "audiobook"]
+        }),
+        coverUrl: await input({ message: "Enter cover URL:" })
+      };
+
+      Object.assign(bookInfo, additionalBookInfo);
+    }
+
     if (list === "read") {
       const additionalBookInfo = {
         dateRead: await input({
@@ -60,7 +92,6 @@ async function addBook(list) {
           default: "ebook",
           choices: ["ebook", "physical", "audiobook"]
         }),
-        isbn13: await input({ message: "Enter ISBN-13:" }),
         coverUrl: await input({ message: "Enter cover URL:" })
       };
 
@@ -74,7 +105,7 @@ async function addBook(list) {
   } catch (error) {
     if (error instanceof Error && error.name === "ExitPromptError") {
       // noop; silence this error
-      console.log("cancelled");
+      console.log("Cancelled");
     } else {
       console.error("Error adding book:", error);
       process.exit(1);
@@ -82,7 +113,105 @@ async function addBook(list) {
   }
 }
 
-program.name("books-manager").description("manage lists of books").version("1.0.0");
+async function moveBook(fromList) {
+  try {
+    const books = await loadBooks();
+    const booksList = books[fromList];
+
+    if (booksList.length === 0) {
+      console.log(`No books in the ${fromList} list`);
+      return;
+    }
+
+    const bookChoices = booksList.map((book, index) => ({
+      name: `${book.title} by ${book.author}`,
+      value: index,
+      description: book.goodreadsId
+    }));
+
+    const bookIndex = await select({
+      message: "Select a book to move:",
+      choices: bookChoices.sort((a, b) => a.name.localeCompare(b.name))
+    });
+
+    const toList = await select({
+      message: "Select destination list:",
+      choices: listChoices.filter((choice) => choice.value !== fromList)
+    });
+
+    const bookInfo = booksList[bookIndex];
+    books[fromList].splice(bookIndex, 1);
+
+    // if moving to "current" list, ask for more info
+    if (toList === "current" && fromList !== "current") {
+      const additionalBookInfo = {
+        binding: await select({
+          message: "Enter binding:",
+          default: "ebook",
+          choices: ["ebook", "physical", "audiobook"]
+        }),
+        coverUrl: await input({ message: "Enter cover URL:" })
+      };
+
+      Object.assign(bookInfo, additionalBookInfo);
+    }
+
+    // if moving to "read" list, ask for more info
+    if (toList === "read" && fromList !== "read") {
+      const additionalBookInfo = {
+        dateRead: await input({
+          message: "Enter date read (YYYY-MM-DD):",
+          required: true,
+          default: getLocalDate()
+        }),
+        rating: await number({ message: "Enter a rating (0-5):", required: true, min: 0, max: 5 }),
+        binding: await select({
+          message: "Enter binding:",
+          default: "ebook",
+          choices: ["ebook", "physical", "audiobook"]
+        }),
+        coverUrl: await input({ message: "Enter cover URL:" })
+      };
+
+      Object.assign(bookInfo, additionalBookInfo);
+    }
+
+    books[toList].push(bookInfo);
+    await saveBooks(books);
+    console.log(`Moved "${bookInfo.title}" from ${fromList} to ${toList}`);
+  } catch (error) {
+    if (error instanceof Error && error.name === "ExitPromptError") {
+      // noop; silence this error
+      console.log("Cancelled");
+    } else {
+      console.error("Error moving book:", error);
+      process.exit(1);
+    }
+  }
+}
+
+async function clean() {
+  try {
+    const books = await loadBooks();
+    const bookLists = Object.entries(books).filter((group) => Array.isArray(group[1]));
+    bookLists.forEach((group) => {
+      console.log(`cleaning ${group[0]}`);
+      group[1].forEach((book) => {
+        delete book.goodreadsLink;
+        delete book.isbn13;
+      });
+      books[group[0]] = group[1];
+    });
+
+    await saveBooks(books);
+    console.log(`Cleaned up book lists`);
+  } catch (error) {
+    console.error("Error cleaning lists:", error);
+    process.exit(1);
+  }
+}
+
+program.name("books-manager").description("Manage lists of books").version("1.0.0");
 
 program
   .command("add")
@@ -91,39 +220,41 @@ program
     try {
       const list = await select({
         message: "Select a list to add a book to:",
-        choices: [
-          {
-            name: "current",
-            value: "current",
-            description: "current books"
-          },
-          {
-            name: "read",
-            value: "read",
-            description: "finished books"
-          },
-          {
-            name: "tbr",
-            value: "tbr",
-            description: "to be read books"
-          },
-          {
-            name: "dnf",
-            value: "dnf",
-            description: "did not finish books"
-          }
-        ]
+        choices: listChoices
       });
       await addBook(list);
     } catch (error) {
       if (error instanceof Error && error.name === "ExitPromptError") {
         // noop; silence this error
-        console.log("cancelled");
+        console.log("Cancelled");
       } else {
         console.error("Error adding book:", error);
         process.exit(1);
       }
     }
   });
+
+program
+  .command("move")
+  .description("move a book between lists")
+  .action(async () => {
+    try {
+      const fromList = await select({
+        message: "Select a list to move a book from:",
+        choices: listChoices
+      });
+      await moveBook(fromList);
+    } catch (error) {
+      if (error instanceof Error && error.name === "ExitPromptError") {
+        // noop; silence this error
+        console.log("Cancelled");
+      } else {
+        console.error("Error moving book:", error);
+        process.exit(1);
+      }
+    }
+  });
+
+program.command("clean").description("clean up the book data").action(clean);
 
 program.parse();

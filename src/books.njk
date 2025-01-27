@@ -19,7 +19,7 @@ metaTagline: A list of books that I'm reading or have finished.
   <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,120px)]">
     {%- for book in books.current %}
       <div class="flex flex-col justify-end gap-y-1">
-        <a href="{{ book.goodreadsLink }}">
+        <a href="https://www.goodreads.com/book/show/{{ book.goodreadsId }}">
           {% set alt -%}Cover of {{ book.title }} by {{ book.author }}{%- endset %}
           {% set title -%}{{ book.title }} by {{ book.author }}{%- endset %}
           {% image book.coverUrl, alt, title, ["120"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", book.goodreadsId %}
@@ -47,7 +47,7 @@ metaTagline: A list of books that I'm reading or have finished.
       <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,120px)]">
         {%- for book in subBooks %}
           <div class="flex flex-col justify-end gap-y-1">
-            <a href="{{ book.goodreadsLink }}">
+            <a href="https://www.goodreads.com/book/show/{{ book.goodreadsId }}">
               {% set alt -%}Cover of {{ book.title }} by {{ book.author }}{%- endset %}
               {% set title -%}{{ book.title }} by {{ book.author }}{%- endset %}
               {% image book.coverUrl, alt, title, ["120"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", book.goodreadsId %}
@@ -78,7 +78,7 @@ metaTagline: A list of books that I'm reading or have finished.
     <ul>
       {%- for book in books.tbr | sortByKey("title") %}
         <li class="my-2">
-          <a class="font-bold" href="{{ book.goodreadsLink }}">{{ book.title }}</a>
+          <a class="font-bold" href="https://www.goodreads.com/book/show/{{ book.goodreadsId }}">{{ book.title }}</a>
           {{ book.author }}
         </li>
       {%- endfor -%}
@@ -97,7 +97,7 @@ metaTagline: A list of books that I'm reading or have finished.
     <ul>
       {%- for book in books.dnf | sortByKey("title") %}
         <li class="my-2">
-          <a class="font-bold" href="{{ book.goodreadsLink }}">{{ book.title }}</a>
+          <a class="font-bold" href="https://www.goodreads.com/book/show/{{ book.goodreadsId }}">{{ book.title }}</a>
           {{ book.author }}
         </li>
       {%- endfor -%}

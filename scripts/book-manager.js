@@ -29,9 +29,9 @@ const listChoices = [
   }
 ];
 
-function getLocalDate() {
-  const date = new Date();
-  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+function getLocalDate(dateInput = undefined) {
+  const date = dateInput ? new Date(dateInput) : new Date();
+  return date.toISOString();
 }
 
 async function loadBooks() {
@@ -199,6 +199,7 @@ async function clean() {
       group[1].forEach((book) => {
         delete book.goodreadsLink;
         delete book.isbn13;
+        if (book.dateRead) book.dateRead = getLocalDate(book.dateRead);
       });
       books[group[0]] = group[1];
     });

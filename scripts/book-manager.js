@@ -162,15 +162,20 @@ async function moveBook(fromList) {
         dateRead: await input({
           message: "Enter date read (YYYY-MM-DD):",
           required: true,
-          default: getLocalDate()
+          default: getLocalDate(),
+          transformer(value = "", { isFinal }) {
+            return isFinal ? getLocalDate(value) : value;
+          }
         }),
         rating: await number({ message: "Enter a rating (0-5):", required: true, min: 0, max: 5 }),
-        binding: await select({
-          message: "Enter binding:",
-          default: "ebook",
-          choices: ["ebook", "physical", "audiobook"]
-        }),
-        coverUrl: await input({ message: "Enter cover URL:" })
+        binding: bookInfo.binding
+          ? bookInfo.binding
+          : await select({
+              message: "Enter binding:",
+              default: "ebook",
+              choices: ["ebook", "physical", "audiobook"]
+            }),
+        coverUrl: bookInfo.coverUrl ? bookInfo.coverUrl : await input({ message: "Enter cover URL:" })
       };
 
       Object.assign(bookInfo, additionalBookInfo);
@@ -193,15 +198,16 @@ async function moveBook(fromList) {
 async function clean() {
   try {
     const books = await loadBooks();
-    const bookLists = Object.entries(books).filter((group) => Array.isArray(group[1]));
-    bookLists.forEach((group) => {
-      console.log(`cleaning ${group[0]}`);
-      group[1].forEach((book) => {
+    const bookLists = Object.entries(books).filter((list) => Array.isArray(list[1]));
+    bookLists.forEach((list) => {
+      list[1].forEach((book) => {
         delete book.goodreadsLink;
         delete book.isbn13;
         if (book.dateRead) book.dateRead = getLocalDate(book.dateRead);
       });
-      books[group[0]] = group[1];
+      // sort the read list by date read asc
+      books[list[0]] =
+        list[0] === "read" ? list[1].sort((a, b) => new Date(a.dateRead) - new Date(b.dateRead)) : list[1];
     });
 
     await saveBooks(books);

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-01-27T17:42:16.071Z",
+  "lastUpdated": "2025-01-27T20:43:50.697Z",
   "current": [
     {
       "goodreadsId": "7235533",
@@ -17,762 +17,6 @@
     }
   ],
   "read": [
-    {
-      "goodreadsId": "59948885",
-      "title": "I Remember You",
-      "author": "Brian Freeman",
-      "rating": 2,
-      "dateRead": "2024-12-28T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/12861424-M.jpg"
-    },
-    {
-      "goodreadsId": "11607",
-      "title": "The Running Man",
-      "author": "Stephen King",
-      "rating": 3,
-      "dateRead": "2024-11-20T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/392132-M.jpg"
-    },
-    {
-      "goodreadsId": "200174139",
-      "title": "Zero Stars, Do Not Recommend",
-      "author": "M.J. Wassmer",
-      "rating": 2,
-      "dateRead": "2024-10-20T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14649882-M.jpg"
-    },
-    {
-      "goodreadsId": "6320534",
-      "title": "Under the Dome",
-      "author": "Stephen King",
-      "rating": 4,
-      "dateRead": "2024-09-23T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14654136-M.jpg"
-    },
-    {
-      "goodreadsId": "200987323",
-      "title": "I Hope This Finds You Well",
-      "author": "Natalie Sue",
-      "rating": 2,
-      "dateRead": "2024-09-23T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14630898-M.jpg"
-    },
-    {
-      "goodreadsId": "59909326",
-      "title": "The Lord of the Rings: The Return of the King",
-      "author": "J.R.R. Tolkien",
-      "rating": 5,
-      "dateRead": "2024-09-04T00:00:00.000Z",
-      "binding": "audiobook",
-      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1640175526i/59909326.jpg"
-    },
-    {
-      "goodreadsId": "59939679",
-      "title": "The Lord of the Rings: The Two Towers",
-      "author": "J.R.R. Tolkien",
-      "rating": 5,
-      "dateRead": "2024-07-25T00:00:00.000Z",
-      "binding": "audiobook",
-      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1640544005i/59939679.jpg"
-    },
-    {
-      "goodreadsId": "54798175",
-      "title": "Later",
-      "author": "Stephen King",
-      "rating": 3,
-      "dateRead": "2024-07-11T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14679320-M.jpg"
-    },
-    {
-      "goodreadsId": "62919765",
-      "title": "Zero Days",
-      "author": "Ruth Ware",
-      "rating": 2,
-      "dateRead": "2024-06-15T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/13220263-M.jpg"
-    },
-    {
-      "goodreadsId": "60507687",
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "author": "J.R.R. Tolkien",
-      "rating": 5,
-      "dateRead": "2024-06-08T00:00:00.000Z",
-      "binding": "audiobook",
-      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1645989808i/60507687.jpg"
-    },
-    {
-      "goodreadsId": "34490192",
-      "title": "Soonish: Ten Emerging Technologies That'll Improve and/or Ruin Everything",
-      "author": "Kelly and Zach Weinersmith",
-      "rating": 3,
-      "dateRead": "2024-05-25T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10097090-M.jpg"
-    },
-    {
-      "goodreadsId": "10644930",
-      "title": "11/22/63",
-      "author": "Stephen King",
-      "rating": 4,
-      "dateRead": "2024-04-28T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14654708-M.jpg"
-    },
-    {
-      "goodreadsId": "127305853",
-      "title": "The Women",
-      "author": "Kristin Hannah",
-      "rating": 4,
-      "dateRead": "2024-04-26T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14821539-M.jpg"
-    },
-    {
-      "goodreadsId": "61885029",
-      "title": "Starter Villain",
-      "author": "John Scalzi",
-      "rating": 4,
-      "dateRead": "2024-02-26T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14432013-M.jpg"
-    },
-    {
-      "goodreadsId": "60190659",
-      "title": "What If? 2: Additional Serious Scientific Answers to Absurd Hypothetical Questions",
-      "author": "Randall Munroe",
-      "rating": 5,
-      "dateRead": "2024-02-20T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14380594-M.jpg"
-    },
-    {
-      "goodreadsId": "59733167",
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "rating": 5,
-      "dateRead": "2024-02-20T00:00:00.000Z",
-      "binding": "audiobook",
-      "coverUrl": "https://m.media-amazon.com/images/I/71YW2wFe-eL.jpg"
-    },
-    {
-      "goodreadsId": "57693406",
-      "title": "The Kaiju Preservation Society",
-      "author": "John Scalzi",
-      "rating": 3,
-      "dateRead": "2024-02-04T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/12671374-M.jpg"
-    },
-    {
-      "goodreadsId": "62080187",
-      "title": "Never Lie",
-      "author": "Freida McFadden",
-      "rating": 1,
-      "dateRead": "2024-01-27T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/13198561-M.jpg"
-    },
-    {
-      "goodreadsId": "61813107",
-      "title": "Ascension",
-      "author": "Nicholas Binge",
-      "rating": 2,
-      "dateRead": "2024-01-23T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/13195719-M.jpg"
-    },
-    {
-      "goodreadsId": "25179",
-      "title": "Blankets",
-      "author": "Craig Thompson",
-      "rating": 3,
-      "dateRead": "2023-12-22T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10358001-M.jpg"
-    },
-    {
-      "goodreadsId": "55204812",
-      "title": "How to (Almost) Make Friends on the Internet",
-      "author": "Michael Cunningham",
-      "rating": 3,
-      "dateRead": "2023-12-20T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1598977311i/55204812.jpg"
-    },
-    {
-      "goodreadsId": "61884832",
-      "title": "All the Sinners Bleed",
-      "author": "S.A. Cosby",
-      "rating": 4,
-      "dateRead": "2023-11-19T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/13478757-M.jpg"
-    },
-    {
-      "goodreadsId": "13547494",
-      "title": "Because I Said So!",
-      "author": "Ken Jennings",
-      "rating": 2,
-      "dateRead": "2023-10-22T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/9246605-M.jpg"
-    },
-    {
-      "goodreadsId": "52397",
-      "title": "Parable of the Sower",
-      "author": "Octavia Butler",
-      "rating": 3,
-      "dateRead": "2023-10-09T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/8795651-M.jpg"
-    },
-    {
-      "goodreadsId": "43798285",
-      "title": "The Institute",
-      "author": "Stephen King",
-      "rating": 3,
-      "dateRead": "2023-08-10T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14642380-M.jpg"
-    },
-    {
-      "goodreadsId": "59838811",
-      "title": "Upgrade",
-      "author": "Blake Crouch",
-      "rating": 3,
-      "dateRead": "2023-07-12T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1643994317i/59838811.jpg"
-    },
-    {
-      "goodreadsId": "46223297",
-      "title": "Permanent Record",
-      "author": "Edward Snowden",
-      "rating": 3,
-      "dateRead": "2023-06-30T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14567150-M.jpg"
-    },
-    {
-      "goodreadsId": "4667024",
-      "title": "The Help",
-      "author": "Kathryn Stockett",
-      "rating": 4,
-      "dateRead": "2023-05-20T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10544713-M.jpg"
-    },
-    {
-      "goodreadsId": "20501606",
-      "title": "Futuristic Violence and Fancy Suits",
-      "author": "Jason Pargin",
-      "rating": 3,
-      "dateRead": "2023-02-06T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/12414792-M.jpg"
-    },
-    {
-      "goodreadsId": "28881",
-      "title": "Lamb: The Gospel According to Biff, Christ's Childhood Pal",
-      "author": "Christopher Moore",
-      "rating": 4,
-      "dateRead": "2023-02-01T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/237949-M.jpg"
-    },
-    {
-      "goodreadsId": "29780253",
-      "title": "Born a Crime",
-      "author": "Trevor Noah",
-      "rating": 4,
-      "dateRead": "2023-01-15T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/9401308-M.jpg"
-    },
-    {
-      "goodreadsId": "59364173",
-      "title": "I'm Glad My Mom Died",
-      "author": "Jennette McCurdy",
-      "rating": 5,
-      "dateRead": "2023-01-11T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/13117595-M.jpg"
-    },
-    {
-      "goodreadsId": "58446218",
-      "title": "How to Take Over the World",
-      "author": "Ryan North",
-      "rating": 4,
-      "dateRead": "2023-01-11T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/13200781-M.jpg"
-    },
-    {
-      "goodreadsId": "54860585",
-      "title": "Razorblade Tears",
-      "author": "S.A. Cosby",
-      "rating": 4,
-      "dateRead": "2022-05-01T00:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/0011138557-M.jpg"
-    },
-    {
-      "goodreadsId": "62022",
-      "title": "The Queen's Gambit",
-      "author": "Walter Tevis",
-      "rating": 4,
-      "dateRead": "2022-01-01T12:00:00.000Z",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/12625477-M.jpg"
-    },
-    {
-      "goodreadsId": "54493401",
-      "title": "Project Hail Mary",
-      "author": "Andy Weir",
-      "rating": 5,
-      "binding": "physical",
-      "dateRead": "2021-10-01T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14548865-M.jpg"
-    },
-    {
-      "goodreadsId": "378",
-      "title": "The Phantom Tollbooth",
-      "author": "Norton Juster",
-      "rating": 3,
-      "binding": "physical",
-      "dateRead": "2021-09-12T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/8578171-M.jpg"
-    },
-    {
-      "goodreadsId": "53435898",
-      "title": "The Future Is Yours",
-      "author": "Dan Frey",
-      "rating": 3,
-      "binding": "physical",
-      "dateRead": "2021-06-06T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10658922-M.jpg"
-    },
-    {
-      "goodreadsId": "49118403",
-      "title": "Infinite",
-      "author": "Brian Freeman",
-      "rating": 4,
-      "binding": "ebook",
-      "dateRead": "2021-05-07T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10589120-M.jpg"
-    },
-    {
-      "goodreadsId": "3636",
-      "title": "The Giver",
-      "author": "Lois Lowry",
-      "rating": 4,
-      "binding": "ebook",
-      "dateRead": "2021-05-01T00:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10606253-M.jpg"
-    },
-    {
-      "goodreadsId": "40940649",
-      "title": "I Am Legend",
-      "author": "Richard Matheson",
-      "rating": 3,
-      "binding": "ebook",
-      "dateRead": "2021-04-04T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14641336-M.jpg"
-    },
-    {
-      "goodreadsId": "43834909",
-      "title": "Long Bright River",
-      "author": "Liz Moore",
-      "rating": 3,
-      "binding": "physical",
-      "dateRead": "2021-03-25T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/9247626-M.jpg"
-    },
-    {
-      "goodreadsId": "28187230",
-      "title": "The Woman in Cabin 10",
-      "author": "Ruth Ware",
-      "rating": 2,
-      "binding": "physical",
-      "dateRead": "2021-03-18T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/8289386-M.jpg"
-    },
-    {
-      "goodreadsId": "21787",
-      "title": "The Princess Bride",
-      "author": "William Goldman",
-      "rating": 4,
-      "binding": "physical",
-      "dateRead": "2021-03-11T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10656795-M.jpg"
-    },
-    {
-      "goodreadsId": "43852758",
-      "title": "How To: Absurd Scientific Advice for Common Real-World Problems",
-      "author": "Randall Munroe",
-      "rating": 5,
-      "binding": "physical",
-      "dateRead": "2021-02-10T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10507141-M.jpg"
-    },
-    {
-      "goodreadsId": "51182571",
-      "title": "Blacktop Wasteland",
-      "author": "S.A. Cosby",
-      "rating": 4,
-      "binding": "physical",
-      "dateRead": "2021-01-22T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10172565-M.jpg"
-    },
-    {
-      "goodreadsId": "52454426",
-      "title": "Devolution: A Firsthand Account of the Rainier Sasquatch Massacre",
-      "author": "Max Brooks",
-      "rating": 3,
-      "binding": "physical",
-      "dateRead": "2021-01-07T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14592672-M.jpg"
-    },
-    {
-      "goodreadsId": "45152372",
-      "title": "How to Stop Time",
-      "author": "Matt Haig",
-      "rating": 3,
-      "binding": "physical",
-      "dateRead": "2020-12-26T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10310617-M.jpg"
-    },
-    {
-      "goodreadsId": "10256723",
-      "title": "Ghost in the Wires: My Adventures as the World's Most Wanted Hacker",
-      "author": "Kevin D. Mitnick",
-      "rating": 3,
-      "binding": "physical",
-      "dateRead": "2020-12-14T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/7090206-M.jpg"
-    },
-    {
-      "goodreadsId": "50245253",
-      "title": "Interference",
-      "author": "Brad Parks",
-      "rating": 3,
-      "binding": "ebook",
-      "dateRead": "2020-11-15T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10413488-M.jpg"
-    },
-    {
-      "goodreadsId": "48693877",
-      "title": "The Midnight Library",
-      "author": "Matt Haig",
-      "rating": 3,
-      "binding": "ebook",
-      "dateRead": "2020-08-25T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10313767-M.jpg"
-    },
-    {
-      "goodreadsId": "31140332",
-      "title": "Thrawn",
-      "author": "Timothy Zahn",
-      "rating": 3,
-      "binding": "physical",
-      "dateRead": "2020-08-14T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14487856-M.jpg"
-    },
-    {
-      "goodreadsId": "33160796",
-      "title": "The End of the World Running Club",
-      "author": "Adrian J. Walker",
-      "rating": 3,
-      "binding": "physical",
-      "dateRead": "2020-07-11T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/8849624-M.jpg"
-    },
-    {
-      "goodreadsId": "35995489",
-      "title": "The Extraordinary Life of Sam Hell",
-      "author": "Robert Dugoni",
-      "rating": 5,
-      "binding": "physical",
-      "dateRead": "2020-04-10T06:00:00.000Z",
-      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1510251600i/35995489.jpg"
-    },
-    {
-      "goodreadsId": "42879730",
-      "title": "Immunity",
-      "author": "Erin Bowman",
-      "rating": 3,
-      "binding": "ebook",
-      "dateRead": "2020-04-03T06:00:00.000Z",
-      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1582242788i/42879730.jpg"
-    },
-    {
-      "goodreadsId": "36466858",
-      "title": "Contagion",
-      "author": "Erin Bowman",
-      "rating": 3,
-      "binding": "ebook",
-      "dateRead": "2020-03-26T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/8797743-M.jpg"
-    },
-    {
-      "goodreadsId": "36440711",
-      "title": "Obscura",
-      "author": "Joe Hart",
-      "rating": 4,
-      "binding": "ebook",
-      "dateRead": "2020-03-05T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/8825945-M.jpg"
-    },
-    {
-      "goodreadsId": "36511670",
-      "title": "Food: A Love Story",
-      "author": "Jim Gaffigan",
-      "rating": 4,
-      "binding": "ebook",
-      "dateRead": "2020-02-20T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/9576620-M.jpg"
-    },
-    {
-      "goodreadsId": "40913832",
-      "title": "Master and Apprentice (Star Wars)",
-      "author": "Claudia Gray",
-      "rating": 3,
-      "binding": "ebook",
-      "dateRead": "2020-02-17T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10198811-M.jpg"
-    },
-    {
-      "goodreadsId": "20423680",
-      "title": "The Last Town",
-      "author": "Blake Crouch",
-      "rating": 4,
-      "binding": "ebook",
-      "dateRead": "2019-12-30T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/12538975-M.jpg"
-    },
-    {
-      "goodreadsId": "17920175",
-      "title": "Wayward",
-      "author": "Blake Crouch",
-      "rating": 4,
-      "binding": "physical",
-      "dateRead": "2019-12-22T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/12528790-M.jpg"
-    },
-    {
-      "goodreadsId": "37643296",
-      "title": "Pines",
-      "author": "Blake Crouch",
-      "rating": 4,
-      "binding": "ebook",
-      "dateRead": "2019-12-07T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10114752-M.jpg"
-    },
-    {
-      "goodreadsId": "42046112",
-      "title": "Recursion",
-      "author": "Blake Crouch",
-      "rating": 4,
-      "binding": "physical",
-      "dateRead": "2019-11-16T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10526597-M.jpg"
-    },
-    {
-      "goodreadsId": "17980416",
-      "title": "Dust",
-      "author": "Hugh Howey",
-      "rating": 3,
-      "binding": "ebook",
-      "dateRead": "2019-10-05T06:00:00.000Z",
-      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1369621526i/17980416.jpg"
-    },
-    {
-      "goodreadsId": "17306293",
-      "title": "Shift",
-      "author": "Hugh Howey",
-      "rating": 2,
-      "binding": "ebook",
-      "dateRead": "2019-09-13T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10221366-M.jpg"
-    },
-    {
-      "goodreadsId": "2657",
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "rating": 5,
-      "binding": "physical",
-      "dateRead": "2019-08-17T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14817245-M.jpg"
-    },
-    {
-      "goodreadsId": "36630924",
-      "title": "Here and Now and Then",
-      "author": "Mike Chen",
-      "rating": 4,
-      "binding": "ebook",
-      "dateRead": "2019-08-04T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10302648-M.jpg"
-    },
-    {
-      "goodreadsId": "34408713",
-      "title": "Little Fires Everywhere",
-      "author": "Celeste Ng",
-      "rating": 4,
-      "binding": "audiobook",
-      "dateRead": "2019-07-23T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/9245372-M.jpg"
-    },
-    {
-      "goodreadsId": "37653062",
-      "title": "Station Eleven",
-      "author": "Emily St. John Mandel",
-      "rating": 3,
-      "binding": "ebook",
-      "dateRead": "2019-07-23T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14657674-M.jpg"
-    },
-    {
-      "goodreadsId": "33",
-      "title": "The Lord of the Rings",
-      "author": "J.R.R. Tolkien",
-      "rating": 5,
-      "binding": "physical",
-      "dateRead": "2019-07-07T06:00:00.000Z",
-      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1566425108i/33.jpg"
-    },
-    {
-      "goodreadsId": "40961473",
-      "title": "The Little Prince",
-      "author": "Antoine de Saint-Exupéry",
-      "rating": 4,
-      "binding": "ebook",
-      "dateRead": "2019-05-29T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/115508-M.jpg"
-    },
-    {
-      "goodreadsId": "38263809",
-      "title": "Sh*t My Dad Says",
-      "author": "Justin Halpern",
-      "rating": 3,
-      "binding": "ebook",
-      "dateRead": "2019-05-07T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/6424903-M.jpg"
-    },
-    {
-      "goodreadsId": "34928122",
-      "title": "Artemis",
-      "author": "Andy Weir",
-      "rating": 3,
-      "binding": "physical",
-      "dateRead": "2019-01-12T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/12065493-M.jpg"
-    },
-    {
-      "goodreadsId": "39026990",
-      "title": "How to Invent Everything: A Survival Guide for the Stranded Time Traveler",
-      "author": "Ryan North",
-      "rating": 4,
-      "binding": "physical",
-      "dateRead": "2018-12-24T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/8314590-M.jpg"
-    },
-    {
-      "goodreadsId": "27405160",
-      "title": "Good Morning, Midnight",
-      "author": "Lily Brooks-Dalton",
-      "rating": 3,
-      "binding": "ebook",
-      "dateRead": "2018-11-08T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/9381478-M.jpg"
-    },
-    {
-      "goodreadsId": "27405155",
-      "title": "Bounty",
-      "author": "Michael Byrnes",
-      "rating": 3,
-      "binding": "ebook",
-      "dateRead": "2018-09-19T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10208332-M.jpg"
-    },
-    {
-      "goodreadsId": "5907",
-      "title": "The Hobbit, or There and Back Again",
-      "author": "J.R.R. Tolkien",
-      "rating": 4,
-      "binding": "physical",
-      "dateRead": "2018-06-05T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/149276-M.jpg"
-    },
-    {
-      "goodreadsId": "5470",
-      "title": "1984",
-      "author": "George Orwell",
-      "rating": 3,
-      "binding": "physical",
-      "dateRead": "2018-04-03T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14816996-M.jpg"
-    },
-    {
-      "goodreadsId": "27833670",
-      "title": "Dark Matter",
-      "author": "Blake Crouch",
-      "rating": 4,
-      "binding": "physical",
-      "dateRead": "2018-03-17T06:00:00.000Z",
-      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1472119680i/27833670.jpg"
-    },
-    {
-      "goodreadsId": "22628",
-      "title": "The Perks of Being a Wallflower",
-      "author": "Stephen Chbosky",
-      "rating": 2,
-      "binding": "physical",
-      "dateRead": "2018-03-08T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14315052-M.jpg"
-    },
-    {
-      "goodreadsId": "7613",
-      "title": "Animal Farm",
-      "author": "George Orwell",
-      "rating": 3,
-      "binding": "physical",
-      "dateRead": "2018-02-27T07:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14821619-M.jpg"
-    },
-    {
-      "goodreadsId": "80571",
-      "title": "American Prometheus",
-      "author": "Kai Bird and Martin J. Sherwin",
-      "rating": 4,
-      "binding": "ebook",
-      "dateRead": "2018-01-01T12:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/229635-M.jpg"
-    },
-    {
-      "goodreadsId": "36313308",
-      "title": "Darknet",
-      "author": "Matthew Mather",
-      "rating": 4,
-      "binding": "ebook",
-      "dateRead": "2017-10-25T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10415251-M.jpg"
-    },
-    {
-      "goodreadsId": "120417",
-      "title": "The Sky Is Not the Limit: Adventures of an Urban Astrophysicist",
-      "author": "Neil deGrasse Tyson",
-      "rating": 1,
-      "binding": "physical",
-      "dateRead": "2017-10-25T06:00:00.000Z",
-      "coverUrl": "https://covers.openlibrary.org/b/id/862407-M.jpg"
-    },
     {
       "goodreadsId": "17164655",
       "title": "Wool",
@@ -925,6 +169,762 @@
       "binding": "physical",
       "dateRead": "2017-08-16T06:00:00.000Z",
       "coverUrl": "https://covers.openlibrary.org/b/id/14552116-M.jpg"
+    },
+    {
+      "goodreadsId": "36313308",
+      "title": "Darknet",
+      "author": "Matthew Mather",
+      "rating": 4,
+      "binding": "ebook",
+      "dateRead": "2017-10-25T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10415251-M.jpg"
+    },
+    {
+      "goodreadsId": "120417",
+      "title": "The Sky Is Not the Limit: Adventures of an Urban Astrophysicist",
+      "author": "Neil deGrasse Tyson",
+      "rating": 1,
+      "binding": "physical",
+      "dateRead": "2017-10-25T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/862407-M.jpg"
+    },
+    {
+      "goodreadsId": "80571",
+      "title": "American Prometheus",
+      "author": "Kai Bird and Martin J. Sherwin",
+      "rating": 4,
+      "binding": "ebook",
+      "dateRead": "2018-01-01T12:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/229635-M.jpg"
+    },
+    {
+      "goodreadsId": "7613",
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "rating": 3,
+      "binding": "physical",
+      "dateRead": "2018-02-27T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14821619-M.jpg"
+    },
+    {
+      "goodreadsId": "22628",
+      "title": "The Perks of Being a Wallflower",
+      "author": "Stephen Chbosky",
+      "rating": 2,
+      "binding": "physical",
+      "dateRead": "2018-03-08T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14315052-M.jpg"
+    },
+    {
+      "goodreadsId": "27833670",
+      "title": "Dark Matter",
+      "author": "Blake Crouch",
+      "rating": 4,
+      "binding": "physical",
+      "dateRead": "2018-03-17T06:00:00.000Z",
+      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1472119680i/27833670.jpg"
+    },
+    {
+      "goodreadsId": "5470",
+      "title": "1984",
+      "author": "George Orwell",
+      "rating": 3,
+      "binding": "physical",
+      "dateRead": "2018-04-03T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14816996-M.jpg"
+    },
+    {
+      "goodreadsId": "5907",
+      "title": "The Hobbit, or There and Back Again",
+      "author": "J.R.R. Tolkien",
+      "rating": 4,
+      "binding": "physical",
+      "dateRead": "2018-06-05T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/149276-M.jpg"
+    },
+    {
+      "goodreadsId": "27405155",
+      "title": "Bounty",
+      "author": "Michael Byrnes",
+      "rating": 3,
+      "binding": "ebook",
+      "dateRead": "2018-09-19T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10208332-M.jpg"
+    },
+    {
+      "goodreadsId": "27405160",
+      "title": "Good Morning, Midnight",
+      "author": "Lily Brooks-Dalton",
+      "rating": 3,
+      "binding": "ebook",
+      "dateRead": "2018-11-08T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9381478-M.jpg"
+    },
+    {
+      "goodreadsId": "39026990",
+      "title": "How to Invent Everything: A Survival Guide for the Stranded Time Traveler",
+      "author": "Ryan North",
+      "rating": 4,
+      "binding": "physical",
+      "dateRead": "2018-12-24T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8314590-M.jpg"
+    },
+    {
+      "goodreadsId": "34928122",
+      "title": "Artemis",
+      "author": "Andy Weir",
+      "rating": 3,
+      "binding": "physical",
+      "dateRead": "2019-01-12T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12065493-M.jpg"
+    },
+    {
+      "goodreadsId": "38263809",
+      "title": "Sh*t My Dad Says",
+      "author": "Justin Halpern",
+      "rating": 3,
+      "binding": "ebook",
+      "dateRead": "2019-05-07T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6424903-M.jpg"
+    },
+    {
+      "goodreadsId": "40961473",
+      "title": "The Little Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "rating": 4,
+      "binding": "ebook",
+      "dateRead": "2019-05-29T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/115508-M.jpg"
+    },
+    {
+      "goodreadsId": "33",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "rating": 5,
+      "binding": "physical",
+      "dateRead": "2019-07-07T06:00:00.000Z",
+      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1566425108i/33.jpg"
+    },
+    {
+      "goodreadsId": "34408713",
+      "title": "Little Fires Everywhere",
+      "author": "Celeste Ng",
+      "rating": 4,
+      "binding": "audiobook",
+      "dateRead": "2019-07-23T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9245372-M.jpg"
+    },
+    {
+      "goodreadsId": "37653062",
+      "title": "Station Eleven",
+      "author": "Emily St. John Mandel",
+      "rating": 3,
+      "binding": "ebook",
+      "dateRead": "2019-07-23T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14657674-M.jpg"
+    },
+    {
+      "goodreadsId": "36630924",
+      "title": "Here and Now and Then",
+      "author": "Mike Chen",
+      "rating": 4,
+      "binding": "ebook",
+      "dateRead": "2019-08-04T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10302648-M.jpg"
+    },
+    {
+      "goodreadsId": "2657",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "rating": 5,
+      "binding": "physical",
+      "dateRead": "2019-08-17T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14817245-M.jpg"
+    },
+    {
+      "goodreadsId": "17306293",
+      "title": "Shift",
+      "author": "Hugh Howey",
+      "rating": 2,
+      "binding": "ebook",
+      "dateRead": "2019-09-13T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10221366-M.jpg"
+    },
+    {
+      "goodreadsId": "17980416",
+      "title": "Dust",
+      "author": "Hugh Howey",
+      "rating": 3,
+      "binding": "ebook",
+      "dateRead": "2019-10-05T06:00:00.000Z",
+      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1369621526i/17980416.jpg"
+    },
+    {
+      "goodreadsId": "42046112",
+      "title": "Recursion",
+      "author": "Blake Crouch",
+      "rating": 4,
+      "binding": "physical",
+      "dateRead": "2019-11-16T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10526597-M.jpg"
+    },
+    {
+      "goodreadsId": "37643296",
+      "title": "Pines",
+      "author": "Blake Crouch",
+      "rating": 4,
+      "binding": "ebook",
+      "dateRead": "2019-12-07T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10114752-M.jpg"
+    },
+    {
+      "goodreadsId": "17920175",
+      "title": "Wayward",
+      "author": "Blake Crouch",
+      "rating": 4,
+      "binding": "physical",
+      "dateRead": "2019-12-22T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12528790-M.jpg"
+    },
+    {
+      "goodreadsId": "20423680",
+      "title": "The Last Town",
+      "author": "Blake Crouch",
+      "rating": 4,
+      "binding": "ebook",
+      "dateRead": "2019-12-30T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12538975-M.jpg"
+    },
+    {
+      "goodreadsId": "40913832",
+      "title": "Master and Apprentice (Star Wars)",
+      "author": "Claudia Gray",
+      "rating": 3,
+      "binding": "ebook",
+      "dateRead": "2020-02-17T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10198811-M.jpg"
+    },
+    {
+      "goodreadsId": "36511670",
+      "title": "Food: A Love Story",
+      "author": "Jim Gaffigan",
+      "rating": 4,
+      "binding": "ebook",
+      "dateRead": "2020-02-20T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9576620-M.jpg"
+    },
+    {
+      "goodreadsId": "36440711",
+      "title": "Obscura",
+      "author": "Joe Hart",
+      "rating": 4,
+      "binding": "ebook",
+      "dateRead": "2020-03-05T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8825945-M.jpg"
+    },
+    {
+      "goodreadsId": "36466858",
+      "title": "Contagion",
+      "author": "Erin Bowman",
+      "rating": 3,
+      "binding": "ebook",
+      "dateRead": "2020-03-26T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8797743-M.jpg"
+    },
+    {
+      "goodreadsId": "42879730",
+      "title": "Immunity",
+      "author": "Erin Bowman",
+      "rating": 3,
+      "binding": "ebook",
+      "dateRead": "2020-04-03T06:00:00.000Z",
+      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1582242788i/42879730.jpg"
+    },
+    {
+      "goodreadsId": "35995489",
+      "title": "The Extraordinary Life of Sam Hell",
+      "author": "Robert Dugoni",
+      "rating": 5,
+      "binding": "physical",
+      "dateRead": "2020-04-10T06:00:00.000Z",
+      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1510251600i/35995489.jpg"
+    },
+    {
+      "goodreadsId": "33160796",
+      "title": "The End of the World Running Club",
+      "author": "Adrian J. Walker",
+      "rating": 3,
+      "binding": "physical",
+      "dateRead": "2020-07-11T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8849624-M.jpg"
+    },
+    {
+      "goodreadsId": "31140332",
+      "title": "Thrawn",
+      "author": "Timothy Zahn",
+      "rating": 3,
+      "binding": "physical",
+      "dateRead": "2020-08-14T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14487856-M.jpg"
+    },
+    {
+      "goodreadsId": "48693877",
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "rating": 3,
+      "binding": "ebook",
+      "dateRead": "2020-08-25T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10313767-M.jpg"
+    },
+    {
+      "goodreadsId": "50245253",
+      "title": "Interference",
+      "author": "Brad Parks",
+      "rating": 3,
+      "binding": "ebook",
+      "dateRead": "2020-11-15T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10413488-M.jpg"
+    },
+    {
+      "goodreadsId": "10256723",
+      "title": "Ghost in the Wires: My Adventures as the World's Most Wanted Hacker",
+      "author": "Kevin D. Mitnick",
+      "rating": 3,
+      "binding": "physical",
+      "dateRead": "2020-12-14T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7090206-M.jpg"
+    },
+    {
+      "goodreadsId": "45152372",
+      "title": "How to Stop Time",
+      "author": "Matt Haig",
+      "rating": 3,
+      "binding": "physical",
+      "dateRead": "2020-12-26T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10310617-M.jpg"
+    },
+    {
+      "goodreadsId": "52454426",
+      "title": "Devolution: A Firsthand Account of the Rainier Sasquatch Massacre",
+      "author": "Max Brooks",
+      "rating": 3,
+      "binding": "physical",
+      "dateRead": "2021-01-07T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14592672-M.jpg"
+    },
+    {
+      "goodreadsId": "51182571",
+      "title": "Blacktop Wasteland",
+      "author": "S.A. Cosby",
+      "rating": 4,
+      "binding": "physical",
+      "dateRead": "2021-01-22T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10172565-M.jpg"
+    },
+    {
+      "goodreadsId": "43852758",
+      "title": "How To: Absurd Scientific Advice for Common Real-World Problems",
+      "author": "Randall Munroe",
+      "rating": 5,
+      "binding": "physical",
+      "dateRead": "2021-02-10T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10507141-M.jpg"
+    },
+    {
+      "goodreadsId": "21787",
+      "title": "The Princess Bride",
+      "author": "William Goldman",
+      "rating": 4,
+      "binding": "physical",
+      "dateRead": "2021-03-11T07:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10656795-M.jpg"
+    },
+    {
+      "goodreadsId": "28187230",
+      "title": "The Woman in Cabin 10",
+      "author": "Ruth Ware",
+      "rating": 2,
+      "binding": "physical",
+      "dateRead": "2021-03-18T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8289386-M.jpg"
+    },
+    {
+      "goodreadsId": "43834909",
+      "title": "Long Bright River",
+      "author": "Liz Moore",
+      "rating": 3,
+      "binding": "physical",
+      "dateRead": "2021-03-25T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9247626-M.jpg"
+    },
+    {
+      "goodreadsId": "40940649",
+      "title": "I Am Legend",
+      "author": "Richard Matheson",
+      "rating": 3,
+      "binding": "ebook",
+      "dateRead": "2021-04-04T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14641336-M.jpg"
+    },
+    {
+      "goodreadsId": "3636",
+      "title": "The Giver",
+      "author": "Lois Lowry",
+      "rating": 4,
+      "binding": "ebook",
+      "dateRead": "2021-05-01T00:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10606253-M.jpg"
+    },
+    {
+      "goodreadsId": "49118403",
+      "title": "Infinite",
+      "author": "Brian Freeman",
+      "rating": 4,
+      "binding": "ebook",
+      "dateRead": "2021-05-07T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10589120-M.jpg"
+    },
+    {
+      "goodreadsId": "53435898",
+      "title": "The Future Is Yours",
+      "author": "Dan Frey",
+      "rating": 3,
+      "binding": "physical",
+      "dateRead": "2021-06-06T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10658922-M.jpg"
+    },
+    {
+      "goodreadsId": "378",
+      "title": "The Phantom Tollbooth",
+      "author": "Norton Juster",
+      "rating": 3,
+      "binding": "physical",
+      "dateRead": "2021-09-12T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8578171-M.jpg"
+    },
+    {
+      "goodreadsId": "54493401",
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "rating": 5,
+      "binding": "physical",
+      "dateRead": "2021-10-01T06:00:00.000Z",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14548865-M.jpg"
+    },
+    {
+      "goodreadsId": "62022",
+      "title": "The Queen's Gambit",
+      "author": "Walter Tevis",
+      "rating": 4,
+      "dateRead": "2022-01-01T12:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12625477-M.jpg"
+    },
+    {
+      "goodreadsId": "54860585",
+      "title": "Razorblade Tears",
+      "author": "S.A. Cosby",
+      "rating": 4,
+      "dateRead": "2022-05-01T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/0011138557-M.jpg"
+    },
+    {
+      "goodreadsId": "59364173",
+      "title": "I'm Glad My Mom Died",
+      "author": "Jennette McCurdy",
+      "rating": 5,
+      "dateRead": "2023-01-11T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13117595-M.jpg"
+    },
+    {
+      "goodreadsId": "58446218",
+      "title": "How to Take Over the World",
+      "author": "Ryan North",
+      "rating": 4,
+      "dateRead": "2023-01-11T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13200781-M.jpg"
+    },
+    {
+      "goodreadsId": "29780253",
+      "title": "Born a Crime",
+      "author": "Trevor Noah",
+      "rating": 4,
+      "dateRead": "2023-01-15T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9401308-M.jpg"
+    },
+    {
+      "goodreadsId": "28881",
+      "title": "Lamb: The Gospel According to Biff, Christ's Childhood Pal",
+      "author": "Christopher Moore",
+      "rating": 4,
+      "dateRead": "2023-02-01T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/237949-M.jpg"
+    },
+    {
+      "goodreadsId": "20501606",
+      "title": "Futuristic Violence and Fancy Suits",
+      "author": "Jason Pargin",
+      "rating": 3,
+      "dateRead": "2023-02-06T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12414792-M.jpg"
+    },
+    {
+      "goodreadsId": "4667024",
+      "title": "The Help",
+      "author": "Kathryn Stockett",
+      "rating": 4,
+      "dateRead": "2023-05-20T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10544713-M.jpg"
+    },
+    {
+      "goodreadsId": "46223297",
+      "title": "Permanent Record",
+      "author": "Edward Snowden",
+      "rating": 3,
+      "dateRead": "2023-06-30T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14567150-M.jpg"
+    },
+    {
+      "goodreadsId": "59838811",
+      "title": "Upgrade",
+      "author": "Blake Crouch",
+      "rating": 3,
+      "dateRead": "2023-07-12T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1643994317i/59838811.jpg"
+    },
+    {
+      "goodreadsId": "43798285",
+      "title": "The Institute",
+      "author": "Stephen King",
+      "rating": 3,
+      "dateRead": "2023-08-10T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14642380-M.jpg"
+    },
+    {
+      "goodreadsId": "52397",
+      "title": "Parable of the Sower",
+      "author": "Octavia Butler",
+      "rating": 3,
+      "dateRead": "2023-10-09T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8795651-M.jpg"
+    },
+    {
+      "goodreadsId": "13547494",
+      "title": "Because I Said So!",
+      "author": "Ken Jennings",
+      "rating": 2,
+      "dateRead": "2023-10-22T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9246605-M.jpg"
+    },
+    {
+      "goodreadsId": "61884832",
+      "title": "All the Sinners Bleed",
+      "author": "S.A. Cosby",
+      "rating": 4,
+      "dateRead": "2023-11-19T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13478757-M.jpg"
+    },
+    {
+      "goodreadsId": "55204812",
+      "title": "How to (Almost) Make Friends on the Internet",
+      "author": "Michael Cunningham",
+      "rating": 3,
+      "dateRead": "2023-12-20T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1598977311i/55204812.jpg"
+    },
+    {
+      "goodreadsId": "25179",
+      "title": "Blankets",
+      "author": "Craig Thompson",
+      "rating": 3,
+      "dateRead": "2023-12-22T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10358001-M.jpg"
+    },
+    {
+      "goodreadsId": "61813107",
+      "title": "Ascension",
+      "author": "Nicholas Binge",
+      "rating": 2,
+      "dateRead": "2024-01-23T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13195719-M.jpg"
+    },
+    {
+      "goodreadsId": "62080187",
+      "title": "Never Lie",
+      "author": "Freida McFadden",
+      "rating": 1,
+      "dateRead": "2024-01-27T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13198561-M.jpg"
+    },
+    {
+      "goodreadsId": "57693406",
+      "title": "The Kaiju Preservation Society",
+      "author": "John Scalzi",
+      "rating": 3,
+      "dateRead": "2024-02-04T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12671374-M.jpg"
+    },
+    {
+      "goodreadsId": "60190659",
+      "title": "What If? 2: Additional Serious Scientific Answers to Absurd Hypothetical Questions",
+      "author": "Randall Munroe",
+      "rating": 5,
+      "dateRead": "2024-02-20T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14380594-M.jpg"
+    },
+    {
+      "goodreadsId": "59733167",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "rating": 5,
+      "dateRead": "2024-02-20T00:00:00.000Z",
+      "binding": "audiobook",
+      "coverUrl": "https://m.media-amazon.com/images/I/71YW2wFe-eL.jpg"
+    },
+    {
+      "goodreadsId": "61885029",
+      "title": "Starter Villain",
+      "author": "John Scalzi",
+      "rating": 4,
+      "dateRead": "2024-02-26T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14432013-M.jpg"
+    },
+    {
+      "goodreadsId": "127305853",
+      "title": "The Women",
+      "author": "Kristin Hannah",
+      "rating": 4,
+      "dateRead": "2024-04-26T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14821539-M.jpg"
+    },
+    {
+      "goodreadsId": "10644930",
+      "title": "11/22/63",
+      "author": "Stephen King",
+      "rating": 4,
+      "dateRead": "2024-04-28T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14654708-M.jpg"
+    },
+    {
+      "goodreadsId": "34490192",
+      "title": "Soonish: Ten Emerging Technologies That'll Improve and/or Ruin Everything",
+      "author": "Kelly and Zach Weinersmith",
+      "rating": 3,
+      "dateRead": "2024-05-25T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10097090-M.jpg"
+    },
+    {
+      "goodreadsId": "60507687",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "rating": 5,
+      "dateRead": "2024-06-08T00:00:00.000Z",
+      "binding": "audiobook",
+      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1645989808i/60507687.jpg"
+    },
+    {
+      "goodreadsId": "62919765",
+      "title": "Zero Days",
+      "author": "Ruth Ware",
+      "rating": 2,
+      "dateRead": "2024-06-15T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13220263-M.jpg"
+    },
+    {
+      "goodreadsId": "54798175",
+      "title": "Later",
+      "author": "Stephen King",
+      "rating": 3,
+      "dateRead": "2024-07-11T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14679320-M.jpg"
+    },
+    {
+      "goodreadsId": "59939679",
+      "title": "The Lord of the Rings: The Two Towers",
+      "author": "J.R.R. Tolkien",
+      "rating": 5,
+      "dateRead": "2024-07-25T00:00:00.000Z",
+      "binding": "audiobook",
+      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1640544005i/59939679.jpg"
+    },
+    {
+      "goodreadsId": "59909326",
+      "title": "The Lord of the Rings: The Return of the King",
+      "author": "J.R.R. Tolkien",
+      "rating": 5,
+      "dateRead": "2024-09-04T00:00:00.000Z",
+      "binding": "audiobook",
+      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1640175526i/59909326.jpg"
+    },
+    {
+      "goodreadsId": "6320534",
+      "title": "Under the Dome",
+      "author": "Stephen King",
+      "rating": 4,
+      "dateRead": "2024-09-23T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14654136-M.jpg"
+    },
+    {
+      "goodreadsId": "200987323",
+      "title": "I Hope This Finds You Well",
+      "author": "Natalie Sue",
+      "rating": 2,
+      "dateRead": "2024-09-23T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14630898-M.jpg"
+    },
+    {
+      "goodreadsId": "200174139",
+      "title": "Zero Stars, Do Not Recommend",
+      "author": "M.J. Wassmer",
+      "rating": 2,
+      "dateRead": "2024-10-20T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14649882-M.jpg"
+    },
+    {
+      "goodreadsId": "11607",
+      "title": "The Running Man",
+      "author": "Stephen King",
+      "rating": 3,
+      "dateRead": "2024-11-20T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/392132-M.jpg"
+    },
+    {
+      "goodreadsId": "59948885",
+      "title": "I Remember You",
+      "author": "Brian Freeman",
+      "rating": 2,
+      "dateRead": "2024-12-28T00:00:00.000Z",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12861424-M.jpg"
     }
   ],
   "tbr": [

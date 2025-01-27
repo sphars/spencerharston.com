@@ -26,7 +26,8 @@ const booksByYear = (books, year) => {
   });
 };
 
-const getBookDateReadYears = (books) => [...new Set(books.map((book) => new Date(book.dateRead).getFullYear()))];
+const getBookDateReadYears = (books) =>
+  [...new Set(books.map((book) => new Date(book.dateRead).getFullYear()))].sort().reverse();
 
 export default {
   sortByKey,

@@ -12,10 +12,13 @@ const asyncReadFile = promisify(readFile);
  * @param string iconName The tabler icon name to use
  * @returns An SVG element for the icon
  */
-const iconify = async (iconName) => {
-  const path = `./node_modules/@tabler/icons/icons/outline/${iconName}.svg`;
-  const icon = await asyncReadFile(path);
-  return icon.toString();
+const iconify = async (iconName, filled = false, size = 24) => {
+  const path = `./node_modules/@tabler/icons/icons/${filled ? "filled" : "outline"}/${iconName}.svg`;
+  const icon = (await asyncReadFile(path))
+    .toString()
+    .replace('width="24"', `width="${size}"`)
+    .replace('height="24"', `height="${size}"`);
+  return icon;
 };
 
 function pageSourceUrl() {

@@ -16,13 +16,13 @@ metaTagline: A list of books that I'm reading or have finished.
     Currently Reading
     <span class="text-sm">{{ books.current.length }} book{%- if books.current.length > 1 -%}s{%- endif -%}</span>
   </h2>
-  <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,150px)]">
+  <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,140px)]">
     {%- for book in books.current %}
       <div class="grid grid-rows-subgrid gap-y-1 [grid-row:span_2]">
         <a href="https://www.goodreads.com/book/show/{{ book.goodreadsId }}" class="grid items-end">
           {% set alt -%}Cover of {{ book.title }} by {{ book.author }}{%- endset %}
           {% set title -%}{{ book.title }} by {{ book.author }}{%- endset %}
-          {% image book.coverUrl, alt, title, ["150"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", book.goodreadsId %}
+          {% image book.coverUrl, alt, title, ["140"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", book.goodreadsId %}
         </a>
         <div class="flex flex-col gap-y-1 text-sm">
           <div class="text-balance font-bold">{{ book.title }}</div>
@@ -58,13 +58,13 @@ metaTagline: A list of books that I'm reading or have finished.
         <span class="text-sm">{{ subBooks.length }} book{%- if subBooks.length > 1 -%}s{%- endif -%}</span>
       </h3>
 
-      <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,150px)]">
+      <div class="grid justify-evenly gap-6 [grid-template-columns:repeat(auto-fill,140px)]">
         {%- for book in subBooks %}
           <div class="grid grid-rows-subgrid gap-y-1 [grid-row:span_2]">
             <a href="https://www.goodreads.com/book/show/{{ book.goodreadsId }}" class="grid items-end">
               {% set alt -%}Cover of {{ book.title }} by {{ book.author }}{%- endset %}
               {% set title -%}{{ book.title }} by {{ book.author }}{%- endset %}
-              {% image book.coverUrl, alt, title, ["150"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", book.goodreadsId %}
+              {% image book.coverUrl, alt, title, ["140"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", book.goodreadsId %}
             </a>
             <div class="flex flex-col gap-y-1 text-sm">
               <div class="text-balance font-bold">{{ book.title }}</div>
@@ -118,4 +118,8 @@ metaTagline: A list of books that I'm reading or have finished.
       {%- endfor -%}
     </ul>
   </details>
+</div>
+
+<div class="my-8">
+  <p>Covers provided (mostly) by <a href="https://openlibrary.org/">OpenLibrary</a></p>
 </div>

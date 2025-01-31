@@ -16,23 +16,37 @@ metaTagline: A list of books that I'm reading or have finished.
     Currently Reading
     <span class="text-sm">{{ books.current.length }} book{%- if books.current.length > 1 -%}s{%- endif -%}</span>
   </h2>
-  <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,120px)]">
+  <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,150px)]">
     {%- for book in books.current %}
-      <div class="flex flex-col justify-end gap-y-1">
-        <a href="https://www.goodreads.com/book/show/{{ book.goodreadsId }}">
+      <div class="grid grid-rows-subgrid gap-y-1 [grid-row:span_2]">
+        <a href="https://www.goodreads.com/book/show/{{ book.goodreadsId }}" class="grid items-end">
           {% set alt -%}Cover of {{ book.title }} by {{ book.author }}{%- endset %}
           {% set title -%}{{ book.title }} by {{ book.author }}{%- endset %}
-          {% image book.coverUrl, alt, title, ["120"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", book.goodreadsId %}
+          {% image book.coverUrl, alt, title, ["150"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", book.goodreadsId %}
         </a>
+        <div class="flex flex-col gap-y-1 text-sm">
+          <div class="text-balance font-bold">{{ book.title }}</div>
+          <div class="text-xs">{{ book.author }}</div>
+          <div class="flex items-center gap-x-1 text-xs">
+            {%- if book.binding === 'audiobook' -%}
+              <span>{%- iconify "headphones", false, 20 -%}</span>
+            {%- endif %}
+          </div>
+        </div>
       </div>
     {%- endfor -%}
   </div>
 </div>
 
 <div class="my-8">
-  <div class="my-4 flex flex-wrap items-baseline justify-between">
+  <div class="my-4 flex flex-wrap items-baseline justify-between gap-x-4">
     <h2 class="text-lg font-bold" id="finished">Finished Reading</h2>
-    <span class="text-sm">🎧 = audiobook ⭐ = really liked it</span>
+    <div class="flex flex-wrap items-center gap-x-2 text-sm">
+      <span class="inline-flex">{%- iconify "headphones", false, 20 -%} = audiobook</span>
+      <span class="inline-flex"
+        ><span class="text-yellow-500">{%- iconify "star", true, 18 -%}</span> = really liked it</span
+      >
+    </div>
   </div>
 
   {%- set years = books.read | getBookDateReadYears %}
@@ -44,24 +58,25 @@ metaTagline: A list of books that I'm reading or have finished.
         <span class="text-sm">{{ subBooks.length }} book{%- if subBooks.length > 1 -%}s{%- endif -%}</span>
       </h3>
 
-      <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,120px)]">
+      <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,150px)]">
         {%- for book in subBooks %}
-          <div class="flex flex-col justify-end gap-y-1">
-            <a href="https://www.goodreads.com/book/show/{{ book.goodreadsId }}">
+          <div class="grid grid-rows-subgrid gap-y-1 [grid-row:span_2]">
+            <a href="https://www.goodreads.com/book/show/{{ book.goodreadsId }}" class="grid items-end">
               {% set alt -%}Cover of {{ book.title }} by {{ book.author }}{%- endset %}
               {% set title -%}{{ book.title }} by {{ book.author }}{%- endset %}
-              {% image book.coverUrl, alt, title, ["120"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", book.goodreadsId %}
+              {% image book.coverUrl, alt, title, ["150"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", book.goodreadsId %}
             </a>
-            <div class="flex flex-row items-center justify-between text-xs">
-              <span>{{ book.dateRead | dateByFormat("MMM y") }}</span>
-              <span>
-                {%- if book.binding === 'audiobook' %}
-                  🎧
-                {%- endif %}
+            <div class="flex flex-col gap-y-1 text-sm">
+              <div class="text-balance font-bold">{{ book.title }}</div>
+              <div class="text-xs">{{ book.author }}</div>
+              <div class="flex items-center gap-x-1 text-xs">
                 {%- if book.rating > 3 %}
-                  ⭐
+                  <span class="text-yellow-500">{%- iconify "star", true, 18 -%}</span>
                 {%- endif %}
-              </span>
+                {%- if book.binding === 'audiobook' -%}
+                  <span>{%- iconify "headphones", false, 20 -%}</span>
+                {%- endif %}
+              </div>
             </div>
           </div>
         {%- endfor -%}

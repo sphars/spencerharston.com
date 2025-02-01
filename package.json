@@ -16,7 +16,8 @@
     "build:eleventy": "eleventy",
     "build:postcss": "postcss src/assets/css/*.css --dir dist/assets/css",
     "clean": "rm -rf ./dist",
-    "prepare": "husky"
+    "prepare": "husky",
+    "books": "scripts/book-manager.js"
   },
   "repository": {
     "type": "git",
@@ -36,11 +37,13 @@
     "@eslint/js": "^9.18.0",
     "@fontsource/ibm-plex-mono": "^5.1.1",
     "@fontsource/ibm-plex-sans": "^5.1.1",
+    "@inquirer/prompts": "^7.2.3",
     "@sardine/eleventy-plugin-external-links": "^1.4.0",
     "@tabler/icons": "^3.28.1",
     "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.20",
     "canvas": "^3.0.0-rc3",
+    "commander": "^13.1.0",
     "cssnano": "^7.0.6",
     "eleventy-plugin-reading-time": "^0.0.1",
     "eslint": "^9.18.0",

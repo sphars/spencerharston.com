@@ -1,7 +1,7 @@
 ---
 title: Managing My Books Data
 description: Why do something manually (that takes a few seconds to do), when a script (created over the course of several hours) can do it for you?
-date: 2025-01-31 20:00:00
+date: 2025-01-31 21:32:00
 tags:
   - personal
   - reading

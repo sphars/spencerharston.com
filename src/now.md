@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2024-12-28
+updated: 2025-02-18
 ---
 
 {{ description }}
@@ -21,18 +21,16 @@ Not doing a lot in this regard specifically, but I have bookmarked some pages th
 
 _Extra Focus: The Quick Start Guide to Adult ADHD_ by Jesse J. Anderson
 
-It's going to take a while, but I started _The Way of Kings_ by Brandon Sanderson. Hope I like it enough to see it through.
+_The Way of Kings_ by Brandon Sanderson. Slowly working through this one, but so far so good.
 
-_See also my [year-to-date page](/posts/2024/books-of-2024/) about what else I've read this year._
+_See also my [/books page](/books/) for all my reading activity._
 
 ## Watching
 
-Started watching _Killing Eve_. A few episodes in, I like it so far.
-
-Also _Man on the Inside_ on Netflix.
+Nothing really interesting at the moment, but I have been sticking re-runs of _Pawn Stars_ in the background.
 
 ## Playing
 
-I finally finished _Horizon: Zero Dawn_, including the DLC. Probably won't do NG+, for now. Next up, either _Spider-Man Remastered_ or _LEGO Star Wars: The Skywalker Saga_.
+Currently about halfway through _Spider-Man Remastered_ on PC.
 
-_Slay the Spire_ is my current fallback whenever I want to play something but don't want to start anything new.
+_Slay the Spire_ is still my current fallback whenever I want to play something but don't want to start anything new.

@@ -8,11 +8,11 @@ description: All about this website
 
 I'm married to a wonderful wife and I'm father to the cutest girl and the sweetest boy. Currently residing in Ogden, UT.
 
-I'm working as a software engineer for $BIG_COMPANY.
+I'm working as a software engineer for $COMPANY.
 
 ## Contact Me
 
-I don't post often to social media, but I do check it! You can find me at
+I don't post often to social media, but I do check it regularly! You can find me at
 
 - Mastodon: [mastodon.social/@sphars]({{meta.social.mastodon}})
 - Bluesky: [@sphars.bsky.social]({{meta.social.bluesky}})

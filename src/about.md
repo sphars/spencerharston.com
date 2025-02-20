@@ -1,7 +1,7 @@
 ---
 layout: layouts/default
 title: About
-description: All about this website
+description: All about me and this website
 ---
 
 *Hey! I'm Spencer 👋*️

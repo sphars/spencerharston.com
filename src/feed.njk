@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ meta.language or page.lang }}">
   <title>{{ meta.title }}</title>
-  <subtitle>{{ meta.description }}</subtitle>
+  <subtitle>RSS feed for the personal website of Spencer Harston</subtitle>
   <link href="{{ permalink | htmlBaseUrl(meta.base_url) }}" rel="self" />
   <link href="{{ meta.base_url | addPathPrefixToFullUrl }}" />
   <updated>{{ collections.posts | getNewestCollectionItemDate | getDateTimeObj | dateToJsDate | dateToRfc3339 }}</updated>

@@ -8,7 +8,7 @@
 
 <!-- General -->
 <meta name="title" content="{{ title }}" />
-<meta name="description" content="{{ description or meta.description }}" />
+<meta name="description" content="{{ description }}" />
 <meta name="author" content="{{ author or meta.author.name }}" />
 <meta name="owner" content="{{ meta.owner }}" />
 <meta name="copyright" content="{{ author or meta.owner }}" />
@@ -30,16 +30,12 @@
 <meta property="og:url" content="{{ meta.base_url }}{{ page.url }}" />
 
 {# only generate meta images on production #}
-{%- setAsync "metaImageUrl" %}
-  {%- if meta.env === "production" or meta.env === "staging" %}
-    {%- generateMetaImage metaTagline or title %}
-  {%- else %}
+{%- if meta.env === "production" or meta.env === "staging" %}
+  {% ogImage "./og-image.og.njk", { title: title, description: description } %}
+{%- endif %}
 
-  {%- endif %}
-{%- endsetAsync %}
-<meta property="og:image" content="{{ meta.base_url }}{{ metaImageUrl }}" />
 <meta property="og:site_name" content="{{ meta.title }}" />
-<meta property="og:description" content="{{ description or meta.description }}" />
+<meta property="og:description" content="{{ description }}" />
 
 <link href="{{ meta.social.mastodon }}" rel="me" />
 

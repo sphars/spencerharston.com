@@ -55,7 +55,7 @@ Building the website will output all resulting files in the `./dist` directory a
 By setting a specific environment variable, the site can be built for production, which will do a couple of additional steps:
 
 - Skip any draft pages in `./src/posts/drafts`
-- Generate images for HTML `meta` tags, which will make the build process take a bit longer ([script](./config/ogImage/metaImage.js))
+- Generate the OG (OpenGraph) images for HTML `meta` tags. This will increase the build time
 - Set source code urls to GitHub as specified in the [metadata](./src/_data/meta.js)
 - Minimize the resulting CSS and HTML files
 
@@ -74,12 +74,32 @@ Site fonts:
 3. Update `./tailwind.config.js` under `theme.extend.fontFamily` to set the font family
 4. Update `./eleventy.config.js`'s `eleventy.addPassthroughCopy()` object
 
-Meta images fonts:
+OG images font:
 
-1. Get the font's `.ttf` files from [Google Fonts](https://fonts.google.com) and copy them to `./config/ogImage/fonts` to generate the meta images
-   - The Fontsource npm packages currently don't include the `.ttf` files, so getting them directly from Google Fonts is easiest
-   - I want to script this at some point
-2. Update the `registerFont()` functions and any `ctx.font =` statements in `./config/ogImage/metaImages.js` to updated font-family values. Point the location to the downloaded font .ttf files
+1. Copy the path to the .woff file in the @fontsource page
+2. Add the paths in the `satoriOptions` in `eleventy.config.js` and update the name:
+
+   ```javascript
+   eleventyConfig.addPlugin(EleventyPluginOgImage, {
+     outputDir: "assets/img/og",
+     previewDir: "assets/img/og-preview",
+     async shortcodeOutput(ogImage) {
+       return ogImage.outputUrl();
+     },
+     satoriOptions: {
+       fonts: [
+         {
+           name: "IBM Plex Sans",
+           data: fs.readFileSync("./node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-400-normal.woff"),
+           weight: 400,
+           style: "normal"
+         }
+       ]
+     }
+   });
+   ```
+
+3. Repeat for each font-weight needed.
 
 Favicon fonts:
 

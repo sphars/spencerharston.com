@@ -1,6 +1,5 @@
 import utils from "./utils.js";
 import meta from "../src/_data/meta.js";
-import generateMetaImage from "./ogImage/metaImage.js";
 
 import { readFile } from "fs";
 import { promisify } from "util";
@@ -53,7 +52,6 @@ async function image(src, alt, title, widths = [300, 600], classes = "", custId 
 const shortcodes = {
   pageSourceUrl,
   iconify,
-  generateMetaImage,
   image
 };
 

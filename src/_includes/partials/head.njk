@@ -17,6 +17,9 @@
 
 <!-- Open Graph -->
 <meta property="og:title" content="{{ title }}" />
+<meta property="og:description" content="{{ description }}" />
+<meta property="og:site_name" content="{{ meta.title }}" />
+<meta property="og:url" content="{{ meta.base_url }}{{ page.url }}" />
 {%- if type === "post" %}
   <meta property="og:type" content="article" />
   <meta property="article:author" content="{{ author or meta.author.name }}" />
@@ -27,15 +30,14 @@
 {%- else %}
   <meta property="og:type" content="website" />
 {%- endif %}
-<meta property="og:url" content="{{ meta.base_url }}{{ page.url }}" />
 
 {# only generate meta images on production #}
 {%- if meta.env === "production" or meta.env === "staging" %}
-  {% ogImage "./og-image.og.njk", { title: title, description: description } %}
+  {%- setAsync "ogImagePath" %}
+    {%- ogImage "./og-image.og.njk", { title: title, description: description } %}
+  {%- endsetAsync %}
+  <meta property="og:image" content="{{ meta.base_url }}{{ ogImagePath }}" />
 {%- endif %}
-
-<meta property="og:site_name" content="{{ meta.title }}" />
-<meta property="og:description" content="{{ description }}" />
 
 <link href="{{ meta.social.mastodon }}" rel="me" />
 

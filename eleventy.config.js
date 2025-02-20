@@ -24,8 +24,8 @@ export default function (eleventyConfig) {
   if (process.env.ELEVENTY_ENV === "production") {
     console.log("BUILDING FOR PRODUCTION");
     eleventyConfig.ignores.add("src/posts/drafts");
-    eleventyConfig.addPlugin(transforms);
     eleventyConfig.quietMode = true;
+    eleventyConfig.addPlugin(transforms);
   }
 
   // passthrough copying of assets files
@@ -56,7 +56,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyPluginOgImage, {
     outputDir: "assets/img/og",
     previewDir: "assets/img/og-preview",
-
+    async shortcodeOutput(ogImage) {
+      return ogImage.outputUrl();
+    },
     satoriOptions: {
       fonts: [
         {

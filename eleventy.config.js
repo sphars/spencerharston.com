@@ -8,7 +8,7 @@ import safeLinks from "@sardine/eleventy-plugin-external-links";
 import EleventyPluginOgImage from "eleventy-plugin-og-image";
 
 // Custom config "plugins"
-import filters from "./config/filters/index.js";
+import filters from "./config/filters.js";
 import collections from "./config/collections.js";
 import shortcodes from "./config/shortcodes.js";
 import transforms from "./config/transforms.js";

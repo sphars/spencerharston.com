@@ -1,13 +1,13 @@
-{%- macro postsList(posts) -%}
-  <ul class="mt-8">
-    {% for post in posts | sortDateByKey("date", "desc") %}
-      <li class="border-b border-solid px-0 py-6 last-of-type:border-none dark:border-b-gray-700">
-        <h2 class="mb-2 text-xl"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
-        <div class="text-sm">
+{%- macro postsList(posts) %}
+  <ul>
+    {%- for post in posts | sortDateByKey("date", "desc") %}
+      <li class="px-0 py-4">
+        <a class="text-xl" href="{{ post.url }}">{{ post.data.title }}</a>
+        <div class="mb-2 text-sm">
           <time datetime="{{ post.data.date | dateISO }}">{{ post.data.date | dateByFormat("MMMM d, y") }}</time>
           <span> | {{ post | readingTime }}</span>
         </div>
       </li>
-    {% endfor %}
+    {%- endfor %}
   </ul>
-{% endmacro %}
+{%- endmacro %}

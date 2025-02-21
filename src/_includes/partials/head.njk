@@ -8,7 +8,7 @@
 
 <!-- General -->
 <meta name="title" content="{{ title }}" />
-<meta name="description" content="{{ description or meta.description }}" />
+<meta name="description" content="{{ description }}" />
 <meta name="author" content="{{ author or meta.author.name }}" />
 <meta name="owner" content="{{ meta.owner }}" />
 <meta name="copyright" content="{{ author or meta.owner }}" />
@@ -17,6 +17,9 @@
 
 <!-- Open Graph -->
 <meta property="og:title" content="{{ title }}" />
+<meta property="og:description" content="{{ description }}" />
+<meta property="og:site_name" content="{{ meta.title }}" />
+<meta property="og:url" content="{{ meta.base_url }}{{ page.url }}" />
 {%- if type === "post" %}
   <meta property="og:type" content="article" />
   <meta property="article:author" content="{{ author or meta.author.name }}" />
@@ -27,19 +30,14 @@
 {%- else %}
   <meta property="og:type" content="website" />
 {%- endif %}
-<meta property="og:url" content="{{ meta.base_url }}{{ page.url }}" />
 
 {# only generate meta images on production #}
-{%- setAsync "metaImageUrl" %}
-  {%- if meta.env === "production" or meta.env === "staging" %}
-    {%- generateMetaImage metaTagline or title %}
-  {%- else %}
-
-  {%- endif %}
-{%- endsetAsync %}
-<meta property="og:image" content="{{ meta.base_url }}{{ metaImageUrl }}" />
-<meta property="og:site_name" content="{{ meta.title }}" />
-<meta property="og:description" content="{{ description or meta.description }}" />
+{%- if meta.env === "production" %}
+  {%- setAsync "ogImagePath" %}
+    {%- ogImage "./og-image.og.njk", { title: title, description: description } %}
+  {%- endsetAsync %}
+  <meta property="og:image" content="{{ meta.base_url }}{{ ogImagePath }}" />
+{%- endif %}
 
 <link href="{{ meta.social.mastodon }}" rel="me" />
 

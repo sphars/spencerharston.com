@@ -1,25 +1,19 @@
 ---
 layout: layouts/base
-metaTagline: My personal website in the depths of the Internet
+description: The personal website of Spencer Harston
 ---
 
+{%- from "macros/posts-list.njk" import postsList %}
+
 <h1 class="mb-4 text-3xl font-bold">Spencer Harston</h1>
-<p>{{ metaTagline }}</p>
+<p>My personal website in the depths of the Internet</p>
 
 <hr class="my-8" />
 
-{% set latestPosts = collections.posts | sortDateByKey("date", "desc") | limit(3) %}
+{% set latestPosts = collections.posts | sortDateByKey("date", "desc") | limit(5) %}
+
 <section>
-  <p class="text-xl">Latest Posts</p>
-  {% for post in latestPosts -%}
-    <div class="my-2">
-      <div>
-        <a href="{{ post.url }}">{{ post.data.title }}</a>
-      </div>
-      <div class="text-sm">
-        <time datetime="{{ post.data.date | dateISO }}">{{ post.data.date | dateByFormat("MMMM d, y") }}</time>
-      </div>
-    </div>
-  {%- endfor %}
-  <a href="/posts/">More →</a>
+  <h2 class="mb-4 text-2xl">Latest Posts</h2>
+  {{ postsList(latestPosts) }}
+  <a href="/posts">More →</a>
 </section>

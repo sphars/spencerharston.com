@@ -1,7 +1,6 @@
 export default {
   language: "en",
   title: "Spencer Harston",
-  description: "The personal website of Spencer Harston",
   author: {
     name: "Spencer Harston",
     email: ""

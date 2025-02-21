@@ -1,7 +1,11 @@
+// Imports
+import fs from "fs";
+
 // External plugins
 import readingTime from "eleventy-plugin-reading-time";
 import feedPlugin from "@11ty/eleventy-plugin-rss";
 import safeLinks from "@sardine/eleventy-plugin-external-links";
+import EleventyPluginOgImage from "eleventy-plugin-og-image";
 
 // Custom config "plugins"
 import filters from "./config/filters/index.js";
@@ -20,8 +24,8 @@ export default function (eleventyConfig) {
   if (process.env.ELEVENTY_ENV === "production") {
     console.log("BUILDING FOR PRODUCTION");
     eleventyConfig.ignores.add("src/posts/drafts");
-    eleventyConfig.addPlugin(transforms);
     eleventyConfig.quietMode = true;
+    eleventyConfig.addPlugin(transforms);
   }
 
   // passthrough copying of assets files
@@ -49,6 +53,29 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addPlugin(safeLinks);
   eleventyConfig.addPlugin(feedPlugin);
+  eleventyConfig.addPlugin(EleventyPluginOgImage, {
+    outputDir: "assets/img/og",
+    previewDir: "assets/img/og-preview",
+    async shortcodeOutput(ogImage) {
+      return ogImage.outputUrl();
+    },
+    satoriOptions: {
+      fonts: [
+        {
+          name: "IBM Plex Sans",
+          data: fs.readFileSync("./node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-400-normal.woff"),
+          weight: 400,
+          style: "normal"
+        },
+        {
+          name: "IBM Plex Sans",
+          data: fs.readFileSync("./node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-700-normal.woff"),
+          weight: 700,
+          style: "normal"
+        }
+      ]
+    }
+  });
 
   return {
     dir: {

@@ -1,11 +1,18 @@
 <header class="w-full p-0">
   <div class="mx-auto my-0 flex w-full max-w-3xl flex-wrap items-center justify-between gap-2 p-4">
     <a class="text-3xl font-bold" href="/" title="Spencer Harston">[sh]</a>
-    <nav>
-      <ul class="flex flex-wrap items-center gap-x-6">
-        <li><a href="/posts">Posts</a></li>
-        <li><a href="/books">Books</a></li>
-      </ul>
-    </nav>
+    <div class="flex items-center gap-8">
+      <nav>
+        <ul class="flex flex-wrap items-center gap-x-6">
+          <li><a href="/posts">Posts</a></li>
+          <li><a href="/books">Books</a></li>
+          <li><a href="/feed.xml" title="RSS Feed of Posts">RSS</a></li>
+        </ul>
+      </nav>
+
+      <button id="dark-mode-button" class="hover:text-blue-600 dark:hover:text-yellow-500" title="Toggle dark mode">
+        {% iconify "moon" %}
+      </button>
+    </div>
   </div>
 </header>

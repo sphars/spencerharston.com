@@ -3,17 +3,27 @@ layout: layouts/base
 description: The personal website of Spencer Harston
 ---
 
-{%- from "macros/posts-list.njk" import postsList %}
+<section class="my-8">
+  <p class="mb-2">Welcome to my website!</p>
+  <p class="mb-2">
+    This is made by me, <b>Spencer Harston</b>, just a person out there in the vast ocean we call the Internet.
+  </p>
+  <a href="/about">More about me →</a>
+</section>
 
-<h1 class="mb-4 text-3xl font-bold">Spencer Harston</h1>
-<p>My personal website in the depths of the Internet</p>
-
-<hr class="my-8" />
-
-{% set latestPosts = collections.posts | sortDateByKey("date", "desc") | limit(5) %}
-
-<section>
-  <h2 class="mb-4 text-2xl">Latest Posts</h2>
+<section class="my-8">
+  <h2 class="mb-2 text-2xl">Recent Posts</h2>
+  {%- from "macros/posts-list.njk" import postsList %}
+  {% set latestPosts = collections.posts | sortDateByKey("date", "desc") | limit(3) %}
   {{ postsList(latestPosts) }}
-  <a href="/posts">More →</a>
+  <a href="/posts">Read more posts →</a>
+</section>
+
+<section class="my-8">
+  <h2 class="mb-2 text-2xl">Elsewhere</h2>
+  <p class="mb-2">
+    You can find and connect with me on these other fine networks. I don't post often on social media, but when I do, I
+    surprise myself.
+  </p>
+  {% include 'partials/socials.njk' %}
 </section>

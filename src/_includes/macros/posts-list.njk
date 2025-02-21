@@ -1,9 +1,9 @@
 {%- macro postsList(posts) %}
   <ul>
     {%- for post in posts | sortDateByKey("date", "desc") %}
-      <li class="px-0 py-4">
+      <li class="my-4 px-0">
         <a class="text-xl" href="{{ post.url }}">{{ post.data.title }}</a>
-        <div class="mb-2 text-sm">
+        <div class="text-sm">
           <time datetime="{{ post.data.date | dateISO }}">{{ post.data.date | dateByFormat("MMMM d, y") }}</time>
           <span> | {{ post | readingTime }}</span>
         </div>

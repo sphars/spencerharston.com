@@ -32,7 +32,7 @@
 {%- endif %}
 
 {# only generate meta images on production #}
-{%- if meta.env === "production" or meta.env === "staging" %}
+{%- if meta.env === "production" %}
   {%- setAsync "ogImagePath" %}
     {%- ogImage "./og-image.og.njk", { title: title, description: description } %}
   {%- endsetAsync %}

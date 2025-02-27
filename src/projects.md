@@ -40,6 +40,6 @@ I once came across a simple CSS library, [mvp.css](https://andybrewer.github.io/
 Website: [aboutblank.page](https://aboutblank.page/)  
 Repo: [sphars/about-blank](https://github.com/sphars/about-blank)
 
-A simple, 99% blank website consisting of a full-view background color. I made this intended as a new tab page for browsers because I wanted a blank page for new tabs rather than the default search bar + auto-generated bookmarks in browsers. Unfortunately, the default blank page in browsers (`about:blank`) doesn't respect color preferences so it's always a blank white page. This site respects the user preference and allows you to set the color explicitly or randomly. I currently use this in all my browsers as my home page.
+A simple, 99% blank website consisting of a full-view background color. I made this intended as a new tab page for browsers because I wanted a blank page for new tabs rather than the default search bar + auto-generated bookmarks in browsers. Unfortunately, the default blank page (`about:blank`) in most browsers (notably Chromium-based) doesn't respect color preferences so it's always a blank white page. This site respects the user preference and allows you to set the color explicitly or randomly. I currently use this in all my browsers as my home page.
 
 More random projects can be see on my [GitHub profile](https://github.com/sphars).

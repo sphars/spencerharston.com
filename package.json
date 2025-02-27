@@ -7,8 +7,8 @@
   "scripts": {
     "lint": "eslint \"./**/*.js\"",
     "lint:fix": "eslint \"./**/*.js\" --fix",
-    "pretty": "prettier . --check",
-    "pretty:write": "prettier . --write",
+    "prettier": "prettier . --check",
+    "prettier:write": "prettier . --write",
     "start": "run-p start:*",
     "start:eleventy": "eleventy --serve",
     "start:postcss": "postcss src/assets/css/*.css --dir dist/assets/css --watch --verbose",

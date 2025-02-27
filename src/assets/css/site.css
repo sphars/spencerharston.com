@@ -11,7 +11,8 @@
     @apply hover:text-blue-600 hover:underline dark:hover:text-yellow-500;
   }
 
-  main a {
+  main a,
+  footer a {
     @apply text-blue-600 hover:text-blue-600 dark:text-yellow-500 dark:hover:text-yellow-500;
   }
 }

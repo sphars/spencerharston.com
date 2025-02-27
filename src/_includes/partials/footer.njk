@@ -1,21 +1,12 @@
-<footer class="w-full p-0">
-  <div class="mx-auto flex w-full max-w-3xl flex-col items-start gap-y-3 p-4">
-    <div class="flex flex-wrap gap-x-6 gap-y-2">
+<footer class="w-full p-0 text-sm">
+  <div class="mx-auto w-full max-w-3xl p-4">
+    <div class="mb-3 flex flex-wrap gap-x-8 gap-y-2">
       <a href="/about">/about</a>
       <a href="/uses">/uses</a>
       <a href="/now">/now</a>
       <a href="/colophon">/colophon</a>
     </div>
-    <div class="flex flex-wrap gap-4">
-      <a href="{{ meta.social.mastodon }}" title="Mastodon profile" rel="me">{% iconify "brand-mastodon" %}</a>
-      <a href="{{ meta.social.bluesky }}" title="Bluesky profile" rel="me">{% iconify "brand-bluesky" %}</a>
-      <a href="{{ meta.social.github }}" title="GitHub profile">{% iconify "brand-github" %}</a>
-      <a href="{{ meta.social.lastfm }}" title="Last.fm profile">{% iconify "brand-lastfm" %}</a>
-      <a href="/feed.xml" title="RSS Feed of Posts">{% iconify "rss" %}</a>
-      <button id="dark-mode-button" class="hover:text-blue-600 dark:hover:text-yellow-500" title="Toggle dark mode">
-        {% iconify "moon" %}
-      </button>
-    </div>
-    <div>&copy; 2025 {{ meta.owner }}</div>
+    <p class="">Created with ❤️ & 🌮 in Ogden, UT</p>
+    <p>&copy; The Past&mdash;2025 {{ meta.owner }}</p>
   </div>
 </footer>

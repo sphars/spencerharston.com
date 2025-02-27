@@ -1,0 +1,26 @@
+<div role="list" class="flex flex-col items-start gap-y-1">
+  <a
+    href="{{ meta.social.mastodon }}"
+    role="listitem"
+    class="flex items-center gap-x-2"
+    title="Mastodon profile"
+    rel="me"
+  >
+    {% iconify "brand-mastodon" %} <span>Mastodon</span>
+  </a>
+  <a
+    href="{{ meta.social.bluesky }}"
+    role="listitem"
+    class="flex items-center gap-x-2"
+    title="Bluesky profile"
+    rel="me"
+  >
+    {% iconify "brand-bluesky" %} <span>Bluesky</span>
+  </a>
+  <a href="{{ meta.social.github }}" role="listitem" class="flex items-center gap-x-2" title="GitHub profile">
+    {% iconify "brand-github" %} <span>GitHub</span>
+  </a>
+  <a href="{{ meta.social.lastfm }}" role="listitem" class="flex items-center gap-x-2" title="Last.fm profile">
+    {% iconify "brand-lastfm" %} <span>last.fm</span>
+  </a>
+</div>

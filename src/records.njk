@@ -16,13 +16,13 @@ description: My collection of vinyl records
   <h2 class="my-4 text-lg font-bold">The Collection</h2>
   <p class="mb-4 italic">Sorted by most recently added</p>
 
-  <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,180px)]">
+  <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,170px)]">
     {%- for record in records.records | sortDateByKey("dateAdded", "desc") %}
       <div class="grid grid-rows-subgrid gap-y-1 [grid-row:span_2]">
         <a href="https://www.discogs.com/master/{{ record.id }}" class="grid items-end">
           {% set alt -%}Cover of {{ record.title }} by {{ record.artist }}{%- endset %}
           {% set title -%}{{ record.title }} by {{ record.artist }}{%- endset %}
-          {% image record.coverUrl, alt, title, ["180"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", record.id %}
+          {% image record.coverUrl, alt, title, ["170"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", record.id %}
         </a>
         <div class="gapy-y-1 flex flex-col text-sm">
           <div class="text-balance font-bold">{{ record.title }}</div>

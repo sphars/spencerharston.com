@@ -7,7 +7,8 @@
       "title": "The Best of George Shearing",
       "artist": "George Shearing",
       "year": "1964",
-      "coverUrl": "https://i.imgur.com/XikP7pN.png"
+      "coverUrl": "https://i.imgur.com/XikP7pN.png",
+      "dateAdded": "2025-03-01T12:00:00.000Z"
     },
     {
       "id": "296604",
@@ -15,7 +16,8 @@
       "title": "Greatest Hits",
       "artist": "Roger Williams",
       "year": "1962",
-      "coverUrl": "https://i.imgur.com/SDROk8N.jpeg"
+      "coverUrl": "https://i.imgur.com/SDROk8N.jpeg",
+      "dateAdded": "2025-03-01T12:00:00.000Z"
     },
     {
       "id": "212129",
@@ -23,7 +25,8 @@
       "title": "Born Free",
       "artist": "Andy Williams",
       "year": "1967",
-      "coverUrl": "https://i.imgur.com/pdFxT22.jpeg"
+      "coverUrl": "https://i.imgur.com/pdFxT22.jpeg",
+      "dateAdded": "2025-03-01T12:00:00.000Z"
     },
     {
       "id": "10302523",
@@ -31,7 +34,8 @@
       "title": "Those Who Tell The Truth Shall Die, Those Who Tell The Truth Shall Live Forever",
       "artist": "Explosions in the Sky",
       "year": "2001",
-      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/f/f4/Those_who_tell_the_truth_shall_die.jpg"
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/f/f4/Those_who_tell_the_truth_shall_die.jpg",
+      "dateAdded": "2025-03-01T18:00:00.000Z"
     }
   ]
 }

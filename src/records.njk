@@ -13,10 +13,11 @@ description: My collection of vinyl records
 <p class="mb-4 italic">Last updated: {{ records.lastUpdated | dateByFormat("MMMM d, y") }}</p>
 
 <div class="my-8">
-  <h2 class="my-4 text-lg font-bold">List of Records</h2>
+  <h2 class="my-4 text-lg font-bold">The Collection</h2>
+  <p class="mb-4 italic">Sorted by most recently added</p>
 
   <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,180px)]">
-    {%- for record in records.records | sortByKey("year", "desc") %}
+    {%- for record in records.records | sortDateByKey("dateAdded", "desc") %}
       <div class="grid grid-rows-subgrid gap-y-1 [grid-row:span_2]">
         <a href="https://www.discogs.com/master/{{ record.id }}" class="grid items-end">
           {% set alt -%}Cover of {{ record.title }} by {{ record.artist }}{%- endset %}

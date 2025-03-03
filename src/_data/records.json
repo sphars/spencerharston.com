@@ -3,10 +3,35 @@
   "records": [
     {
       "id": "290598",
+      "catno": "T2104",
       "title": "The Best of George Shearing",
       "artist": "George Shearing",
       "year": "1964",
       "coverUrl": "https://i.imgur.com/XikP7pN.png"
+    },
+    {
+      "id": "296604",
+      "catno": "KS3260",
+      "title": "Greatest Hits",
+      "artist": "Roger Williams",
+      "year": "1962",
+      "coverUrl": "https://i.imgur.com/SDROk8N.jpeg"
+    },
+    {
+      "id": "212129",
+      "catno": "CL2680",
+      "title": "Born Free",
+      "artist": "Andy Williams",
+      "year": "1967",
+      "coverUrl": "https://i.imgur.com/pdFxT22.jpeg"
+    },
+    {
+      "id": "10302523",
+      "catno": "TRR034",
+      "title": "Those Who Tell The Truth Shall Die, Those Who Tell The Truth Shall Live Forever",
+      "artist": "Explosions in the Sky",
+      "year": "2001",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/f/f4/Those_who_tell_the_truth_shall_die.jpg"
     }
   ]
 }

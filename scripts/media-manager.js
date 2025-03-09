@@ -7,14 +7,36 @@ import { Command } from "commander";
 import { input, number, select } from "@inquirer/prompts";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const BOOKS_DATA_FILE = path.join(__dirname, "../src/_data/books.json");
-const RECORDS_DATA_FILE = path.join(__dirname, "../src/_data/records.json");
 
 const mediaDataFiles = {
   books: path.join(__dirname, "../src/_data/books.json"),
   records: path.join(__dirname, "../src/_data/records.json")
 };
-const program = new Command();
+// const program = new Command();
+
+const mediaTypes = [
+  {
+    name: "books",
+    value: manageBooks
+  },
+  {
+    name: "records",
+    value: manageRecords
+  }
+];
+
+const mediaOperations = [
+  {
+    name: "add",
+    value: addItem,
+    description: "add a new item"
+  },
+  {
+    name: "move",
+    value: moveItem,
+    description: "move an item to a different list"
+  }
+];
 
 const booksListChoices = [
   {
@@ -62,6 +84,51 @@ async function saveData(media) {
   }
 }
 
-program.name("media-manager").description("Manage lists of media").version("1.0.0");
+async function addItem() {}
 
-program.parse();
+async function moveItem(params) {}
+
+async function manageBooks() {
+  const data = await loadData("books");
+  try {
+    const operation = await select({
+      message: "Select an operation:",
+      choices: booksListChoices
+    });
+
+    switch (operation) {
+      case "value":
+        break;
+
+      default:
+        break;
+    }
+  } catch (error) {
+    if (error instanceof Error && error.name === "ExitPromptError") {
+      // noop; silence this error
+      console.log("Cancelled");
+    }
+  }
+}
+
+async function manageRecords() {
+  const data = await loadData("records");
+}
+
+async function main() {
+  try {
+    const mediaType = await select({
+      message: "Select media to manage",
+      choices: mediaTypes
+    });
+
+    mediaType();
+  } catch (error) {
+    if (error instanceof Error && error.name === "ExitPromptError") {
+      // noop; silence this error
+      console.log("Cancelled");
+    }
+  }
+}
+
+main();

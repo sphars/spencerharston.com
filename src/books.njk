@@ -7,17 +7,17 @@ description: Tracking the books I have read or am currently reading
 <p class="mb-4">
   This page is a tracker of sorts for my personal reading. Read about how I
   <a href="/posts/2025/creating-a-books-page">created this page</a> and how I
-  <a href="/posts/2025/managing-my-books-data">manage the data</a>. See also my
+  <a href="/posts/2025/managing-my-books-data">manage the data</a>. See also my similar in purpose
   <a href="/records">records collection</a>.
 </p>
 
 <p class="mb-4 italic">Last updated: {{ books.lastUpdated | dateByFormat("MMMM d, y") }}</p>
 
 <div class="my-8">
-  <h2 class="my-4 flex items-baseline justify-between gap-x-4 text-lg font-bold" id="current">
-    Currently Reading
+  <div class="my-4 flex items-baseline justify-between gap-x-4" id="current">
+    <h2 class="text-lg font-bold">Currently Reading</h2>
     <span class="text-sm">{{ books.current.length }} book{%- if books.current.length > 1 -%}s{%- endif -%}</span>
-  </h2>
+  </div>
   <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,140px)]">
     {%- for book in books.current %}
       <div class="grid grid-rows-subgrid gap-y-1 [grid-row:span_2]">

@@ -1,7 +1,7 @@
 ---
 title: Starting a Records Collection
-description: I purchased my first record player, so naturally I now have to start collecting
-date: 2025-03-02 20:13:00
+description: I purchased my first record player, so naturally I now have to start collecting records
+date: 2025-03-09 22:00:00
 tags:
   - personal
   - music
@@ -32,8 +32,6 @@ As mentioned, I'm completely new to the world of record players, but I do know t
 - Player: Como Audio Turntable (Pro-Ject T1) in Piano Black
 - Amp: RadioShack (Optimus) SA-155 Integrated Stereo Amplifier
 - Speakers: Yamaha TODO bookshelf speakers
-
-TODO: Picture
 
 Currently in search of a decent, small cabinet to host everything in.
 

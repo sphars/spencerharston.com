@@ -7,14 +7,16 @@ description: My collection of vinyl records
 <p class="mb-4">
   I recently purchased my first record player, so now I obviously have to inventory the records I collect. Read
   <a href="/posts/2025/starting-a-records-collection">the post</a> about starting my collection, as well as the similar
-  in purpose <a href="/books">books</a> page.
+  in purpose <a href="/books">books page</a>.
 </p>
 
 <p class="mb-4 italic">Last updated: {{ records.lastUpdated | dateByFormat("MMMM d, y") }}</p>
 
 <div class="my-8">
-  <h2 class="my-4 text-lg font-bold">The Collection</h2>
-  <p class="mb-4 italic">Sorted by most recently added</p>
+  <div class="my-4 flex items-baseline justify-between gap-x-4">
+    <h2 class="text-lg font-bold">The Collection</h2>
+    <span class="text-sm italic">Sorted by most recently added</span>
+  </div>
 
   <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,170px)]">
     {%- for record in records.records | sortDateByKey("dateAdded", "desc") %}

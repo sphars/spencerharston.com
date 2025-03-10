@@ -1,7 +1,7 @@
 ---
 title: Starting a Records Collection
 description: I purchased my first record player, so naturally I now have to start collecting records
-date: 2025-03-09 22:00:00
+date: 2025-03-09 22:32:00
 tags:
   - personal
   - music
@@ -39,10 +39,14 @@ Currently in search of a decent, small cabinet to host everything in.
 
 Besides the one given to me by my dad, my first albums were a couple of records from the thrift store that looked like the least offensive to my ears. It hit up the record store as well later that day, but given the overwhelming amount of music, I picked up something nearly at random (I knew of the band but not much of their stuff). I also ordered a couple records online from my current favorite band, Metric. Not too shabby for a start.
 
-Inspired by someone on the 11ty Discord, and myself, I of course have to start inventorying my record collection. Copying the layout of my [/books](/books) page, and creating a new JSON file, I added a new page to my website, [/records](/records). This one will differ from my books page, since I want to only catalog what I own, not keep track of the current status of my listening.
+Inspired by Damian Walsh on the 11ty Discord, and my books page, I of course have to start inventorying my record collection. Copying the layout of my [/books](/books) page, and creating a new JSON file, I added a new page to my website, [/records](/records). This one will differ from my books page, since I want to only catalog what I own, not keep track of the current status of my listening.
 
 I'm also upgrading my [CLI](/posts/2025/managing-my-books-data) to handle both books and records, or potentially any media type.
 
 My plans for expanding my collection is to start identifying albums I currently enjoy digitally, and to find the physical copy of it. I also want to explore other genres with this. I have a buddy that enjoys video game soundtracks on his record player, and I plan to look into those, plus other soundtracks and instrumental albums, such as jazz. I want to avoid my typical listening habits, other than for bands I enjoy no matter the medium. A goal I'd like to do is a new album every 1-2 months for now. Ogden has two indie record stores, so I'll definitely hit them up when I can.
 
 I do hope I stick with this and find some good music to sit back and listen to. Check out my [last.fm profile](https://www.last.fm/user/spencer314) for my listening habits and if anyone has any recommendations, I'd love to take a look!
+
+## Thanks
+
+Special thanks to Damian Walsh, whose [post about building a personal music library](https://damianwalsh.co.uk/posts/creating-connections-with-music-and-technology/), inspired me to create my own page for my music collection.

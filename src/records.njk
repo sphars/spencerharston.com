@@ -1,0 +1,42 @@
+---
+layout: layouts/default
+title: Records
+description: My collection of vinyl records
+---
+
+<p class="mb-4">
+  I recently purchased my first record player, so now I obviously have to inventory the records I collect. Read
+  <a href="/posts/2025/starting-a-records-collection">the post</a> about starting my collection, as well as the similar
+  in purpose <a href="/books">books page</a>.
+</p>
+
+<p class="mb-4 italic">Last updated: {{ records.lastUpdated | dateByFormat("MMMM d, y") }}</p>
+
+<div class="my-8">
+  <div class="my-4 flex items-baseline justify-between gap-x-4">
+    <h2 class="text-lg font-bold">The Collection</h2>
+    <span class="text-sm italic">Sorted by most recently added</span>
+  </div>
+
+  <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,170px)]">
+    {%- for record in records.records | sortDateByKey("dateAdded", "desc") %}
+      <div class="grid grid-rows-subgrid gap-y-1 [grid-row:span_2]">
+        <a href="https://www.discogs.com/master/{{ record.id }}" class="grid items-end">
+          {% set alt -%}Cover of {{ record.title }} by {{ record.artist }}{%- endset %}
+          {% set title -%}{{ record.title }} by {{ record.artist }}{%- endset %}
+          {% image record.coverUrl, alt, title, ["170"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", record.id %}
+        </a>
+        <div class="gapy-y-1 flex flex-col text-sm">
+          <div class="text-balance font-bold">{{ record.title }}</div>
+          <div class="text-xs">{{ record.artist }}</div>
+          <div class="text-xs">{{ record.year }}</div>
+        </div>
+      </div>
+    {%- endfor %}
+  </div>
+</div>
+
+<p class="my-8 text-sm">
+  Covers provided by <a href="https://www.discogs.com/">Discogs</a>,
+  <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia</a> or wherever I could find them.
+</p>

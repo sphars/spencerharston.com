@@ -17,7 +17,8 @@
     "build:postcss": "postcss src/assets/css/*.css --dir dist/assets/css",
     "clean": "rm -rf ./dist",
     "prepare": "husky",
-    "books": "scripts/book-manager.js"
+    "books": "scripts/book-manager.js",
+    "media": "scripts/media-manager.js"
   },
   "repository": {
     "type": "git",

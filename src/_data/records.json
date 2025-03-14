@@ -1,0 +1,77 @@
+{
+  "lastUpdated": "2025-03-13",
+  "records": [
+    {
+      "id": "290598",
+      "catno": "T2104",
+      "title": "The Best of George Shearing",
+      "artist": "George Shearing",
+      "year": "1964",
+      "coverUrl": "https://i.imgur.com/XikP7pN.png",
+      "dateAdded": "2025-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "296604",
+      "catno": "KS3260",
+      "title": "Greatest Hits",
+      "artist": "Roger Williams",
+      "year": "1962",
+      "coverUrl": "https://i.imgur.com/SDROk8N.jpeg",
+      "dateAdded": "2025-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "212129",
+      "catno": "CL2680",
+      "title": "Born Free",
+      "artist": "Andy Williams",
+      "year": "1967",
+      "coverUrl": "https://i.imgur.com/pdFxT22.jpeg",
+      "dateAdded": "2025-03-01T12:00:00.000Z"
+    },
+    {
+      "id": "4178",
+      "catno": "TRR034",
+      "title": "Those Who Tell The Truth Shall Die, Those Who Tell The Truth Shall Live Forever",
+      "artist": "Explosions in the Sky",
+      "year": "2001",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/f/f4/Those_who_tell_the_truth_shall_die.jpg",
+      "dateAdded": "2025-03-01T18:00:00.000Z"
+    },
+    {
+      "id": "115173",
+      "catno": "Q100871",
+      "title": "Fantasies",
+      "artist": "Metric",
+      "year": "2009",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/MetricFantasies.jpg",
+      "dateAdded": "2025-03-04T18:00:00.000Z"
+    },
+    {
+      "id": "2710052",
+      "catno": "MET80216",
+      "title": "Formentera",
+      "artist": "Metric",
+      "year": "2022",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/4/48/Metric_-_Formentera.png",
+      "dateAdded": "2025-03-04T18:00:00.000Z"
+    },
+    {
+      "id": "3273112",
+      "catno": "MET59425",
+      "title": "Formentera II",
+      "artist": "Metric",
+      "year": "2023",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/3/3c/Metric_-_Formentera_II.png",
+      "dateAdded": "2025-03-04T18:00:00.000Z"
+    },
+    {
+      "id": "59355",
+      "catno": "IE34188",
+      "title": "Boston",
+      "artist": "Boston",
+      "year": "1976",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/2/23/BostonBoston.jpg",
+      "dateAdded": "2025-03-08T18:00:00.000Z"
+    }
+  ]
+}

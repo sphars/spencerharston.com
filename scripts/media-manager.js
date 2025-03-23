@@ -187,7 +187,7 @@ async function moveBook() {
   let fromList = "";
   try {
     fromList = await select({
-      message: "Select a list to add a book to:",
+      message: "Select a list to move a book from:",
       choices: bookLists
     });
   } catch (error) {

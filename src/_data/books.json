@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2025-01-27T20:43:50.697Z",
+  "lastUpdated": "2025-03-23T04:48:24.964Z",
   "current": [
-    {
-      "goodreadsId": "7235533",
-      "title": "The Way of Kings",
-      "author": "Brandon Sanderson",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/7429768-M.jpg"
-    },
     {
       "goodreadsId": "197655262",
       "title": "Extra Focus: The Quick Start Guide to Adult ADHD",
       "author": "Jesse J. Anderson",
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/14546413-M.jpg"
+    },
+    {
+      "title": "All Systems Red",
+      "author": "Martha Wells",
+      "goodreadsId": "32758901",
+      "binding": "physical",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9157148-M.jpg"
     }
   ],
   "read": [
@@ -925,6 +925,15 @@
       "dateRead": "2024-12-28T00:00:00.000Z",
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/12861424-M.jpg"
+    },
+    {
+      "goodreadsId": "7235533",
+      "title": "The Way of Kings",
+      "author": "Brandon Sanderson",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7429768-M.jpg",
+      "dateRead": "2025-03-23T04:43:50.791Z",
+      "rating": 4
     }
   ],
   "tbr": [

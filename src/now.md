@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2025-03-09
+updated: 2025-03-22
 ---
 
 {{ description }}
@@ -19,9 +19,9 @@ Not doing a lot in this regard specifically, but I have bookmarked some pages th
 
 ## Reading
 
-_Extra Focus: The Quick Start Guide to Adult ADHD_ by Jesse J. Anderson
+_Extra Focus: The Quick Start Guide to Adult ADHD_ by Jesse J. Anderson. I literally am procrastinating finishing this...
 
-_The Way of Kings_ by Brandon Sanderson. Slowly working through this one, about halfway now, but so far so good.
+_All Systems Red_ by Martha Wells. I've heard nothing but good things about this series.
 
 _See also my [/books page](/books/) for all my reading activity._
 
@@ -31,8 +31,8 @@ Nothing really interesting at the moment, but I have been sticking re-runs of _P
 
 ## Playing
 
-Currently about 80% through _Spider-Man Remastered_ on PC.
+Currently about 85% through _Spider-Man Remastered_ on PC.
 
-Giving _Balatro_ a go on my Steam Deck.
+Giving _Balatro_ a go on my Steam Deck. Managed to win my third round!
 
 _Slay the Spire_ is still my current fallback whenever I want to play something but don't want to start anything new.

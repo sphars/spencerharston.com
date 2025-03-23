@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2025-03-22
+updated: 2025-03-23
 ---
 
 {{ description }}
@@ -22,6 +22,8 @@ Not doing a lot in this regard specifically, but I have bookmarked some pages th
 _Extra Focus: The Quick Start Guide to Adult ADHD_ by Jesse J. Anderson. I literally am procrastinating finishing this...
 
 _All Systems Red_ by Martha Wells. I've heard nothing but good things about this series.
+
+_The Wild Robot_ by Peter Brown
 
 _See also my [/books page](/books/) for all my reading activity._
 

@@ -36,7 +36,7 @@ export default function (eleventyConfig) {
     "src/assets/favicons/": "assets/favicons/",
     "src/assets/favicons/favicon.ico": "/favicon.ico",
     "src/assets/img/*[!content]": "assets/img/",
-    "node_modules/@fontsource/ibm-plex-sans/": "assets/fonts/ibm-plex-sans/",
+    "node_modules/@fontsource/funnel-sans/": "assets/fonts/funnel-sans/",
     "node_modules/@fontsource/ibm-plex-mono/": "assets/fonts/ibm-plex-mono/",
     "src/robots.txt": "robots.txt"
   });
@@ -63,13 +63,13 @@ export default function (eleventyConfig) {
       fonts: [
         {
           name: "IBM Plex Sans",
-          data: fs.readFileSync("./node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-400-normal.woff"),
+          data: fs.readFileSync("./node_modules/@fontsource/funnel-sans/files/funnel-sans-latin-400-normal.woff"),
           weight: 400,
           style: "normal"
         },
         {
           name: "IBM Plex Sans",
-          data: fs.readFileSync("./node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-700-normal.woff"),
+          data: fs.readFileSync("./node_modules/@fontsource/funnel-sans/files/funnel-sans-latin-700-normal.woff"),
           weight: 700,
           style: "normal"
         }

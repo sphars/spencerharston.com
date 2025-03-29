@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-03-13",
+  "lastUpdated": "2025-03-29T03:48:08.673Z",
   "records": [
     {
       "title": "The Best of George Shearing",
@@ -72,6 +72,51 @@
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/2/23/BostonBoston.jpg",
       "catNo": "JE 34188",
       "dateAdded": "2025-03-08T18:00:00.000Z"
+    },
+    {
+      "title": "Dance Fever",
+      "artist": "Florence + The Machine",
+      "year": 2022,
+      "url": "https://www.discogs.com/release/23212706-Florence-The-Machine-Dance-Fever",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Dance_Fever_2.jpeg",
+      "catNo": "3893665",
+      "dateAdded": "2025-03-27T18:00:00.000Z"
+    },
+    {
+      "title": "Black Holes and Revelations",
+      "artist": "Muse",
+      "year": 2006,
+      "url": "https://www.discogs.com/release/15996141-Muse-Black-Holes-And-Revelations",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/c/c5/BlackHolesCover.jpg",
+      "catNo": "0825646350919",
+      "dateAdded": "2025-03-29T03:21:05.938Z"
+    },
+    {
+      "title": "Hybrid Theory",
+      "artist": "Linkin Park",
+      "year": 2000,
+      "url": "https://www.discogs.com/release/5150478-Linkin-Park-Hybrid-Theory",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/2/2a/Linkin_Park_Hybrid_Theory_Album_Cover.jpg",
+      "catNo": "093624941422",
+      "dateAdded": "2025-03-29T03:29:15.077Z"
+    },
+    {
+      "title": "Meteora",
+      "artist": "Linkin Park",
+      "year": 2003,
+      "url": "https://www.discogs.com/release/33192918-Linkin-Park-Meteora",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Linkin_Park_Meteora_Album_Cover.jpg",
+      "catNo": "093624844051",
+      "dateAdded": "2025-03-29T03:32:03.479Z"
+    },
+    {
+      "title": "A Rush of Blood to the Head",
+      "artist": "Coldplay",
+      "year": 2002,
+      "url": "https://www.discogs.com/release/31736624-Coldplay-A-Rush-Of-Blood-To-The-Head",
+      "coverUrl": "https://i.imgur.com/O38RjNl.jpeg",
+      "catNo": "5021732267375",
+      "dateAdded": "2025-03-29T03:48:05.423Z"
     }
   ]
 }

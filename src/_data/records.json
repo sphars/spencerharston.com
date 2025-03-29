@@ -2,75 +2,75 @@
   "lastUpdated": "2025-03-13",
   "records": [
     {
-      "id": "290598",
-      "catno": "T2104",
       "title": "The Best of George Shearing",
       "artist": "George Shearing",
       "year": "1964",
+      "url": "https://www.discogs.com/release/6238060-George-Shearing-The-Best-Of-George-Shearing",
       "coverUrl": "https://i.imgur.com/XikP7pN.png",
+      "catNo": "T-2104",
       "dateAdded": "2025-03-01T12:00:00.000Z"
     },
     {
-      "id": "296604",
-      "catno": "KS3260",
       "title": "Greatest Hits",
       "artist": "Roger Williams",
       "year": "1962",
+      "url": "https://www.discogs.com/release/6232871-Roger-Williams-Greatest-Hits",
       "coverUrl": "https://i.imgur.com/SDROk8N.jpeg",
+      "catNo": "KS-3260",
       "dateAdded": "2025-03-01T12:00:00.000Z"
     },
     {
-      "id": "212129",
-      "catno": "CL2680",
       "title": "Born Free",
       "artist": "Andy Williams",
       "year": "1967",
+      "url": "https://www.discogs.com/release/18357574-Andy-Williams-Born-Free",
       "coverUrl": "https://i.imgur.com/pdFxT22.jpeg",
+      "catNo": "CL 2680",
       "dateAdded": "2025-03-01T12:00:00.000Z"
     },
     {
-      "id": "4178",
-      "catno": "TRR034",
       "title": "Those Who Tell The Truth Shall Die, Those Who Tell The Truth Shall Live Forever",
       "artist": "Explosions in the Sky",
       "year": "2001",
+      "url": "https://www.discogs.com/release/10431136-Explosions-In-The-Sky-Those-Who-Tell-The-Truth-Shall-Die-Those-Who-Tell-The-Truth-Shall-Live-Forever",
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/f/f4/Those_who_tell_the_truth_shall_die.jpg",
+      "catNo": "TRR034",
       "dateAdded": "2025-03-01T18:00:00.000Z"
     },
     {
-      "id": "115173",
-      "catno": "Q100871",
       "title": "Fantasies",
       "artist": "Metric",
       "year": "2009",
+      "url": "https://www.discogs.com/release/29131024-Metric-Fantasies",
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/9/99/MetricFantasies.jpg",
+      "catNo": "Q1 00871",
       "dateAdded": "2025-03-04T18:00:00.000Z"
     },
     {
-      "id": "2710052",
-      "catno": "MET80216",
       "title": "Formentera",
       "artist": "Metric",
       "year": "2022",
+      "url": "https://www.discogs.com/release/24359411-Metric-Formentera",
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/4/48/Metric_-_Formentera.png",
+      "catNo": "MET80216",
       "dateAdded": "2025-03-04T18:00:00.000Z"
     },
     {
-      "id": "3273112",
-      "catno": "MET59425",
       "title": "Formentera II",
       "artist": "Metric",
       "year": "2023",
+      "url": "https://www.discogs.com/release/28581085-Metric-Formentera-II",
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/3/3c/Metric_-_Formentera_II.png",
+      "catNo": "MET59425",
       "dateAdded": "2025-03-04T18:00:00.000Z"
     },
     {
-      "id": "59355",
-      "catno": "IE34188",
       "title": "Boston",
       "artist": "Boston",
       "year": "1976",
+      "url": "https://www.discogs.com/release/12270985-Boston-Boston",
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/2/23/BostonBoston.jpg",
+      "catNo": "JE 34188",
       "dateAdded": "2025-03-08T18:00:00.000Z"
     }
   ]

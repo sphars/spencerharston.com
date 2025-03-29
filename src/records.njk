@@ -21,7 +21,7 @@ description: My collection of vinyl records
   <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,170px)]">
     {%- for record in records.records | sortDateByKey("dateAdded", "desc") %}
       <div class="grid grid-rows-subgrid gap-y-1 [grid-row:span_2]">
-        <a href="https://www.discogs.com/master/{{ record.id }}" class="grid items-end">
+        <a href="{{ record.url }}" class="grid items-end">
           {% set alt -%}Cover of {{ record.title }} by {{ record.artist }}{%- endset %}
           {% set title -%}{{ record.title }} by {{ record.artist }}{%- endset %}
           {% image record.coverUrl, alt, title, ["170"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", record.id %}
@@ -38,5 +38,6 @@ description: My collection of vinyl records
 
 <p class="my-8 text-sm">
   Covers provided by <a href="https://www.discogs.com/">Discogs</a>,
-  <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia</a> or wherever I could find them.
+  <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia</a> or wherever I could find them. Linked Discogs
+  release is the release that's closest to what I have.
 </p>

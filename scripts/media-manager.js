@@ -319,9 +319,9 @@ async function addRecord() {
         title: await input({ message: "Enter album title:", required: true }),
         artist: await input({ message: "Enter album artist:", required: true }),
         year: await number({ message: "Enter release year:", required: true }),
-        coverUrl: await input({ message: "Enter cover url:", required: true }),
-        catno: await input({ message: "Enter catalog Number:", required: true }),
-        id: await number({ message: "Enter Discogs master ID:", required: true }),
+        url: await input({ message: "Enter Discogs release URL:", required: true }),
+        coverUrl: await input({ message: "Enter cover URL:", required: true }),
+        catNo: await input({ message: "Enter catalog number:", required: true }),
         dateAdded: await input({
           message: "Enter date added to collection (YYYY-MM-DD):",
           required: true,

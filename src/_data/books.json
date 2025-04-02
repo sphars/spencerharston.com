@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-03-23T12:31:20.869Z",
+  "lastUpdated": "2025-04-02T02:41:22.379Z",
   "current": [
     {
       "goodreadsId": "197655262",
@@ -14,13 +14,6 @@
       "goodreadsId": "32758901",
       "binding": "physical",
       "coverUrl": "https://covers.openlibrary.org/b/id/9157148-M.jpg"
-    },
-    {
-      "title": "The Wild Robot",
-      "author": "Peter Brown",
-      "goodreadsId": "26030734",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/7443270-M.jpg"
     }
   ],
   "read": [
@@ -940,6 +933,15 @@
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/7429768-M.jpg",
       "dateRead": "2025-03-23T04:43:50.791Z",
+      "rating": 4
+    },
+    {
+      "title": "The Wild Robot",
+      "author": "Peter Brown",
+      "goodreadsId": "26030734",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7443270-M.jpg",
+      "dateRead": "2025-04-02T02:41:14.694Z",
       "rating": 4
     }
   ],

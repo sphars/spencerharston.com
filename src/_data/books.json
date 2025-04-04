@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-02T02:41:22.379Z",
+  "lastUpdated": "2025-04-04T03:03:29.750Z",
   "current": [
     {
       "goodreadsId": "197655262",
@@ -14,6 +14,13 @@
       "goodreadsId": "32758901",
       "binding": "physical",
       "coverUrl": "https://covers.openlibrary.org/b/id/9157148-M.jpg"
+    },
+    {
+      "title": "Billy Summers",
+      "author": "Stephen King",
+      "goodreadsId": "56852407",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14817026-M.jpg"
     }
   ],
   "read": [

@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2025-03-23
+updated: 2025-04-11
 ---
 
 {{ description }}
@@ -23,17 +23,17 @@ _Extra Focus: The Quick Start Guide to Adult ADHD_ by Jesse J. Anderson. I liter
 
 _All Systems Red_ by Martha Wells. I've heard nothing but good things about this series.
 
-_The Wild Robot_ by Peter Brown
+_Billy Summers_ by Stephen King
 
 _See also my [/books page](/books/) for all my reading activity._
 
 ## Watching
 
-Nothing really interesting at the moment, but I have been sticking re-runs of _Pawn Stars_ in the background.
+_The Residence_ on Netflix, with later seasons of _Brooklyn 99_ as a background show.
 
 ## Playing
 
-Currently about 85% through _Spider-Man Remastered_ on PC.
+Started playing _LEGO Star Wars: The Skywalker Saga_. Much bigger of a game since last playing any LEGO Star Wars game, but should be a good time.
 
 Giving _Balatro_ a go on my Steam Deck. Managed to win my third round!
 

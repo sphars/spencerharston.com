@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-04T03:03:29.750Z",
+  "lastUpdated": "2025-05-05T13:29:34.250Z",
   "current": [
     {
       "goodreadsId": "197655262",
@@ -16,11 +16,11 @@
       "coverUrl": "https://covers.openlibrary.org/b/id/9157148-M.jpg"
     },
     {
-      "title": "Billy Summers",
-      "author": "Stephen King",
-      "goodreadsId": "56852407",
+      "title": "The Wild Robot Escapes",
+      "author": "Peter Brown",
+      "goodreadsId": "34219841",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14817026-M.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/id/12928802-M.jpg"
     }
   ],
   "read": [
@@ -950,6 +950,15 @@
       "coverUrl": "https://covers.openlibrary.org/b/id/7443270-M.jpg",
       "dateRead": "2025-04-02T02:41:14.694Z",
       "rating": 4
+    },
+    {
+      "title": "Billy Summers",
+      "author": "Stephen King",
+      "goodreadsId": "56852407",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14817026-M.jpg",
+      "dateRead": "2025-05-04",
+      "rating": 3
     }
   ],
   "tbr": [

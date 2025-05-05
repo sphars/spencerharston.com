@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-03-29T03:48:08.673Z",
+  "lastUpdated": "2025-05-05T13:44:15.486Z",
   "records": [
     {
       "title": "The Best of George Shearing",
@@ -117,6 +117,33 @@
       "coverUrl": "https://i.imgur.com/O38RjNl.jpeg",
       "catNo": "5021732267375",
       "dateAdded": "2025-03-29T03:48:05.423Z"
+    },
+    {
+      "title": "Beat The System",
+      "artist": "Petra",
+      "year": 1984,
+      "url": "https://www.discogs.com/release/4460058-Petra-Beat-The-System",
+      "coverUrl": "https://static.wikia.nocookie.net/petra/images/a/a3/Petra-beat-the-system1.jpg/revision/latest/scale-to-width-down/300?cb=20140105020155",
+      "catNo": "SP-5067",
+      "dateAdded": "2025-05-05T13:36:29.977Z"
+    },
+    {
+      "title": "The Age of Electronicus",
+      "artist": "Dick Hyman",
+      "year": 1969,
+      "url": "https://www.discogs.com/release/11195053-Dick-Hyman-The-Age-Of-Electronicus",
+      "coverUrl": "https://i.discogs.com/99xRjJBrlzKaCehZKU2PelHblUZEsBL2LagmPWsWMbk/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTk1/MDUzLTE1MTIxOTE0/NDMtMTE5NC5qcGVn.jpeg",
+      "catNo": "946-S",
+      "dateAdded": "2025-05-05T13:38:48.478Z"
+    },
+    {
+      "title": "The Sorcerer's Apprentice",
+      "artist": "New York Philharmonic, Dimitri Mitropoulos",
+      "year": 1957,
+      "url": "https://www.discogs.com/release/1567353-Dukas-Weinberger-Liszt-Strauss-New-York-Philharmonic-Dimitri-Mitropoulos-The-Sorcerers-Apprentice",
+      "coverUrl": "https://i.discogs.com/FXj4nxtatBoZygDniM8-tXsCEm05f-IqVOqgqBlCiss/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMDkx/OTktMTMyMDU4ODMy/MC5qcGVn.jpeg",
+      "catNo": "ML 5198",
+      "dateAdded": "2025-05-05T13:44:09.709Z"
     }
   ]
 }

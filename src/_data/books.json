@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-05T13:29:34.250Z",
+  "lastUpdated": "2025-05-16T02:38:24.419Z",
   "current": [
     {
       "goodreadsId": "197655262",
@@ -14,13 +14,6 @@
       "goodreadsId": "32758901",
       "binding": "physical",
       "coverUrl": "https://covers.openlibrary.org/b/id/9157148-M.jpg"
-    },
-    {
-      "title": "The Wild Robot Escapes",
-      "author": "Peter Brown",
-      "goodreadsId": "34219841",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/12928802-M.jpg"
     }
   ],
   "read": [
@@ -959,6 +952,24 @@
       "coverUrl": "https://covers.openlibrary.org/b/id/14817026-M.jpg",
       "dateRead": "2025-05-04",
       "rating": 3
+    },
+    {
+      "title": "The Wild Robot Escapes",
+      "author": "Peter Brown",
+      "goodreadsId": "34219841",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12928802-M.jpg",
+      "dateRead": "2025-05-16T02:36:17.747Z",
+      "rating": 3
+    },
+    {
+      "title": "A Short Stay in Hell",
+      "author": "Steven L. Peck",
+      "goodreadsId": "13456414",
+      "dateRead": "2025-05-16T02:37:38.178Z",
+      "rating": 4,
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13012357-M.jpg"
     }
   ],
   "tbr": [

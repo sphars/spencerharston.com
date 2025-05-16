@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2025-05-05
+updated: 2025-05-15
 ---
 
 {{ description }}
@@ -23,13 +23,11 @@ _Extra Focus: The Quick Start Guide to Adult ADHD_ by Jesse J. Anderson. I liter
 
 _All Systems Red_ by Martha Wells. I've heard nothing but good things about this series.
 
-_The Wild Robot Escapes_ by Peter Brown
-
 _See also my [/books page](/books/) for all my reading activity._
 
 ## Watching
 
-_Andor_ season 2, with later seasons of _Young Sheldon_ as a background show.
+_Andor_ season 2, with later seasons of _Pawn Stars_ as a background show.
 
 ## Playing
 

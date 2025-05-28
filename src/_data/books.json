@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-16T02:38:24.419Z",
+  "lastUpdated": "2025-05-28T03:33:25.425Z",
   "current": [
     {
       "goodreadsId": "197655262",
@@ -14,6 +14,13 @@
       "goodreadsId": "32758901",
       "binding": "physical",
       "coverUrl": "https://covers.openlibrary.org/b/id/9157148-M.jpg"
+    },
+    {
+      "title": "Words of Radiance",
+      "author": "Brandon Sanderson",
+      "goodreadsId": "17332218",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14658345-M.jpg"
     }
   ],
   "read": [

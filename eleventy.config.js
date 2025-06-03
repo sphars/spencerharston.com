@@ -62,13 +62,13 @@ export default function (eleventyConfig) {
     satoriOptions: {
       fonts: [
         {
-          name: "IBM Plex Sans",
+          name: "Funnel Sans",
           data: fs.readFileSync("./node_modules/@fontsource/funnel-sans/files/funnel-sans-latin-400-normal.woff"),
           weight: 400,
           style: "normal"
         },
         {
-          name: "IBM Plex Sans",
+          name: "Funnel Sans",
           data: fs.readFileSync("./node_modules/@fontsource/funnel-sans/files/funnel-sans-latin-700-normal.woff"),
           weight: 700,
           style: "normal"

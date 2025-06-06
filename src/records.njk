@@ -15,7 +15,10 @@ description: My collection of vinyl records
 <div class="my-8">
   <div class="my-4 flex items-baseline justify-between gap-x-4">
     <h2 class="text-lg font-bold">The Collection</h2>
-    <span class="text-sm italic">Sorted by most recently added</span>
+    <div>
+      <div class="text-right">{{ records.records.length }} records</div>
+      <div class="text-right text-sm italic">Sorted by most recently added to collection</div>
+    </div>
   </div>
 
   <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,170px)]">
@@ -38,6 +41,6 @@ description: My collection of vinyl records
 
 <p class="my-8 text-sm">
   Covers provided by <a href="https://www.discogs.com/">Discogs</a>,
-  <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia</a> or wherever I could find them. Linked Discogs
-  release is the release that's closest to what I have.
+  <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia</a>, or wherever I could find them, and are property
+  of their respective owners. The linked Discogs release is the closest release to what I own.
 </p>

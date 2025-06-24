@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-06T02:27:20.456Z",
+  "lastUpdated": "2025-06-24T04:35:02.344Z",
   "records": [
     {
       "title": "The Best of George Shearing",
@@ -153,6 +153,33 @@
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/TheAlanParsonsProject-EyeintheSky.jpg",
       "catNo": "88985375431",
       "dateAdded": "2025-06-06T02:27:05.754Z"
+    },
+    {
+      "title": "The Lord of the Rings: The Motion Picture Trilogy Soundtrack",
+      "artist": "Howard Shore",
+      "year": 2003,
+      "url": "https://www.discogs.com/release/34100719-Howard-Shore-The-Lord-Of-The-Rings-The-Motion-Picture-Trilogy-Soundtrack",
+      "coverUrl": "https://i.ibb.co/b5zRs6hH/lord-of-the-rings-trilogy-original-soundtrack-6lp-180-gram-vinyl-box-set-abbey-road-reprise-2018.jpg",
+      "catNo": "R1 565283 603497862603",
+      "dateAdded": "2025-06-13"
+    },
+    {
+      "title": "folklore",
+      "artist": "Taylor Swift",
+      "year": 2020,
+      "url": "https://www.discogs.com/release/16244176-Taylor-Swift-Folklore",
+      "coverUrl": "https://i.discogs.com/jElQi1F8kGimVAROYHYtvcRWxFiKUG5mk4BYtTNieB8/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODA2/NzcyLTE3MTI5OTc3/MjYtMzcxNC5qcGVn.jpeg",
+      "catNo": "B0032823-01",
+      "dateAdded": "2025-06-14"
+    },
+    {
+      "title": "Rumours",
+      "artist": "Fleetwood Mac",
+      "year": 1977,
+      "url": "https://www.discogs.com/release/19764898-Fleetwood-Mac-Rumours",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/f/fb/FMacRumours.PNG",
+      "catNo": "RCD1 517786",
+      "dateAdded": "2025-06-14"
     }
   ]
 }

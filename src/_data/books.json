@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-28T03:33:25.425Z",
+  "lastUpdated": "2025-06-24T04:55:56.653Z",
   "current": [
     {
       "goodreadsId": "197655262",
@@ -21,6 +21,13 @@
       "goodreadsId": "17332218",
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/14658345-M.jpg"
+    },
+    {
+      "title": "Elevation",
+      "author": "Stephen King",
+      "goodreadsId": "38355410",
+      "binding": "audiobook",
+      "coverUrl": "https://i.ibb.co/WpnCT9kQ/elevation-9781508260486-lg.jpg"
     }
   ],
   "read": [

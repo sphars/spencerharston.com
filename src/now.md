@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2025-05-27
+updated: 2025-06-23
 ---
 
 {{ description }}
@@ -29,11 +29,11 @@ _See also my [/books page](/books/) for all my reading activity._
 
 ## Watching
 
-Nothing particularly notable at the moment...
+Netflix recommendation: _Dept. Q_. Enjoying it so far.
 
 ## Playing
 
-Still working on _LEGO Star Wars: The Skywalker Saga_. Much bigger of a game since last playing any LEGO Star Wars game, no way I'm going to 100% this one, but I'll get through the story.
+Just started playing _Control_, haven't played enough to decide if I like it yet. Kinda tricky getting HDR to work on Linux...
 
 Giving _Balatro_ a go on my Steam Deck. Managed to win my third round!
 

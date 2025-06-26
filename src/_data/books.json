@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-25T04:41:13.958Z",
+  "lastUpdated": "2025-06-26T03:44:26.603Z",
   "current": [
     {
       "goodreadsId": "197655262",
@@ -21,6 +21,13 @@
       "goodreadsId": "17332218",
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/14658345-M.jpg"
+    },
+    {
+      "title": "Legion",
+      "author": "Brandon Sanderson",
+      "goodreadsId": "39332065",
+      "binding": "audiobook",
+      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1537109024i/40820105.jpg"
     }
   ],
   "read": [

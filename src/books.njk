@@ -41,9 +41,13 @@ description: Tracking the books I have read or am currently reading
 </div>
 
 <div class="my-8">
-  <div class="my-4 flex flex-wrap items-baseline justify-between gap-x-4">
+  <div class="my-4">
     <h2 class="text-lg font-bold" id="finished">Finished Reading</h2>
-    <div class="flex flex-wrap items-center gap-x-2 text-sm">
+    <p class="mb-4">
+      This list of finished books is missing many entries. It only contains what I tracked on Goodreads for a few years,
+      then manually tracking. I was not very thorough.
+    </p>
+    <div class="flex justify-end gap-x-2 text-sm">
       <span class="inline-flex items-center">{%- iconify "headphones", false, 18 -%} = audiobook</span>
       <span class="inline-flex items-center"
         ><span class="text-yellow-500">{%- iconify "star", true, 16 -%}</span> = really liked it</span
@@ -88,40 +92,8 @@ description: Tracking the books I have read or am currently reading
 </div>
 
 <div class="my-8">
-  <h2 class="my-4 text-lg font-bold" id="tbr">To Be Read</h2>
-  <p class="mb-4">I'll definitely get around to reading those ADHD books one day...</p>
-  <details>
-    <summary>List of books</summary>
-    <ul>
-      {%- for book in books.tbr | sortByKey("title") %}
-        <li class="my-2">
-          <a class="font-bold" href="https://www.goodreads.com/book/show/{{ book.goodreadsId }}">{{ book.title }}</a>
-          {{ book.author }}
-        </li>
-      {%- endfor -%}
-    </ul>
-  </details>
-</div>
-
-<div class="my-8">
-  <h2 class="my-4 text-lg font-bold" id="dnf">Did Not Finish</h2>
-  <p class="mb-4">
-    While there's usually no specific reason why I choose not to finish a book, generally it comes down to "just
-    couldn't get into it".
+  <p>
+    Covers provided by <a href="https://openlibrary.org/">OpenLibrary</a>,
+    <a href="https://commons.wikimedia.org/">Wikimedia</a>, or where ever I could find it.
   </p>
-  <details>
-    <summary>List of books</summary>
-    <ul>
-      {%- for book in books.dnf | sortByKey("title") %}
-        <li class="my-2">
-          <a class="font-bold" href="https://www.goodreads.com/book/show/{{ book.goodreadsId }}">{{ book.title }}</a>
-          {{ book.author }}
-        </li>
-      {%- endfor -%}
-    </ul>
-  </details>
-</div>
-
-<div class="my-8">
-  <p>Covers provided (mostly) by <a href="https://openlibrary.org/">OpenLibrary</a></p>
 </div>

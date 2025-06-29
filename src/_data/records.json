@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-24T04:35:02.344Z",
+  "lastUpdated": "2025-06-29T03:38:03.715Z",
   "records": [
     {
       "title": "The Best of George Shearing",
@@ -180,6 +180,15 @@
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/f/fb/FMacRumours.PNG",
       "catNo": "RCD1 517786",
       "dateAdded": "2025-06-14"
+    },
+    {
+      "title": "Music From And Inspired By Disney Pixar \"Soul\"",
+      "artist": "Jon Batiste",
+      "year": 2020,
+      "url": "https://www.discogs.com/release/16533159-Jon-Batiste-Music-From-And-Inspired-By-Disney-Pixar-Soul",
+      "coverUrl": "https://coverartarchive.org/release/1ae03333-40f7-4ca4-94a1-0111ae381d14/28080068681-500.jpg",
+      "catNo": "D0036805-01",
+      "dateAdded": "2025-06-29T03:38:00.319Z"
     }
   ]
 }

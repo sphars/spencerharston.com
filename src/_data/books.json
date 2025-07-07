@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-26T03:44:26.603Z",
+  "lastUpdated": "2025-07-07T02:17:09.428Z",
   "current": [
     {
       "goodreadsId": "197655262",
@@ -16,18 +16,11 @@
       "coverUrl": "https://covers.openlibrary.org/b/id/9157148-M.jpg"
     },
     {
-      "title": "Words of Radiance",
+      "title": "Oathbringer",
       "author": "Brandon Sanderson",
-      "goodreadsId": "17332218",
+      "goodreadsId": "34002132",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14658345-M.jpg"
-    },
-    {
-      "title": "Legion",
-      "author": "Brandon Sanderson",
-      "goodreadsId": "39332065",
-      "binding": "audiobook",
-      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1537109024i/40820105.jpg"
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Brandon_Sanderson_Oathbringer_book_cover.jpg"
     }
   ],
   "read": [
@@ -993,6 +986,15 @@
       "coverUrl": "https://i.ibb.co/WpnCT9kQ/elevation-9781508260486-lg.jpg",
       "dateRead": "2025-06-25T04:41:04.475Z",
       "rating": 2
+    },
+    {
+      "title": "Words of Radiance",
+      "author": "Brandon Sanderson",
+      "goodreadsId": "17332218",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14658345-M.jpg",
+      "dateRead": "2025-07-07T02:15:20.090Z",
+      "rating": 4
     }
   ],
   "tbr": [
@@ -1207,6 +1209,13 @@
       "goodreadsId": "33916024",
       "title": "Sourdough",
       "author": "Robin Sloan"
+    },
+    {
+      "title": "Legion",
+      "author": "Brandon Sanderson",
+      "goodreadsId": "39332065",
+      "binding": "audiobook",
+      "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1537109024i/40820105.jpg"
     }
   ]
 }

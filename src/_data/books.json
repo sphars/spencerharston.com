@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-07T02:17:09.428Z",
+  "lastUpdated": "2025-07-11T14:31:52.922Z",
   "current": [
     {
       "goodreadsId": "197655262",
@@ -21,6 +21,13 @@
       "goodreadsId": "34002132",
       "binding": "ebook",
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Brandon_Sanderson_Oathbringer_book_cover.jpg"
+    },
+    {
+      "title": "Edgedancer",
+      "author": "Brandon Sanderson",
+      "goodreadsId": "34703445",
+      "binding": "ebook",
+      "coverUrl": "https://img1.od-cdn.com/ImageType-400/4847-1/D63/D22/6F/%7BD63D226F-BBD5-4DF6-B00D-3ADDBB9DFAD1%7DImg400.jpg"
     }
   ],
   "read": [

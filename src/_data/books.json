@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-11T14:31:52.922Z",
+  "lastUpdated": "2025-07-17T02:33:25.060Z",
   "current": [
     {
       "goodreadsId": "197655262",
@@ -23,11 +23,11 @@
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Brandon_Sanderson_Oathbringer_book_cover.jpg"
     },
     {
-      "title": "Edgedancer",
-      "author": "Brandon Sanderson",
-      "goodreadsId": "34703445",
+      "title": "Book Lovers",
+      "author": "Emily Henry",
+      "goodreadsId": "58690308",
       "binding": "ebook",
-      "coverUrl": "https://img1.od-cdn.com/ImageType-400/4847-1/D63/D22/6F/%7BD63D226F-BBD5-4DF6-B00D-3ADDBB9DFAD1%7DImg400.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/id/11567819-M.jpg"
     }
   ],
   "read": [
@@ -999,9 +999,18 @@
       "author": "Brandon Sanderson",
       "goodreadsId": "17332218",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14658345-M.jpg",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10866847-M.jpg",
       "dateRead": "2025-07-07T02:15:20.090Z",
       "rating": 4
+    },
+    {
+      "title": "Edgedancer",
+      "author": "Brandon Sanderson",
+      "goodreadsId": "34703445",
+      "binding": "ebook",
+      "coverUrl": "https://img1.od-cdn.com/ImageType-400/4847-1/D63/D22/6F/%7BD63D226F-BBD5-4DF6-B00D-3ADDBB9DFAD1%7DImg400.jpg",
+      "dateRead": "2025-07-15",
+      "rating": 3
     }
   ],
   "tbr": [

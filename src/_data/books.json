@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-17T02:33:25.060Z",
+  "lastUpdated": "2025-07-21T00:50:40.996Z",
   "current": [
     {
       "goodreadsId": "197655262",
@@ -21,13 +21,6 @@
       "goodreadsId": "34002132",
       "binding": "ebook",
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Brandon_Sanderson_Oathbringer_book_cover.jpg"
-    },
-    {
-      "title": "Book Lovers",
-      "author": "Emily Henry",
-      "goodreadsId": "58690308",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/11567819-M.jpg"
     }
   ],
   "read": [
@@ -1010,6 +1003,15 @@
       "binding": "ebook",
       "coverUrl": "https://img1.od-cdn.com/ImageType-400/4847-1/D63/D22/6F/%7BD63D226F-BBD5-4DF6-B00D-3ADDBB9DFAD1%7DImg400.jpg",
       "dateRead": "2025-07-15",
+      "rating": 3
+    },
+    {
+      "title": "Book Lovers",
+      "author": "Emily Henry",
+      "goodreadsId": "58690308",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/11567819-M.jpg",
+      "dateRead": "2025-07-21T00:50:38.195Z",
       "rating": 3
     }
   ],

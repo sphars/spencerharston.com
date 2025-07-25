@@ -1,13 +1,6 @@
 {
-  "lastUpdated": "2025-07-21T00:50:40.996Z",
+  "lastUpdated": "2025-07-25T14:40:19.073Z",
   "current": [
-    {
-      "goodreadsId": "197655262",
-      "title": "Extra Focus: The Quick Start Guide to Adult ADHD",
-      "author": "Jesse J. Anderson",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14546413-M.jpg"
-    },
     {
       "title": "All Systems Red",
       "author": "Martha Wells",
@@ -21,6 +14,13 @@
       "goodreadsId": "34002132",
       "binding": "ebook",
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Brandon_Sanderson_Oathbringer_book_cover.jpg"
+    },
+    {
+      "title": "King of Ashes",
+      "author": "S.A. Cosby",
+      "goodreadsId": "219833252",
+      "binding": "audiobook",
+      "coverUrl": "https://i.imgur.com/5m0ZM7I.jpeg"
     }
   ],
   "read": [
@@ -1234,6 +1234,13 @@
       "goodreadsId": "39332065",
       "binding": "audiobook",
       "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1537109024i/40820105.jpg"
+    },
+    {
+      "goodreadsId": "197655262",
+      "title": "Extra Focus: The Quick Start Guide to Adult ADHD",
+      "author": "Jesse J. Anderson",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14546413-M.jpg"
     }
   ]
 }

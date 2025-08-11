@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-25T14:40:19.073Z",
+  "lastUpdated": "2025-08-11T03:23:59.225Z",
   "current": [
     {
       "title": "All Systems Red",
@@ -14,13 +14,6 @@
       "goodreadsId": "34002132",
       "binding": "ebook",
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Brandon_Sanderson_Oathbringer_book_cover.jpg"
-    },
-    {
-      "title": "King of Ashes",
-      "author": "S.A. Cosby",
-      "goodreadsId": "219833252",
-      "binding": "audiobook",
-      "coverUrl": "https://i.imgur.com/5m0ZM7I.jpeg"
     }
   ],
   "read": [
@@ -1013,6 +1006,15 @@
       "coverUrl": "https://covers.openlibrary.org/b/id/11567819-M.jpg",
       "dateRead": "2025-07-21T00:50:38.195Z",
       "rating": 3
+    },
+    {
+      "title": "King of Ashes",
+      "author": "S.A. Cosby",
+      "goodreadsId": "219833252",
+      "binding": "audiobook",
+      "coverUrl": "https://i.imgur.com/5m0ZM7I.jpeg",
+      "dateRead": "2025-08-09",
+      "rating": 4
     }
   ],
   "tbr": [

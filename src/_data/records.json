@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-07-28T12:17:44.052Z",
+  "lastUpdated": "2025-08-17T04:35:50.444Z",
   "records": [
     {
       "title": "The Best of George Shearing",
@@ -198,6 +198,15 @@
       "coverUrl": "https://i.discogs.com/Zye2qveFpUm5KZ5PSVIyBLRBuAsmzYiVdz5HZ7OaluI/rs:fit/g:sm/q:90/h:342/w:341/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NDM3/OTctMTMwODk3NTQ4/NC5qcGVn.jpeg",
       "catNo": "CL 787",
       "dateAdded": "2025-07-26"
+    },
+    {
+      "title": "Dark Side of the Moon",
+      "artist": "Pink Floyd",
+      "year": 1973,
+      "url": "https://www.discogs.com/release/28614196-Pink-Floyd-The-Dark-Side-Of-The-Moon",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png",
+      "catNo": "PFR50LP1",
+      "dateAdded": "2025-08-17T04:35:40.602Z"
     }
   ]
 }

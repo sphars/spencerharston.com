@@ -38,6 +38,7 @@
     "@eslint/js": "^9.25.0",
     "@fontsource/funnel-sans": "^5.2.5",
     "@fontsource/ibm-plex-mono": "^5.2.5",
+    "@fontsource/schibsted-grotesk": "^5.2.8",
     "@inquirer/prompts": "^7.5.0",
     "@sardine/eleventy-plugin-external-links": "^1.4.0",
     "@tabler/icons": "^3.31.0",

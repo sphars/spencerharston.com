@@ -10,7 +10,7 @@ export default {
         current: "current=page"
       },
       fontFamily: {
-        sans: ["'Funnel Sans'", ...defaultTheme.fontFamily.sans],
+        sans: ["'Schibsted Grotesk'", ...defaultTheme.fontFamily.sans],
         mono: ["'IBM Plex Mono'", ...defaultTheme.fontFamily.mono]
       },
       typography: (theme) => ({

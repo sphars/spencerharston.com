@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-17T04:35:50.444Z",
+  "lastUpdated": "2025-09-18T03:44:43.614Z",
   "records": [
     {
       "title": "The Best of George Shearing",
@@ -207,6 +207,33 @@
       "coverUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png",
       "catNo": "PFR50LP1",
       "dateAdded": "2025-08-17T04:35:40.602Z"
+    },
+    {
+      "title": "!!Going Places!!",
+      "artist": "Herb Alpert and the Tijuana Brass",
+      "year": 1965,
+      "url": "https://www.discogs.com/release/373494-Herb-Alpert-And-The-Tijuana-Brass-Going-Places",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/8/8e/HerbAlpertGoingPlaces.jpg",
+      "catNo": "SP-4112",
+      "dateAdded": "2025-09-06"
+    },
+    {
+      "title": "Tim Burton's The Nightmare Before Christmas (Original Motion Picture Soundtrack)",
+      "artist": "Danny Elfman",
+      "year": 1993,
+      "url": "https://www.discogs.com/release/28445617-Danny-Elfman-Tim-Burtons-The-Nightmare-Before-Christmas-Original-Motion-Picture-Soundtrack",
+      "coverUrl": "https://m.media-amazon.com/images/I/51Ck1dHZp-L.jpg",
+      "catNo": "D004303001",
+      "dateAdded": "2025-09-16"
+    },
+    {
+      "title": "Art of Doubt",
+      "artist": "Metric",
+      "year": 2018,
+      "url": "https://www.discogs.com/release/12556189-Metric-Art-Of-Doubt",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Metric_-_Art_of_Doubt.jpg",
+      "catNo": "538428481",
+      "dateAdded": "2025-09-16"
     }
   ]
 }

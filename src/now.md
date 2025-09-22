@@ -21,8 +21,6 @@ Not doing a lot in this regard specifically, but I have bookmarked some pages th
 
 _All Systems Red_ by Martha Wells. I've heard nothing but good things about this series.
 
-_Oathbringer_ (book 3 of The Stormlight Archive) by Brandon Sanderson. Given the length of this series, need to keep it going so I don't give up on it.
-
 _See also my [/books page](/books/) for all my reading activity._
 
 ## Watching

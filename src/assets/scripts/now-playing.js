@@ -50,7 +50,7 @@ class NowPlaying extends HTMLElement {
     }
 
     try {
-      const url = `http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${this.username}&api_key=${this.apiKey}&format=json`;
+      const url = `http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${this.username}&api_key=${this.apiKey}&format=json&limit=${this.recents ? "5" : "1"}`;
 
       const response = await fetch(url);
       const data = await response.json();
@@ -83,7 +83,7 @@ class NowPlaying extends HTMLElement {
         content.innerHTML = nowplayingEl;
 
         if (this.recents) {
-          const recentTrackEl = this.getRecentTracksElement(tracks.slice(0, 5));
+          const recentTrackEl = this.getRecentTracksElement(tracks);
           content.innerHTML += recentTrackEl;
         }
       }
@@ -125,7 +125,7 @@ class NowPlaying extends HTMLElement {
   }
 
   getNotPlayingElement() {
-    return `<div>Nothing playing right now</div>`;
+    return `Nothing playing right now`;
   }
 
   trackAndAlbumListItem(track) {
@@ -134,7 +134,7 @@ class NowPlaying extends HTMLElement {
       ${this.albumArtElement(track, 48)}
       <div>
         <div class="font-bold">${this.escapeHtml(track.name)}</div>
-        <div class="">${this.escapeHtml(track.artist["#text"] || track.artist)}</div>
+        <div>${this.escapeHtml(track.artist["#text"] || track.artist)}</div>
       </div>
     </li>
     `;
@@ -149,6 +149,8 @@ class NowPlaying extends HTMLElement {
 
     const imgElement = document.createElement("img");
     imgElement.src = track.image[getImageIndex(size)]["#text"] || this.albumArtFallback();
+    imgElement.loading = "lazy";
+    imgElement.className = "rounded-sm";
     imgElement.alt = `Album art for ${this.escapeHtml(track.album["#text"] || track.name)}`;
     imgElement.width = size;
     imgElement.height = size;

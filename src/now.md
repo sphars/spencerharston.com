@@ -27,6 +27,10 @@ _See also my [/books page](/books/) for all my reading activity._
 
 Finally on Netflix: _Mr. Robot_
 
+## Listening
+
+<now-playing username="spencer314" recents="true"></now-playing>
+
 ## Playing
 
 Picked up _Fallout 4_ again, resuming my playthrough from nearly two years ago (if I can remember what I was doing of course).

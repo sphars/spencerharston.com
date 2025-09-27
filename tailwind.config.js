@@ -2,7 +2,7 @@ import defaultTheme from "tailwindcss/defaultTheme";
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,njk}"],
+  content: ["./src/**/*.{html,njk,js}"],
   darkMode: "class",
   theme: {
     extend: {

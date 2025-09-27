@@ -1,5 +1,4 @@
 class NowPlaying extends HTMLElement {
-  apiKey = "";
   constructor() {
     super();
     this.username = this.getAttribute("username");
@@ -50,7 +49,7 @@ class NowPlaying extends HTMLElement {
     }
 
     try {
-      const url = `http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${this.username}&api_key=${this.apiKey}&format=json&limit=${this.recents ? "5" : "1"}`;
+      const url = `https://now-playing-worker.flareon.workers.dev/api?username=${this.username}&limit=${this.recents ? "5" : "1"}`;
 
       const response = await fetch(url);
       const data = await response.json();
@@ -63,7 +62,7 @@ class NowPlaying extends HTMLElement {
       const content = this.querySelector("#now-playing-content");
 
       // check for list of tracks is available
-      const tracks = data.recenttracks?.track;
+      const tracks = data.tracks;
       if (!tracks || tracks.length === 0) {
         content.innerHTML = this.getNotPlayingElement();
         return;
@@ -89,7 +88,7 @@ class NowPlaying extends HTMLElement {
       }
     } catch (error) {
       console.error(error);
-      this.showError("Failed to load last.fm data");
+      this.showError("Failed to load data");
     }
   }
 

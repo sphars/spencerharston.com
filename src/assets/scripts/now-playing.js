@@ -3,13 +3,16 @@ class NowPlaying extends HTMLElement {
     super();
     this.username = this.getAttribute("username");
     this.recents = this.getAttribute("recents") || false;
+    this.refresh = this.getAttribute("refresh") || false;
   }
 
   connectedCallback() {
     this.render();
     this.fetchNowPlaying();
 
-    this.startPolling();
+    if (this.refresh) {
+      this.startPolling();
+    }
   }
 
   disconnectedCallback() {
@@ -67,6 +70,8 @@ class NowPlaying extends HTMLElement {
         content.innerHTML = this.getNotPlayingElement();
         return;
       }
+
+      console.log(tracks);
 
       // get the first track in the list
       const track = Array.isArray(tracks) ? tracks[0] : tracks;

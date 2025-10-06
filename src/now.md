@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2025-08-16
+updated: 2025-10-08
 ---
 
 {{ description }}
@@ -19,13 +19,15 @@ Not doing a lot in this regard specifically, but I have bookmarked some pages th
 
 ## Reading
 
-_All Systems Red_ by Martha Wells. I've heard nothing but good things about this series.
+And once again, continuing Brandon Sanderson's Stormlight Archive series with #4, _Rhythm of War_.
 
 _See also my [/books page](/books/) for all my reading activity._
 
 ## Watching
 
-Finally on Netflix: _Mr. Robot_
+Finally on Netflix: _Mr. Robot_. Finishing up the last season.
+
+As always, the newest season of _The Great British Baking Show_.
 
 ## Listening
 

@@ -10,7 +10,7 @@ export default {
         current: "current=page"
       },
       fontFamily: {
-        sans: ["'Schibsted Grotesk'", ...defaultTheme.fontFamily.sans],
+        sans: ["'Zalando Sans'", ...defaultTheme.fontFamily.sans],
         mono: ["'IBM Plex Mono'", ...defaultTheme.fontFamily.mono]
       },
       typography: (theme) => ({
@@ -18,7 +18,7 @@ export default {
           css: {
             color: theme("colors.zinc.800"),
             a: {
-              color: theme("colors.blue.600"),
+              color: theme("colors.indigo.600"),
               textDecoration: "none",
               "&:hover": {
                 textDecoration: theme("underline")
@@ -37,7 +37,7 @@ export default {
           css: {
             color: theme("colors.zinc.200"),
             a: {
-              color: theme("colors.yellow.500")
+              color: theme("colors.amber.400")
             }
           }
         }

@@ -12,7 +12,7 @@ This website was built with the following:
 
 - Static site generator: [Eleventy](https://www.11ty.dev)
   - Theme: Customized [TailwindCSS](https://www.tailwindcss.com)
-  - Fonts: [Schibsted Grotesk](https://fonts.google.com/specimen/Schibsted+Grotesk) and [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) (this changes constantly)
+  - Fonts: [Zalando Sans](https://fonts.google.com/specimen/Zalando+Sans) and [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) (this changes often)
   - Icons: [Tabler Icons](https://tabler.io/icons)
 - Hosting: [Cloudflare Pages](https://pages.cloudflare.com/) (deployment) and [GitHub](https://github.com/sphars/spencerharston.com) (source code)
 - Domain registrar: [Porkbun](https://porkbun.com)

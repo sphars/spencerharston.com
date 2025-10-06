@@ -36,7 +36,7 @@ export default function (eleventyConfig) {
     "src/assets/favicons/": "assets/favicons/",
     "src/assets/favicons/favicon.ico": "/favicon.ico",
     "src/assets/img/*[!content]": "assets/img/",
-    "node_modules/@fontsource/schibsted-grotesk/": "assets/fonts/schibsted-grotesk/",
+    "node_modules/@fontsource/zalando-sans/": "assets/fonts/zalando-sans/",
     "node_modules/@fontsource/ibm-plex-mono/": "assets/fonts/ibm-plex-mono/",
     "src/robots.txt": "robots.txt"
   });
@@ -62,14 +62,14 @@ export default function (eleventyConfig) {
     satoriOptions: {
       fonts: [
         {
-          name: "Funnel Sans",
-          data: fs.readFileSync("./node_modules/@fontsource/funnel-sans/files/funnel-sans-latin-400-normal.woff"),
+          name: "Zalando Sans",
+          data: fs.readFileSync("./node_modules/@fontsource/zalando-sans/files/zalando-sans-latin-400-normal.woff"),
           weight: 400,
           style: "normal"
         },
         {
-          name: "Funnel Sans",
-          data: fs.readFileSync("./node_modules/@fontsource/funnel-sans/files/funnel-sans-latin-700-normal.woff"),
+          name: "Zalando Sans",
+          data: fs.readFileSync("./node_modules/@fontsource/zalando-sans/files/zalando-sans-latin-700-normal.woff"),
           weight: 700,
           style: "normal"
         }

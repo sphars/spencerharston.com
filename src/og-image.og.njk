@@ -33,6 +33,9 @@
   .subheader {
     font-size: 32px;
   }
+  .date {
+    font-size: 32px;
+  }
 </style>
 <div class="root">
   <div class="header"><b>[sh]</b> spencerharston.com</div>
@@ -40,6 +43,9 @@
     <h1 class="title">{{ title | safe }}</h1>
     {% if description %}
       <div class="subheader">{{ description | safe }}</div>
+    {% endif %}
+    {% if date %}
+      <div class="date">{{ date | dateByFormat("MMMM d, y") }}</div>
     {% endif %}
   </div>
 </div>

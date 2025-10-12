@@ -34,7 +34,11 @@
 {# only generate meta images on production #}
 {%- if meta.env === "production" %}
   {%- setAsync "ogImagePath" %}
-    {%- ogImage "./og-image.og.njk", { title: title } %}
+    {%- if type === "post" %}
+      {%- ogImage "./og-image.og.njk", { title: title, date: date } %}
+    {% else %}
+      {%- ogImage "./og-image.og.njk", { title: title } %}
+    {%- endif %}
   {%- endsetAsync %}
   <meta property="og:image" content="{{ meta.base_url }}{{ ogImagePath }}" />
 {%- endif %}

@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2025-10-08
+updated: 2025-11-15
 ---
 
 {{ description }}
@@ -25,17 +25,19 @@ _See also my [/books page](/books/) for all my reading activity._
 
 ## Watching
 
-Finally on Netflix: _Mr. Robot_. Finishing up the last season.
+Looking into several options, like _Orphan Black_ now that it's on Netflix. Some days wish I opted for an Apple TV subscription, they've got lots I'm interested in.
 
-As always, the newest season of _The Great British Baking Show_.
+As always, finishing the latest season of _The Great British Baking Show_.
 
 ## Listening
+
+The real-time listening, thanks to Last.fm:
 
 <now-playing username="spencer314" recents="true"></now-playing>
 
 ## Playing
 
-Picked up _Fallout 4_ again, resuming my playthrough from nearly two years ago (if I can remember what I was doing of course).
+Still working through _Fallout 4_, decided to follow a walkthrough so that I could keep focus on the next thing to do. Probably about half-way done with everything.
 
 Giving _Balatro_ a go on my Steam Deck. Managed to win my third round!
 

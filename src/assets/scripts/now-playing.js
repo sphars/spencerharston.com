@@ -71,8 +71,6 @@ class NowPlaying extends HTMLElement {
         return;
       }
 
-      console.log(tracks);
-
       // get the first track in the list
       const track = Array.isArray(tracks) ? tracks[0] : tracks;
       const isNowPlaying = track["@attr"]?.nowplaying === "true";

@@ -11,12 +11,17 @@ description: Tracking the books I have read or am currently reading
   <a href="/records">records collection</a>.
 </p>
 
+<p class="mb-4">
+  The list of finished books is missing many entries. It only contains what I tracked on Goodreads for a few years, then
+  manually tracking afterwards. I was not very thorough in my younger years.
+</p>
+
 <p class="mb-4 italic">Last updated: {{ books.lastUpdated | dateByFormat("MMMM d, y") }}</p>
 
 <div class="my-8">
   <div class="my-4 flex items-baseline justify-between gap-x-4" id="current">
     <h2 class="text-lg font-bold">Currently Reading</h2>
-    <span class="text-sm">{{ books.current.length }} book{%- if books.current.length > 1 -%}s{%- endif -%}</span>
+    <span class="text-sm">{{ books.current.length }} book{%- if books.current.length != 1 -%}s{%- endif -%}</span>
   </div>
   <div class="grid justify-around gap-6 [grid-template-columns:repeat(auto-fill,140px)]">
     {%- for book in books.current %}
@@ -43,16 +48,13 @@ description: Tracking the books I have read or am currently reading
 <div class="my-8">
   <div class="my-4">
     <h2 class="text-lg font-bold" id="finished">Finished Reading</h2>
-    <p class="mb-4">
-      This list of finished books is missing many entries. It only contains what I tracked on Goodreads for a few years,
-      then manually tracking. I was not very thorough.
-    </p>
-    <div class="flex justify-end gap-x-2 text-sm">
+    <p class="flex gap-x-2 text-sm">
+      For reference:
       <span class="inline-flex items-center">{%- iconify "headphones", false, 18 -%} = audiobook</span>
       <span class="inline-flex items-center"
         ><span class="text-yellow-500">{%- iconify "star", true, 16 -%}</span> = really liked it</span
       >
-    </div>
+    </p>
   </div>
 
   {%- set years = books.read | getBookDateReadYears %}
@@ -61,7 +63,7 @@ description: Tracking the books I have read or am currently reading
     <div class="mb-8">
       <h3 class="my-3 flex items-baseline justify-between gap-x-4 font-bold" id="{{ year }}">
         {{ year }}
-        <span class="text-sm">{{ subBooks.length }} book{%- if subBooks.length > 1 -%}s{%- endif -%}</span>
+        <span class="text-sm">{{ subBooks.length }} book{%- if subBooks.length != 1 -%}s{%- endif -%}</span>
       </h3>
 
       <div class="grid justify-evenly gap-6 [grid-template-columns:repeat(auto-fill,140px)]">

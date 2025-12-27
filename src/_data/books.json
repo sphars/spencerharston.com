@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-06T12:34:14.217Z",
+  "lastUpdated": "2025-12-27T04:14:27.072Z",
   "current": [
     {
-      "title": "Rhythm of War",
-      "author": "Brandon Sanderson",
-      "goodreadsId": "49021976",
+      "title": "When the Moon Hits Your Eye",
+      "author": "John Scalzi",
+      "goodreadsId": "211004190",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/10515681-M.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/id/14854795-M.jpg"
     }
   ],
   "read": [
@@ -1025,6 +1025,15 @@
       "binding": "physical",
       "coverUrl": "https://covers.openlibrary.org/b/id/9157148-M.jpg",
       "dateRead": "2025-10-01",
+      "rating": 3
+    },
+    {
+      "title": "Rhythm of War",
+      "author": "Brandon Sanderson",
+      "goodreadsId": "49021976",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10515681-M.jpg",
+      "dateRead": "2025-12-25",
       "rating": 3
     }
   ],

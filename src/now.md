@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2025-11-15
+updated: 2025-12-26
 ---
 
 {{ description }}
@@ -11,7 +11,7 @@ _This is a [/now page](https://nownownow.com/about) and was last updated on {{ u
 
 ## Doing
 
-I recently purchased my first record player, so I'm getting into that hobby now (see my [post](/posts/2025/starting-a-records-collection) about it).
+I was recently given a 3D printer from a co-worker. With the help of my father, who has much more experience than I do, I've started printing things.
 
 ## Learning
 
@@ -19,25 +19,23 @@ Not doing a lot in this regard specifically, but I have bookmarked some pages th
 
 ## Reading
 
-And once again, continuing Brandon Sanderson's Stormlight Archive series with #4, _Rhythm of War_.
+Finished #4 of the Stormlight Archive, so going to start #5 in the new year. For now, something lighter - _When the Moon Hits Your Eye_ by John Scalzi.
 
 _See also my [/books page](/books/) for all my reading activity._
 
 ## Watching
 
-Looking into several options, like _Orphan Black_ now that it's on Netflix. Some days wish I opted for an Apple TV subscription, they've got lots I'm interested in.
-
-As always, finishing the latest season of _The Great British Baking Show_.
+Nothing particular of note at the moment. Haven't been as interested in anything as of late.
 
 ## Listening
 
-The real-time listening, thanks to Last.fm:
+Here's some real-time listening, thanks to Last.fm:
 
 <now-playing username="spencer314" recents="true"></now-playing>
 
 ## Playing
 
-Still working through _Fallout 4_, decided to follow a walkthrough so that I could keep focus on the next thing to do. Probably about half-way done with everything.
+Still working through _Fallout 4_. Nearly done with the main story, but working through the DLCs first. Though I'm really ready to move on to something else.
 
 Giving _Balatro_ a go on my Steam Deck. Managed to win my third round!
 

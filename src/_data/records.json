@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-16T02:22:18.427Z",
+  "lastUpdated": "2025-12-27T14:24:53.689Z",
   "records": [
     {
       "title": "The Best of George Shearing",
@@ -222,9 +222,72 @@
       "artist": "The Alan Parsons Project",
       "year": 1977,
       "url": "https://www.discogs.com/release/16197039-The-Alan-Parsons-Project-I-Robot",
-      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/0/0f/The_Alan_Parsons_Project_-_I_Robot.jpg",
+      "coverUrl": "https://i.imgur.com/ZIdAdMs.jpeg",
       "catNo": "AL 7002",
       "dateAdded": "2025-09-20"
+    },
+    {
+      "title": "No Control",
+      "artist": "Turbo Fruits",
+      "year": 2015,
+      "url": "https://www.discogs.com/release/7317183-Turbo-Fruits-No-Control",
+      "coverUrl": "https://i.imgur.com/AWz2OuL.jpeg",
+      "catNo": "TTR014",
+      "dateAdded": "2025-10-01"
+    },
+    {
+      "title": "Riot!",
+      "artist": "Paramore",
+      "year": 2007,
+      "url": "https://www.discogs.com/release/18730927-Paramore-Riot",
+      "coverUrl": "https://i.imgur.com/BhzUpAG.jpeg",
+      "catNo": "7567-89957-9",
+      "dateAdded": "2025-10-15"
+    },
+    {
+      "title": "Kind of Blue",
+      "artist": "Miles Davis",
+      "year": 1959,
+      "url": "https://www.discogs.com/release/33085401-Miles-Davis-Kind-Of-Blue",
+      "coverUrl": "https://i.imgur.com/6QU1ogE.jpeg",
+      "catNo": "88697680571",
+      "dateAdded": "2025-10-15"
+    },
+    {
+      "title": "The Nightfly",
+      "artist": "Donald Fagen",
+      "year": 1982,
+      "url": "https://www.discogs.com/release/28004487-Donald-Fagen-The-Nightfly",
+      "coverUrl": "https://i.imgur.com/mSI2vro.jpeg",
+      "catNo": "R1 23696",
+      "dateAdded": "2025-10-15"
+    },
+    {
+      "title": "Give Up",
+      "artist": "The Postal Service",
+      "year": 2003,
+      "url": "https://www.discogs.com/release/19670533-The-Postal-Service-Give-Up",
+      "coverUrl": "https://i.imgur.com/P53Ebi5.jpeg",
+      "catNo": "SP 595",
+      "dateAdded": "2025-10-17"
+    },
+    {
+      "title": "My Echo, My Shadow, My Covers & Me",
+      "artist": "Awolnation",
+      "year": 2022,
+      "url": "https://www.discogs.com/release/24083441-Awolnation-My-Echo-My-Shadow-My-Covers-Me",
+      "coverUrl": "https://i.imgur.com/0QgbBYx.jpeg",
+      "catNo": "BNM-759-6",
+      "dateAdded": "2025-11-29"
+    },
+    {
+      "title": "The Star Wars Trilogy",
+      "artist": "John Williams, Varujan Kojian, The Utah Symphony Orchestra",
+      "year": 1983,
+      "url": "https://www.discogs.com/release/33902409-John-Williams-4-Varujan-KojianUtah-Symphony-Orchestra-The-Star-Wars-Trilogy",
+      "coverUrl": "https://i.discogs.com/zmD2Gj8nfQwOFt_rQEP5tE3sAnOg0VulSqUBIJ7jDJc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNDYz/NjgtMTQ1OTgyMTEx/Ny0zOTUxLmpwZWc.jpeg",
+      "catNo": "302 067 392 1",
+      "dateAdded": "2025-12-25"
     }
   ]
 }

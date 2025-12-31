@@ -19,7 +19,9 @@ Not doing a lot in this regard specifically, but I have bookmarked some pages th
 
 ## Reading
 
-Finished #4 of the Stormlight Archive, so going to start #5 in the new year. For now, something lighter - _When the Moon Hits Your Eye_ by John Scalzi.
+Between books right now, will resume in the new year. Probably going to start _Dungeon Crawler Carl_, based on the seemingly high praise for it.
+
+I also strangely want to read _Moby Dick_, for some reason...
 
 _See also my [/books page](/books/) for all my reading activity._
 

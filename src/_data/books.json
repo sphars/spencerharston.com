@@ -1,14 +1,6 @@
 {
-  "lastUpdated": "2025-12-27T04:14:27.072Z",
-  "current": [
-    {
-      "title": "When the Moon Hits Your Eye",
-      "author": "John Scalzi",
-      "goodreadsId": "211004190",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14854795-M.jpg"
-    }
-  ],
+  "lastUpdated": "2025-12-31T04:53:22.348Z",
+  "current": [],
   "read": [
     {
       "goodreadsId": "17164655",
@@ -1035,6 +1027,15 @@
       "coverUrl": "https://covers.openlibrary.org/b/id/10515681-M.jpg",
       "dateRead": "2025-12-25",
       "rating": 3
+    },
+    {
+      "title": "When the Moon Hits Your Eye",
+      "author": "John Scalzi",
+      "goodreadsId": "211004190",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14854795-M.jpg",
+      "dateRead": "2025-12-31T04:53:16.115Z",
+      "rating": 4
     }
   ],
   "tbr": [

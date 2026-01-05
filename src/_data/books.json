@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2025-12-31T04:53:22.348Z",
-  "current": [],
+  "lastUpdated": "2026-01-05T14:16:28.126Z",
+  "current": [
+    {
+      "title": "The Mysterious Affair at Styles",
+      "author": "Agatha Christie",
+      "goodreadsId": "52843028",
+      "binding": "ebook",
+      "coverUrl": "https://standardebooks.org/images/covers/agatha-christie_the-mysterious-affair-at-styles-6e4bf205-cover.avif"
+    }
+  ],
   "read": [
     {
       "goodreadsId": "17164655",

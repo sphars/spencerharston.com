@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2026-01-06T14:17:30.274Z",
-  "current": [],
+  "lastUpdated": "2026-02-04T04:27:52.092Z",
+  "current": [
+    {
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "goodreadsId": "153747",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12621992-M.jpg"
+    }
+  ],
   "read": [
     {
       "goodreadsId": "17164655",
@@ -1045,6 +1053,15 @@
       "coverUrl": "https://standardebooks.org/images/covers/agatha-christie_the-mysterious-affair-at-styles-6e4bf205-cover.avif",
       "dateRead": "2026-01-06T14:17:19.134Z",
       "rating": 2
+    },
+    {
+      "title": "A City on Mars",
+      "author": "Kelly Weinersmith and Zach Weinersmith",
+      "goodreadsId": "125084292",
+      "dateRead": "2026-02-01",
+      "rating": 3,
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14095692-M.jpg"
     }
   ],
   "tbr": [

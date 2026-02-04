@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2025-12-26
+updated: 2026-02-03
 ---
 
 {{ description }}
@@ -19,9 +19,7 @@ Not doing a lot in this regard specifically, but I have bookmarked some pages th
 
 ## Reading
 
-Between books right now, will resume in the new year. Probably going to start _Dungeon Crawler Carl_, based on the seemingly high praise for it.
-
-I also strangely want to read _Moby Dick_, for some reason...
+Reading _Moby Dick_, for some reason...
 
 _See also my [/books page](/books/) for all my reading activity._
 
@@ -37,8 +35,6 @@ Here's some real-time listening, thanks to Last.fm:
 
 ## Playing
 
-Still working through _Fallout 4_. Nearly done with the main story, but working through the DLCs first. Though I'm really ready to move on to something else.
-
-Giving _Balatro_ a go on my Steam Deck. Managed to win my third round!
+Finally finished _Fallout 4_ so going through some of my backlog. _Tomb Raider_ (2013) is my current game, as well as _Megabonk_ on the Steam Deck.
 
 _Slay the Spire_ is still my current fallback whenever I want to play something but don't want to start anything new.

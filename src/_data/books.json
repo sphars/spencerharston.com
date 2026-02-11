@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-04T04:27:52.092Z",
+  "lastUpdated": "2026-02-11T03:30:33.811Z",
   "current": [
     {
-      "title": "Moby Dick",
-      "author": "Herman Melville",
-      "goodreadsId": "153747",
+      "title": "Dungeon Crawler Carl",
+      "author": "Matt Dinniman",
+      "goodreadsId": "56791389",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/12621992-M.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/id/15142925-M.jpg"
     }
   ],
   "read": [
@@ -1290,6 +1290,13 @@
       "author": "Jesse J. Anderson",
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/14546413-M.jpg"
+    },
+    {
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "goodreadsId": "153747",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12621992-M.jpg"
     }
   ]
 }

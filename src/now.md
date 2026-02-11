@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2026-02-03
+updated: 2026-02-11
 ---
 
 {{ description }}
@@ -19,13 +19,13 @@ Not doing a lot in this regard specifically, but I have bookmarked some pages th
 
 ## Reading
 
-Reading _Moby Dick_, for some reason...
+Heard nothing but good things about it, so I'm currently reading _Dungeon Crawler Carl_ by Matt Dinniman.
 
 _See also my [/books page](/books/) for all my reading activity._
 
 ## Watching
 
-Nothing particular of note at the moment. Haven't been as interested in anything as of late.
+A friend suggested that the shows on Dropout would be right up my alley. And he was right! Currently working through _Gamechanger_ and others.
 
 ## Listening
 

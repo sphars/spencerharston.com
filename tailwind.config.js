@@ -18,7 +18,7 @@ export default {
           css: {
             color: theme("colors.zinc.800"),
             a: {
-              color: theme("colors.indigo.600"),
+              color: theme("colors.violet.600"),
               textDecoration: "none",
               "&:hover": {
                 textDecoration: theme("underline")
@@ -37,7 +37,7 @@ export default {
           css: {
             color: theme("colors.zinc.200"),
             a: {
-              color: theme("colors.amber.400")
+              color: theme("colors.violet.300")
             }
           }
         }

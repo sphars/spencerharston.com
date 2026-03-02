@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-11T03:30:33.811Z",
+  "lastUpdated": "2026-03-02T14:10:47.267Z",
   "current": [
     {
-      "title": "Dungeon Crawler Carl",
-      "author": "Matt Dinniman",
-      "goodreadsId": "56791389",
+      "title": "Wind and Truth",
+      "author": "Brandon Sanderson",
+      "goodreadsId": "203578847",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/15142925-M.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/id/14826186-M.jpg"
     }
   ],
   "read": [
@@ -1062,6 +1062,15 @@
       "rating": 3,
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/14095692-M.jpg"
+    },
+    {
+      "title": "Dungeon Crawler Carl",
+      "author": "Matt Dinniman",
+      "goodreadsId": "56791389",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15142925-M.jpg",
+      "dateRead": "2026-03-01",
+      "rating": 3
     }
   ],
   "tbr": [

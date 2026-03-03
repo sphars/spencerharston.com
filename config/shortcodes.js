@@ -31,21 +31,32 @@ async function image(src, alt, title, widths = [300, 600], classes = "", custId 
     throw new Error(`Missing \`alt\` on image from: ${src}`);
   }
 
-  let metadata = await Image(src, {
-    widths: widths,
-    formats: ["jpeg"],
-    outputDir: "./dist/assets/img/content",
-    urlPath: "/assets/img/content",
-    filenameFormat: function (id, src, width, format, options) {
-      options;
-      return `${custId || id}-${width}w.${format}`;
-    },
-    sharpJpegOptions: {
-      quality: 90
-    }
-  });
+  let data;
+  try {
+    console.log(`generating image for ${src}`);
+    const metadata = await Image(src, {
+      widths: widths,
+      formats: ["jpeg"],
+      outputDir: "./dist/assets/img/content",
+      urlPath: "/assets/img/content",
+      filenameFormat: function (id, src, width, format, options) {
+        options;
+        return `${custId || id}-${width}w.${format}`;
+      },
+      sharpJpegOptions: {
+        quality: 90
+      }
+    });
+    data = metadata.jpeg[metadata.jpeg.length - 1];
+  } catch (error) {
+    console.log(`error generating image for ${src}: `, error);
+    data = {
+      url: "#",
+      width: widths[0],
+      height: widths[0]
+    };
+  }
 
-  let data = metadata.jpeg[metadata.jpeg.length - 1];
   return `<img src="${data.url}" title="${title}" class="${classes}" width="${data.width}" height="${data.height}" alt="${alt}" loading="lazy" decoding="async">`;
 }
 

@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2026-03-02
+updated: 2026-03-08
 ---
 
 {{ description }}
@@ -19,13 +19,13 @@ Not doing a lot in this regard specifically, but I have bookmarked some pages th
 
 ## Reading
 
-Started on the latest in The Stormlight Archive: _Wind and Truth_ by Brandon Sanderson.
+Started on the latest in The Stormlight Archive, #5: _Wind and Truth_ by Brandon Sanderson.
 
 _See also my [/books page](/books/) for all my reading activity._
 
 ## Watching
 
-A friend suggested that the shows on Dropout would be right up my alley. And he was right! Currently working through _Gamechanger_, _Make Some Noise_, and others.
+A friend suggested that the shows on Dropout would be right up my alley. And he was right! Currently working through _Gamechanger_, _Make Some Noise_, and whatever else looks good.
 
 ## Listening
 
@@ -35,6 +35,4 @@ Here's some real-time listening, thanks to Last.fm:
 
 ## Playing
 
-Undecided currently. Just whatever seems good at the time.
-
-_Slay the Spire_ is still my current fallback whenever I want to play something but don't want to start anything new.
+_Slay the Spire 2_ is now in early access! Very, very rarely do I purchase a game on release (much less in early access), but I had do it for StS 2.

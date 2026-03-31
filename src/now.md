@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2026-03-08
+updated: 2026-03-30
 ---
 
 {{ description }}
@@ -21,6 +21,8 @@ Not doing a lot in this regard specifically, but I have bookmarked some pages th
 
 Started on the latest in The Stormlight Archive, #5: _Wind and Truth_ by Brandon Sanderson.
 
+Also reading through the _Dungeon Crawler Carl_ series by Matt Dinniman. Just finished book #2.
+
 _See also my [/books page](/books/) for all my reading activity._
 
 ## Watching
@@ -35,4 +37,6 @@ Here's some real-time listening, thanks to Last.fm:
 
 ## Playing
 
-_Slay the Spire 2_ is now in early access! Very, very rarely do I purchase a game on release (much less in early access), but I had do it for StS 2.
+_Slay the Spire 2_ is now in early access! Very rarely do I purchase a game on release (much less in early access), but I had do it for StS 2.
+
+Also playing _Star Wars Jedi: Survivor_. Gotta finish the series.

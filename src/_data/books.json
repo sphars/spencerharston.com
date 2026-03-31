@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T14:10:47.267Z",
+  "lastUpdated": "2026-03-31T02:55:05.207Z",
   "current": [
     {
       "title": "Wind and Truth",
@@ -1071,6 +1071,15 @@
       "coverUrl": "https://covers.openlibrary.org/b/id/15142925-M.jpg",
       "dateRead": "2026-03-01",
       "rating": 3
+    },
+    {
+      "title": "Carl's Doomsday Scenario",
+      "author": "Matt Dinniman",
+      "goodreadsId": "56377548",
+      "dateRead": "2026-03-29",
+      "rating": 3,
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15143023-M.jpg"
     }
   ],
   "tbr": [

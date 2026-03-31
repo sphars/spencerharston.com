@@ -27,7 +27,7 @@ description: My collection of vinyl records
         <a href="{{ record.url }}" class="grid items-end">
           {% set alt -%}Cover of {{ record.title }} by {{ record.artist }}{%- endset %}
           {% set title -%}{{ record.title }} by {{ record.artist }}{%- endset %}
-          {% image record.coverUrl, alt, title, ["170"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-yellow-500", record.id %}
+          {% image record.coverUrl, alt, title, ["170"], "object-fit b-2 hover:rounded hover:outline hover:outline-4 hover:outline-blue-600 dark:hover:outline-violet-300", record.id %}
         </a>
         <div class="gapy-y-1 flex flex-col text-sm">
           <div class="text-balance font-bold">{{ record.title }}</div>
@@ -41,6 +41,6 @@ description: My collection of vinyl records
 
 <p class="my-8 text-sm">
   Covers provided by <a href="https://www.discogs.com/">Discogs</a>,
-  <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia</a>, or wherever I could find them, and are property
+  <a href="https://coverartarchive.org/">Cover Art Archive</a>, or wherever I could find them, and are property
   of their respective owners. The linked Discogs release is the closest release to what I own.
 </p>

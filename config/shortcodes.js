@@ -33,7 +33,6 @@ async function image(src, alt, title, widths = [300, 600], classes = "", custId 
 
   let data;
   try {
-    console.log(`generating image for ${src}`);
     const metadata = await Image(src, {
       widths: widths,
       formats: ["jpeg"],
@@ -49,7 +48,7 @@ async function image(src, alt, title, widths = [300, 600], classes = "", custId 
     });
     data = metadata.jpeg[metadata.jpeg.length - 1];
   } catch (error) {
-    console.log(`error generating image for ${src}: `, error);
+    console.error(`error generating image for ${src}: `, error);
     data = {
       url: "#",
       width: widths[0],

@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-03-31T02:55:05.207Z",
+  "lastUpdated": "2026-04-29T03:58:38.602Z",
   "current": [
     {
-      "title": "Wind and Truth",
+      "title": "The Final Empire",
       "author": "Brandon Sanderson",
-      "goodreadsId": "203578847",
+      "goodreadsId": "68428",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14826186-M.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/id/0014658348-M.jpg"
     }
   ],
   "read": [
@@ -1315,6 +1315,13 @@
       "goodreadsId": "153747",
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/12621992-M.jpg"
+    },
+    {
+      "title": "Wind and Truth",
+      "author": "Brandon Sanderson",
+      "goodreadsId": "203578847",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14826186-M.jpg"
     }
   ]
 }

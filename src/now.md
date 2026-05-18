@@ -2,7 +2,7 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2026-04-28
+updated: 2026-05-17
 ---
 
 {{ description }}
@@ -19,9 +19,9 @@ Not doing a lot in this regard specifically, but I have bookmarked some pages th
 
 ## Reading
 
-Putting a pause on the latest in The Stormlight Archive, #5: _Wind and Truth_, because it's a bit overwhelming to be honest. Instead, working on the first in the _Mistborn_ series, _The Final Empire_, also by Sanderson.
+Putting a pause on the latest in The Stormlight Archive, #5: _Wind and Truth_, because it's a bit overwhelming to be honest. Instead, working on the _Mistborn_ series, also by Sanderson.
 
-Also reading through the _Dungeon Crawler Carl_ series by Matt Dinniman. Just finished book #2.
+Also reading through the _Dungeon Crawler Carl_ series by Matt Dinniman. Currently on book #3.
 
 _See also my [/books page](/books/) for all my reading activity._
 

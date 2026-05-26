@@ -4,6 +4,7 @@ class NowPlaying extends HTMLElement {
     this.username = this.getAttribute("username");
     this.recents = this.getAttribute("recents") || false;
     this.refresh = this.getAttribute("refresh") || false;
+    this.textOnly = this.getAttribute("text-only") || false;
   }
 
   connectedCallback() {
@@ -38,11 +39,15 @@ class NowPlaying extends HTMLElement {
   }
 
   render() {
-    this.innerHTML = `
-    <div class="text-sm not-prose flex flex-col gap-y-2" id="now-playing-content">
+    if (this.textOnly) {
+      this.innerHTML = `<span id="now-playing-content">Fetching last.fm data...</span>`;
+    } else {
+      this.innerHTML = `
+      <div class="text-sm not-prose flex flex-col gap-y-2" id="now-playing-content">
       Fetching last.fm data...
-    </div>
-    `;
+      </div>
+      `;
+    }
   }
 
   async fetchNowPlaying() {
@@ -64,7 +69,7 @@ class NowPlaying extends HTMLElement {
 
       const content = this.querySelector("#now-playing-content");
 
-      // check for list of tracks is available
+      // check for list of tracks availability
       const tracks = data.tracks;
       if (!tracks || tracks.length === 0) {
         content.innerHTML = this.getNotPlayingElement();
@@ -81,18 +86,32 @@ class NowPlaying extends HTMLElement {
         this.currentTrackId = trackId;
         this.isPlaying = isNowPlaying;
 
-        const nowplayingEl = this.getNowPlayingElement(track, isNowPlaying);
-        content.innerHTML = nowplayingEl;
+        if (this.textOnly) {
+          const recentlyPlayedEl = this.getTextOnlyElement(track, isNowPlaying);
+          content.innerHTML = recentlyPlayedEl;
+        } else {
+          const nowplayingEl = this.getNowPlayingElement(track, isNowPlaying);
+          content.innerHTML = nowplayingEl;
 
-        if (this.recents) {
-          const recentTrackEl = this.getRecentTracksElement(tracks);
-          content.innerHTML += recentTrackEl;
+          if (this.recents) {
+            const recentTrackEl = this.getRecentTracksElement(tracks);
+            content.innerHTML += recentTrackEl;
+          }
         }
       }
     } catch (error) {
       console.error(error);
       this.showError("Failed to load data");
     }
+  }
+
+  getTextOnlyElement(track, isNowPlaying) {
+    const status = isNowPlaying ? "Now Playing" : "Last Played";
+
+    const textOnlyElement = `
+    <span>${status}: ${this.escapeHtml(track.name)} by ${this.escapeHtml(track.artist["#text"] || track.artist)}</span>
+    `;
+    return textOnlyElement;
   }
 
   getNowPlayingElement(track, isNowPlaying) {

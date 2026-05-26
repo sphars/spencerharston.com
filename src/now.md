@@ -2,41 +2,17 @@
 layout: layouts/default
 title: What I'm Doing Now
 description: A somewhat current list of non-work stuff I'm doing, consuming, or being entertained by.
-updated: 2026-05-17
+updated: 2026-05-25
 ---
 
 {{ description }}
 
 _This is a [/now page](https://nownownow.com/about) and was last updated on {{ updated | dateByFormat("MMMM d, y") }}._
 
-## Doing
-
-I was recently given a 3D printer from a co-worker. With the help of my father, who has much more experience than I do, I've started printing things.
-
-## Learning
-
-Not doing a lot in this regard specifically, but I have bookmarked some pages that I want to follow-up on.
-
-## Reading
-
-Putting a pause on the latest in The Stormlight Archive, #5: _Wind and Truth_, because it's a bit overwhelming to be honest. Instead, working on the _Mistborn_ series, also by Sanderson.
-
-Also reading through the _Dungeon Crawler Carl_ series by Matt Dinniman. Currently on book #3.
-
-_See also my [/books page](/books/) for all my reading activity._
-
-## Watching
-
-A friend suggested that the shows on Dropout would be right up my alley. And he was right! Currently working through _Gamechanger_, _Make Some Noise_, and whatever else looks good.
-
-## Listening
-
-Here's some real-time listening, thanks to Last.fm:
-
-<now-playing username="spencer314" recents="true"></now-playing>
-
-## Playing
-
-_Slay the Spire 2_ is now in early access! Very rarely do I purchase a game on release (much less in early access), but I had do it for StS 2.
-
-Also playing _Star Wars Jedi: Survivor_. Gotta finish the series.
+- Learning to design random things for my (new-to-me) 3D printer
+- Reading through the _Dungeon Crawler Carl_ series by Matt Dinniman. Currently on book #4, _Gate of the Feral Gods_
+- Also reading the _Mistborn_ series by Brandon Sanderson, about to start book #2
+- Playing through _STAR WARS Jedi: Survivor_, probably around halfway done. Also playing some _Rocket League_ and _Slay the Spire 2_
+- Watching the new season of _Game Changer_ on Dropout.tv
+- Listening to whatever comes up
+  - <now-playing username="spencer314" text-only=true></now-playing>

@@ -18,7 +18,7 @@ I'll update this as often as I remember.
 - GPU: AMD Radeon RX 7800 XT 16GB
 - RAM: 32GB
 - Storage: 2TB NVME SSD + 1TB HDD
-- OS: Nobara (Fedora) Linux 41
+- OS: Nobara (Fedora) Linux 44
 - Mouse: Logitech G305
 - Keyboard: Cooler Master MasterKeys Pro L
 - Monitor: LG UltraGear 27GR83Q-B 27" 1440p 240Hz IPS monitor
@@ -29,7 +29,7 @@ I'll update this as often as I remember.
 - CPU: Ryzen 7 Pro 4750U
 - RAM: 32GB
 - Storage: 500GB + 128GB SSDs
-- OS: Fedora 41 KDE
+- OS: Fedora 44 KDE
 
 ### Desktop: Custom Intel Desktop (2016) (Not in Use)
 
@@ -40,6 +40,13 @@ I'll update this as often as I remember.
 - RAM: 16GB
 - Storage: 250GB SSD + 512GB SSD + 1TB HDD
 - OS: Windows 10 Pro
+
+### Home Server: BOSGAME P3 Mix Mini (2026)
+
+- CPU: AMD Ryzen 5 7640HS
+- RAM: 16GB
+- Storage: 512GB
+- OS: Debian 13.5 Trixie
 
 ### Home Server: Asus X53SV Laptop (2012)
 

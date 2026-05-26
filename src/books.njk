@@ -33,8 +33,8 @@ description: Tracking the books I have read or am currently reading
         </a>
         <div class="flex flex-col gap-y-1 text-sm">
           <div class="text-balance font-bold">{{ book.title }}</div>
-          <div class="text-xs">{{ book.author }}</div>
-          <div class="flex items-center gap-x-1 text-xs">
+          <div class="text-sm">{{ book.author }}</div>
+          <div class="flex items-center gap-x-1 text-sm">
             {%- if book.binding === 'audiobook' -%}
               <span>{%- iconify "headphones", false, 20 -%}</span>
             {%- endif %}
@@ -76,8 +76,8 @@ description: Tracking the books I have read or am currently reading
             </a>
             <div class="flex flex-col gap-y-1 text-sm">
               <div class="text-balance font-bold">{{ book.title }}</div>
-              <div class="text-xs">{{ book.author }}</div>
-              <div class="flex items-center gap-x-1 text-xs">
+              <div class="text-sm">{{ book.author }}</div>
+              <div class="flex items-center gap-x-1 text-sm">
                 {%- if book.rating > 3 %}
                   <span class="text-yellow-500">{%- iconify "star", true, 14 -%}</span>
                 {%- endif %}

@@ -5,7 +5,7 @@
 
 @layer base {
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
   a {
     @apply text-violet-600 hover:text-violet-600 hover:underline dark:text-violet-300 dark:hover:text-violet-300;

@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-18T04:38:52.781Z",
+  "lastUpdated": "2026-05-26T02:43:42.509Z",
   "current": [
     {
-      "title": "The Dungeon Anarchist's Cookbook",
+      "title": "Gate of the Feral Gods",
       "author": "Matt Dinniman",
-      "goodreadsId": "211721809",
+      "goodreadsId": "220772908",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14822726-M.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/id/0011703128-M.jpg"
     }
   ],
   "read": [
@@ -1088,6 +1088,15 @@
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/0014658348-M.jpg",
       "dateRead": "2026-05-18T04:36:39.584Z",
+      "rating": 3
+    },
+    {
+      "title": "The Dungeon Anarchist's Cookbook",
+      "author": "Matt Dinniman",
+      "goodreadsId": "211721809",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14822726-M.jpg",
+      "dateRead": "2026-05-25",
       "rating": 3
     }
   ],

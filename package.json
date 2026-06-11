@@ -17,7 +17,6 @@
     "build:postcss": "postcss src/assets/css/*.css --dir dist/assets/css",
     "clean": "rm -rf ./dist",
     "prepare": "husky",
-    "books": "scripts/book-manager.js",
     "media": "scripts/media-manager.js"
   },
   "repository": {
@@ -36,16 +35,14 @@
     "@11ty/eleventy-plugin-rss": "^2.0.3",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.25.0",
-    "@fontsource/ibm-plex-mono": "^5.2.5",
-    "@fontsource/zalando-sans": "^5.2.1",
-    "@inquirer/prompts": "^7.5.0",
+    "@fontsource/ibm-plex-mono": "^5.2.7",
+    "@fontsource/zalando-sans": "^5.2.2",
+    "@inquirer/prompts": "^7.10.1",
     "@sardine/eleventy-plugin-external-links": "^1.4.0",
-    "@tabler/icons": "^3.31.0",
-    "@tailwindcss/typography": "^0.5.16",
-    "autoprefixer": "^10.4.21",
-    "canvas": "^3.1.0",
-    "commander": "^13.1.0",
-    "cssnano": "^7.0.6",
+    "@tabler/icons": "^3.44.0",
+    "@tailwindcss/typography": "^0.5.20",
+    "autoprefixer": "^10.5.0",
+    "cssnano": "^7.1.9",
     "eleventy-plugin-og-image": "^4.0.1",
     "eleventy-plugin-reading-time": "^0.0.1",
     "eslint": "^9.25.1",
@@ -59,11 +56,11 @@
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-image-figures": "^2.1.1",
     "npm-run-all2": "^7.0.2",
-    "postcss": "^8.5.3",
+    "postcss": "^8.5.15",
     "postcss-cli": "^11.0.1",
     "prettier": "^3.5.3",
     "prettier-plugin-jinja-template": "^2.1.0",
-    "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^3.4.17"
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "tailwindcss": "^3.4.19"
   }
 }

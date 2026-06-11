@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-05-26T02:43:42.509Z",
+  "lastUpdated": "2026-06-11T04:14:52.809Z",
   "current": [
     {
-      "title": "Gate of the Feral Gods",
+      "title": "The Butcher's Masquerade",
       "author": "Matt Dinniman",
-      "goodreadsId": "220772908",
+      "goodreadsId": "220772913",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/0011703128-M.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/id/14822729-M.jpg"
     }
   ],
   "read": [
@@ -1097,6 +1097,15 @@
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/14822726-M.jpg",
       "dateRead": "2026-05-25",
+      "rating": 3
+    },
+    {
+      "title": "Gate of the Feral Gods",
+      "author": "Matt Dinniman",
+      "goodreadsId": "220772908",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/0011703128-M.jpg",
+      "dateRead": "2026-06-11T04:13:30.404Z",
       "rating": 3
     }
   ],

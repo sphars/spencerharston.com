@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-11T04:14:52.809Z",
+  "lastUpdated": "2026-06-27T13:46:24.041Z",
   "current": [
     {
-      "title": "The Butcher's Masquerade",
+      "title": "The Eye of the Bedlam Bride",
       "author": "Matt Dinniman",
-      "goodreadsId": "220772913",
+      "goodreadsId": "220772912",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14822729-M.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/id/15231488-M.jpg"
     }
   ],
   "read": [
@@ -1106,6 +1106,15 @@
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/0011703128-M.jpg",
       "dateRead": "2026-06-11T04:13:30.404Z",
+      "rating": 3
+    },
+    {
+      "title": "The Butcher's Masquerade",
+      "author": "Matt Dinniman",
+      "goodreadsId": "220772913",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14822729-M.jpg",
+      "dateRead": "2026-06-26",
       "rating": 3
     }
   ],

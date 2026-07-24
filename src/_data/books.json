@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-27T13:46:24.041Z",
+  "lastUpdated": "2026-07-24T16:20:47.297Z",
   "current": [
     {
-      "title": "The Eye of the Bedlam Bride",
+      "title": "This Inevitable Ruin",
       "author": "Matt Dinniman",
-      "goodreadsId": "220772912",
+      "goodreadsId": "232497556",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/15231488-M.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/id/14822731-M.jpg"
     }
   ],
   "read": [
@@ -1115,6 +1115,15 @@
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/14822729-M.jpg",
       "dateRead": "2026-06-26",
+      "rating": 3
+    },
+    {
+      "title": "The Eye of the Bedlam Bride",
+      "author": "Matt Dinniman",
+      "goodreadsId": "220772912",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15231488-M.jpg",
+      "dateRead": "2026-07-23",
       "rating": 3
     }
   ],

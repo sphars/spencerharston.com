@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-24T16:20:47.297Z",
+  "lastUpdated": "2026-08-26T13:13:27.506Z",
   "current": [
     {
-      "title": "This Inevitable Ruin",
+      "title": "A Parade of Horribles",
       "author": "Matt Dinniman",
-      "goodreadsId": "232497556",
+      "goodreadsId": "228928465",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14822731-M.jpg"
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1772123140i/247031753.jpg"
     }
   ],
   "read": [
@@ -1124,6 +1124,15 @@
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/15231488-M.jpg",
       "dateRead": "2026-07-23",
+      "rating": 3
+    },
+    {
+      "title": "This Inevitable Ruin",
+      "author": "Matt Dinniman",
+      "goodreadsId": "232497556",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14822731-M.jpg",
+      "dateRead": "2026-08-26T13:08:43.071Z",
       "rating": 3
     }
   ],

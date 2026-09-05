@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T13:13:27.506Z",
+  "lastUpdated": "2026-09-05T00:56:35.287Z",
   "current": [
     {
       "title": "A Parade of Horribles",
@@ -7,6 +7,13 @@
       "goodreadsId": "228928465",
       "binding": "ebook",
       "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1772123140i/247031753.jpg"
+    },
+    {
+      "title": "Coraline",
+      "author": "Neil Gaiman",
+      "goodreadsId": "17061",
+      "binding": "physical",
+      "coverUrl": "https://covers.openlibrary.org/b/id/11223250-M.jpg"
     }
   ],
   "read": [

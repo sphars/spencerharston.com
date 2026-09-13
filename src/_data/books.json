@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-05T22:00:18.725Z",
+  "lastUpdated": "2026-09-13T16:37:23.917Z",
   "current": [
     {
-      "title": "A Parade of Horribles",
-      "author": "Matt Dinniman",
-      "goodreadsId": "228928465",
+      "title": "Wind and Truth",
+      "author": "Brandon Sanderson",
+      "goodreadsId": "203578847",
       "binding": "ebook",
-      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1772123140i/247031753.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/id/14826186-M.jpg"
     }
   ],
   "read": [
@@ -1143,6 +1143,15 @@
       "coverUrl": "https://covers.openlibrary.org/b/id/11223250-M.jpg",
       "dateRead": "2026-09-05T22:00:15.649Z",
       "rating": 3
+    },
+    {
+      "title": "A Parade of Horribles",
+      "author": "Matt Dinniman",
+      "goodreadsId": "228928465",
+      "binding": "ebook",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1772123140i/247031753.jpg",
+      "dateRead": "2026-09-13T16:37:17.118Z",
+      "rating": 3
     }
   ],
   "tbr": [
@@ -1378,13 +1387,6 @@
       "goodreadsId": "153747",
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/12621992-M.jpg"
-    },
-    {
-      "title": "Wind and Truth",
-      "author": "Brandon Sanderson",
-      "goodreadsId": "203578847",
-      "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14826186-M.jpg"
     }
   ]
 }

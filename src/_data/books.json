@@ -1,12 +1,19 @@
 {
-  "lastUpdated": "2026-09-13T16:37:23.917Z",
+  "lastUpdated": "2026-09-28T00:26:40.224Z",
   "current": [
     {
-      "title": "Wind and Truth",
-      "author": "Brandon Sanderson",
-      "goodreadsId": "203578847",
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "goodreadsId": "186074",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14826186-M.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/id/6420583-M.jpg"
+    },
+    {
+      "title": "The Blacktongue Thief",
+      "author": "Christopher Buehlman",
+      "goodreadsId": "55077697",
+      "binding": "physical",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12824838-M.jpg"
     }
   ],
   "read": [
@@ -1387,6 +1394,13 @@
       "goodreadsId": "153747",
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/12621992-M.jpg"
+    },
+    {
+      "title": "Wind and Truth",
+      "author": "Brandon Sanderson",
+      "goodreadsId": "203578847",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14826186-M.jpg"
     }
   ]
 }

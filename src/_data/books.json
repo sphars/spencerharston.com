@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T00:26:40.224Z",
+  "lastUpdated": "2026-10-11T15:19:07.130Z",
   "current": [
     {
       "title": "The Name of the Wind",
@@ -7,13 +7,6 @@
       "goodreadsId": "186074",
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/6420583-M.jpg"
-    },
-    {
-      "title": "The Blacktongue Thief",
-      "author": "Christopher Buehlman",
-      "goodreadsId": "55077697",
-      "binding": "physical",
-      "coverUrl": "https://covers.openlibrary.org/b/id/12824838-M.jpg"
     }
   ],
   "read": [
@@ -1158,6 +1151,15 @@
       "binding": "ebook",
       "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1772123140i/247031753.jpg",
       "dateRead": "2026-09-13T16:37:17.118Z",
+      "rating": 3
+    },
+    {
+      "title": "The Blacktongue Thief",
+      "author": "Christopher Buehlman",
+      "goodreadsId": "55077697",
+      "binding": "physical",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12824838-M.jpg",
+      "dateRead": "2026-10-10",
       "rating": 3
     }
   ],

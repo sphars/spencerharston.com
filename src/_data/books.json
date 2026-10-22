@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-11T15:19:07.130Z",
+  "lastUpdated": "2026-10-22T03:10:07.688Z",
   "current": [
     {
-      "title": "The Name of the Wind",
-      "author": "Patrick Rothfuss",
-      "goodreadsId": "186074",
+      "title": "The Stand",
+      "author": "Stephen King",
+      "goodreadsId": "56793452",
       "binding": "ebook",
-      "coverUrl": "https://covers.openlibrary.org/b/id/6420583-M.jpg"
+      "coverUrl": "https://covers.openlibrary.org/b/id/15255795-M.jpg"
     }
   ],
   "read": [
@@ -1161,6 +1161,15 @@
       "coverUrl": "https://covers.openlibrary.org/b/id/12824838-M.jpg",
       "dateRead": "2026-10-10",
       "rating": 3
+    },
+    {
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "goodreadsId": "186074",
+      "binding": "ebook",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6420583-M.jpg",
+      "dateRead": "2026-10-22T02:41:24.888Z",
+      "rating": 4
     }
   ],
   "tbr": [

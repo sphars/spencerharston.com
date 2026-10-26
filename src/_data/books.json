@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T03:10:07.688Z",
+  "lastUpdated": "2026-10-26T12:46:34.293Z",
   "current": [
     {
       "title": "The Stand",
@@ -7,6 +7,13 @@
       "goodreadsId": "56793452",
       "binding": "ebook",
       "coverUrl": "https://covers.openlibrary.org/b/id/15255795-M.jpg"
+    },
+    {
+      "title": "Old Man's War",
+      "author": "John Scalzi",
+      "goodreadsId": "203579034",
+      "binding": "physical",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14826300-M.jpg"
     }
   ],
   "read": [

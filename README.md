@@ -1,6 +1,6 @@
 # spencerharston.com
 
-![Eleventy](https://img.shields.io/badge/eleventy-v3.0.0-blue)
+![Eleventy](https://img.shields.io/badge/eleventy-v3.1.7-blue)
 
 The personal website of Spencer Harston - an eternal WIP.
 
@@ -15,7 +15,7 @@ This site can be copied and modified for personal use by forking and modifying a
 
 ### Requirements
 
-- Node v20 or greater (using [nvm](https://github.com/nvm-sh/nvm) is suggested)
+- Node v22 or greater (using [nvm](https://github.com/nvm-sh/nvm) is suggested)
 - Git
 
 ### Fork and Install Dependencies
